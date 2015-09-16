@@ -3,9 +3,9 @@ var React = require('react');
 var Detail = React.createClass({
   render: function(){
     return (
-      <h2 className="text-center">
+      <div>
         Detail Component
-      </h2>
+      </div>
     )
   }
 });
