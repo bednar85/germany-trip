@@ -1,0 +1,279 @@
+// Width/Height
+full-width() {
+    width: 100%;
+}
+
+contain-width($ratio) {
+    // center using jeet, argument is max-width
+    center(unit(jeet-get-span($ratio), "%"))
+    width: 100%
+}
+
+
+// Positioning
+center-y($height = "auto") {
+    position: absolute;
+    top: 50%;
+
+    // if height is unknown
+    if ($height == "auto") {
+        // translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    // else    
+    if ($height != "auto") {
+        height: $height;
+        margin-top: -($height / 2); // calculate offset
+    }
+}
+
+center-x($width = "auto") {
+    position: absolute;
+    left: 50%;
+
+    // if height is unknown
+    if ($width == "auto") {
+        // translateY(-50%);
+        transform: translateX(-50%);
+    }
+
+    // else    
+    if ($width != "auto") {
+        height: $width;
+        margin-left: -($width / 2); // calculate offset
+    }
+}
+
+center-both() {
+    position: absolute
+    left: 50%
+    top: 50%
+    transform(translateY(-50%) translateX(-50%))
+}
+
+
+// Fonts
+// Remify (a px to rem converter) - http://davidwalsh.name/stylus-rem
+remify(value) { /* separate mixin, so it can be used elsewhere */
+    u = unit(value);
+
+    if (u is "px") {
+        return unit(value/16, "rem");
+    } else {
+        return unit(value, u);
+    }
+}
+
+// Color, Size, Family
+webfont($size = 16px, $weight = 400, $family = $museo) {
+    font-size: $size; /* add PX (or original $size) as backup */
+
+    if ($size is inherit) {
+        /* do nothing, "inherit" has no unit */
+    } else {
+        font-size: remify($size);
+    }
+    
+    font-weight: $weight;
+    font-family: $family;
+}
+
+
+
+// Photoshop Helpers
+// http://www.demacmedia.com/magento-commerce/magento-tutorials/mini-tutorial-accurately-translating-photoshop-values-css/
+
+// letter-spacing (in ems) = tracking / 1000
+ps-letter-spacing($tracking = 0) {
+    letter-spacing: ($tracking / 1000) * 1em;
+}
+
+// line-height (as a percentage of the current font size) = 100 * (leading point size / font size)
+// use for percentage based line-height cases
+ps-line-height($leading-point-size, $font-size = 16px) {
+    line-height: ($leading-point-size / $font-size) * 100%;
+}
+
+
+
+// Pseudo Graphics
+triangle(color = #000, height = 1em, width = 1em, angle = 0) {
+    if (nth(angle, 1) == "top" or nth(angle, 1) == "bottom") {
+        angle: "#{angle";
+    }
+
+    if (angle == "top") {
+        angle: 0;
+    }
+
+    if (angle == "top right") {
+        angle: 45 * 7;
+    }
+
+    if (angle == "right") {
+        angle: 45 * 2;
+    }
+
+    if (angle == "bottom right") {
+        angle: 45 * 1;
+    }
+
+    if (angle == "bottom") {
+        angle: 45 * 4;
+    }
+
+    if (angle == "bottom left") {
+        angle: 45 * 3;
+    }
+
+    if (angle == "left") {
+        angle: 45 * 6;
+    }
+
+    if (angle == "top left") {
+        angle: 45 * 5;
+    }
+
+    if (unit(height) == "" or unit(height) == "%") {
+        // @debug "in triangle #{height is not a compatable unit for height."
+        error("in triangle #{height is not a compatable unit for height.");
+    }
+
+    if (unit(width) == "" or unit(width)) == "%" {
+        // @debug "in triangle #{width is not a compatable unit for width."
+        error("in triangle #{width is not a compatable unit for width.");
+    }
+
+    // offset 45deg to make each side start at 0
+    deg: angle + 45;
+    
+    // if units, remove units
+    if (unit(deg) == deg) {
+        deg: deg / 1deg;
+    }
+
+    // shift to be on a scale from 0 to 90.
+    while (deg > 90) {
+        deg: deg - 90;
+    }
+
+    while (deg < 0) {
+        deg: deg + 90;
+    }
+
+    // Get a ratio of 90 to multiply by.
+    deg: deg / 90;
+
+    // make sure metrics are reset
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+
+    // run through sides
+    if (angle <= 45 or angle > 315) {
+        border-bottom-color: color;
+        border-width: 0 (width * abs(deg - 1)) height (width * deg);
+    }
+
+    if (angle > 45 and angle <= 135) {
+        border-left-color: color;
+        border-width: (height * deg) 0 (height * abs(deg - 1)) width;
+    }
+
+    if (angle > 135 and angle <= 225) {
+        border-top-color: color;
+        border-width: height (width * deg) 0 (width * abs(deg - 1));
+    }
+
+    if (angle > 225 and angle <= 315) {
+        border-right-color: color;
+        border-width: (height * abs(deg - 1)) width (height * deg) 0;
+    }
+}
+
+
+
+// Other
+pseudo-content() {
+    content: "";
+    display: block;
+}
+
+hide() {
+    position: absolute;
+    left: -9999px;
+}
+
+image-replacement() {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+placeholder($color, $input-height, $size = 16px, $weight = 400, $style = normal, $opacity = 1) {
+    line-height: $input-height;
+    -webkit-font-smoothing: antialiased; // RB - consider folding this in to webfont mixin
+    
+    &::-webkit-input-placeholder {
+        color: $color;
+        font-family: $museo;
+        px-to-rem($size)
+        font-style: $style;
+        font-weight: $weight;
+        line-height: $input-height;
+        opacity: $opacity;
+    }
+    
+    &::-moz-placeholder {
+        color: $color;
+        font-family: $museo;
+        px-to-rem($size)
+        font-style: $style;
+        font-weight: $weight;
+        line-height: $input-height;
+        opacity: $opacity;
+    }
+    
+    &:-moz-placeholder {
+        color: $color;
+        font-family: $museo;
+        px-to-rem($size)
+        font-style: $style;
+        font-weight: $weight;
+        line-height: $input-height;
+        opacity: $opacity;
+    }
+    
+    &:-ms-input-placeholder {
+        color: $color;
+        font-family: $museo;
+        px-to-rem($size)
+        font-style: $style;
+        font-weight: $weight;
+        line-height: $input-height;
+        opacity: $opacity;
+    }
+    
+    &.placeholder {
+        color: $color;
+        font-family: $museo;
+        px-to-rem($size)
+        font-style: $style;
+        font-weight: $weight;
+        line-height: $input-height;
+        opacity: $opacity;
+    }
+}
+
+circle($diameter, $color) {
+    max-width: unit($diameter, 'px');
+    border: 3px solid $color;
+    height: unit($diameter, 'px');
+    border-radius: unit($diameter/2, 'px');
+    
+    svg {
+        height: unit(($diameter - 6), 'px');
+    }
+}

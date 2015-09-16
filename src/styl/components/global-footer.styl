@@ -1,0 +1,443 @@
+//
+// FOOTER STYLES
+//
+
+.global-footer
+    full-width()
+    webfont(off-white)
+    margin: 0
+
+// .global-footer__primary-content
+
+.global-footer__primary-content--dark
+    background-color: dark-gray
+    border-top: 3px solid medium-gray
+
+.global-footer__primary-content--full
+    full-width()
+
+.global-footer__primary-content__inner
+    contain-width()
+
+.global-footer__action-bar
+    // overflow: hidden
+    cf()
+    padding: 30px 0 20px
+
+.global-footer__main-links
+    float: left
+
+.global-footer__main-links__list-item
+    display: block
+
+.global-footer__main-links__link
+    webfont(#fff, 15px, bold)
+    ps-letter-spacing(100)
+    display: inline-block
+    line-height: 34px
+    text-transform: uppercase
+
+    .touch &,
+    &:focus,
+    &:hover
+        text-decoration: underline
+
+.global-footer__site-links-toggle
+    padding-left: 20px
+    position: relative
+
+    &:before
+        pseudo-content()
+        // use-sprite(toggle_closed, contain)
+        // center-y(image-height(sprite-file(icons, toggle_closed)))
+        left: 0
+
+.global-footer__site-links-toggle--active
+    &:before
+        // use-sprite(toggle_open, contain)
+
+.global-footer__main-links__link--arrow
+    padding-right: 20px
+    position: relative
+
+    &:after
+        pseudo-content()
+        // use-sprite(carat-red, contain)
+        // center-y(image-height(sprite-file(icons, carat-red)))
+        right: 0
+
+.global-footer__offers-and-share
+    float: right
+    // overflow: hidden
+    cf()
+
+.global-footer__email-offers
+    // use-sprite(email)
+    // background-position: sprite-position(icons, email, 0, 12px)
+    // overflow: hidden
+    cf()
+    padding: 0
+    padding-left: 30px
+
+.global-footer__email-offers__fieldset
+    box-sizing(border-box)
+    border: 1px solid medium-gray
+    // overflow: hidden
+    cf()
+    padding: 0 27px 0 0
+    position: relative
+    width: 314px
+
+.global-footer__email-offers__label-input
+    hide()
+
+.global-footer__email-offers__text-input
+    box-sizing(border-box)
+    webfont(#fff, 15px)
+    placeholder(#fff, 15px, regular, italic)
+    background-color: transparent
+    border: none
+    float: left
+    height: 32px
+    line-height: 32px
+    padding: 0 10px
+    text-indent: 0
+    vertical-align: middle
+    width: 100%
+
+.global-footer__email-offers__submit-input
+    // use-sprite(carat-gray)
+    // background-position: sprite-position(icons, carat-gray, 10px, 10px)
+    border: none
+    border-left: 1px solid medium-gray
+    cursor: pointer
+    height: 32px
+    position: absolute
+    right: 0
+    text-indent: -9999px
+    width: 27px
+
+.global-footer__email-offers__error-message
+    display: none
+
+// Form Error Styles
+.global-footer__email-offers--error
+    // .global-footer__email-offers
+
+    .global-footer__email-offers__fieldset
+        border: 1px solid #eb0000
+
+    // .global-footer__email-offers__label-input
+
+    // .global-footer__email-offers__text-input
+
+    .global-footer__email-offers__submit-input
+        border-left-color: #eb0000
+
+    .global-footer__email-offers__error-message
+        box-sizing(border-box)
+        webfont(#fff, 14px, bold, italic)
+        background: #eb0000
+        display: block
+        left: -1px
+        padding: 10px 8px
+        position: absolute
+        top: 33px
+        width: 314px
+        z-index: 1
+
+.global-footer__share
+    overflow: hidden
+    // cf()
+
+.global-footer__share__list-item
+    display: block
+    float: left
+    margin-left: 8px
+
+    &:first-child
+        margin-left: 0
+
+.global-footer__share__link
+    image-replacement
+    display: block
+    height: 34px
+    margin-top: 0
+    width: 34px
+
+.global-footer__share__link--facebook
+    // use-sprite(share-facebook)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #3664a2
+
+.global-footer__share__link--youtube
+    // use-sprite(share-youtube)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #cd201f
+
+.global-footer__share__link--twitter
+    // use-sprite(share-twitter)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #55acee
+
+.global-footer__share__link--google-plus
+    // use-sprite(share-google-plus)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #dd4b39
+
+.global-footer__share__link--pinterest
+    // use-sprite(share-pinterest)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #ca1f27
+
+.global-footer__share__link--mobile
+    // use-sprite(share-mobile)
+    background-color: medium-gray
+
+    .touch &,
+    &:focus,
+    &:hover
+        background-color: #919191
+
+.global-footer__site-links
+    transition(max-height 0.3s ease-in-out)
+    overflow: hidden
+    // cf()
+    position: static
+    width: 100%
+
+.global-footer__site-links--open
+    max-height: 200px
+
+.global-footer__site-links--closed
+    max-height: 0
+
+.global-footer__site-links__section
+    col(1/4)
+    margin-top: 15px
+    margin-bottom: 35px
+
+.global-footer__site-links__section__head
+    webfont(off-white, 13px, bold)
+    ps-letter-spacing(100)
+    margin-bottom: 5px
+    text-transform: uppercase
+
+.global-footer__site-links__section__link
+    webfont(#fff, 14px)
+    ps-line-height(27px, 14px)
+    list-style-type: none
+    text-decoration: none
+
+    .touch &,
+    &:focus,
+    &:hover
+        text-decoration: underline
+
+.global-footer__legal
+    height: auto
+    position: relative
+    width: 100%
+
+.global-footer__legal__content
+    border-top: 1px solid #4d4d4d
+    webfont(off-white, 14px)
+    line-height: 1.5em
+    margin: 0
+    padding: 30px 80px 40px 0
+    text-align: left
+
+.global-footer__legal__text
+    margin-bottom: 15px
+
+.global-footer__legal__text--italic
+    webfont(off-white, 14px, regular, italic)
+
+.global-footer__legal__text__link
+    color: #fff
+    display: inline-block
+
+    .touch &,
+    &:focus,
+    &:hover
+        text-decoration: underline
+
+// .global-footer__legal__links
+
+.global-footer__legal__links__link
+    color: #fff
+    border-left: 2px solid #656565
+    display: inline-block
+    line-height: 15px
+    margin-left: 15px
+    padding-left: 15px
+
+    &:first-child
+        border-left: none
+        margin-left: 0
+        padding-left: 0
+
+    .touch &,
+    &:focus,
+    &:hover
+        text-decoration: underline
+
+.global-footer__legal__accessibility-link
+    center-y()
+    image-replacement
+    // use-sprite(essential-accessibility, contain)
+    color: #fff
+    right: 0
+    // height: image-height(sprite-file(icons, essential-accessibility))
+    // width: image-width(sprite-file(icons, essential-accessibility))
+
+// .global-footer__secondary-content
+
+.global-footer__secondary-content--light
+    background-color: #fff
+
+.global-footer__seondary-content--full
+    full-width()
+
+.global-footer__secondary-content__inner
+    contain-width()
+
+.global-footer__affiliates
+    text-align: center
+    padding: 20px 0
+
+.global-footer__affiliates__list-item
+    display: inline-block
+    margin: 0
+
+    &:first-child
+        margin-left: 0
+
+// .global-footer__affiliates__link
+
+
+// Tablet
+// breakpoint(bp-tablet)
+    .global-footer__action-bar
+        overflow: hidden
+        position: relative
+
+        &:after
+            pseudo-content()
+            background-color: #4d4d4d
+            left: 0
+            top: 84px
+            width: 100%
+            height: 1px
+            position: absolute
+
+    .global-footer__main-links
+        float: left
+
+    // .global-footer__main-links__list-item
+
+    .global-footer__main-links__list-item:first-child
+        margin-bottom: 40px
+
+    // .global-footer__main-links__link
+
+    // .global-footer__main-links__link--toggle
+
+    // .global-footer__site-links-toggle
+
+    // .global-footer__main-links__link--arrow
+
+    .global-footer__offers-and-share
+        float: right
+
+    .global-footer__email-offers
+        margin-bottom: 40px
+
+    .global-footer__share
+        position: absolute
+        right: 0
+
+    // .global-footer__site-links
+
+    .global-footer__legal__content
+        padding-right: 35%    
+
+    .global-footer__legal__text
+        margin-bottom: 10px
+
+    .global-footer__affiliates__list-item
+        margin-left: 2.5%
+
+        img
+            width: 75%
+
+
+// Desktop
+// breakpoint(bp-desktop)
+
+
+// Desktop
+// breakpoint(bp-desktop-and-up)
+    .global-footer__main-links
+        overflow: hidden   
+        // cf()
+
+    .global-footer__main-links__list-item
+        display: block
+        float: right
+
+    // Note: used to handle link divider
+    .global-footer__main-links__list-item:first-child
+        margin-left: 10px
+        padding-left: 10px
+        position: relative
+
+        &:before
+            pseudo-content()
+            center-y(14px)
+            border-left: 1px solid #7c7c7c
+            border-right: 1px solid #525252
+            left: -1px
+            width: 0
+
+    .global-footer__email-offers,
+    .global-footer__share
+        float: left
+
+    .global-footer__email-offers
+        margin-right: 15px
+
+    .global-footer__affiliates__list-item
+        col(1/6)
+        
+
+// Desktop Large
+// breakpoint(bp-desktop-large)
+
+// Retina
+// breakpoint(bp-retina)
+    // .global-footer__email-offers
+    //     background-position: sprite-position(icons, email, 0, 12px)
+
+    // .global-footer__email-offers__submit-input
+    //     background-position: sprite-position(icons, carat-gray, 10px, 12px)
