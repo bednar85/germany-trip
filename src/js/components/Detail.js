@@ -1,13 +1,13 @@
 var React = require('react');
 
-var Home = React.createClass({
+var Detail = React.createClass({
   render: function(){
     return (
       <h2 className="text-center">
-        Search by Github Username Above
+        Detail Component
       </h2>
     )
   }
 });
 
-module.exports = Home;
+module.exports = Detail;
