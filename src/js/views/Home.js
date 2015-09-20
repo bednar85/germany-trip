@@ -1,13 +1,13 @@
 var React = require('react');
 
-var Detail = React.createClass({
+var Home = React.createClass({
   render: function(){
     return (
       <div>
-        Detail Component
+        <h1>Home View</h1>
       </div>
     )
   }
 });
 
-module.exports = Detail;
+module.exports = Home;

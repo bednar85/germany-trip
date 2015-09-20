@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
 var htmlreplace = require('gulp-html-replace');
+var jshint = require('gulp-jshint');
 var livereload = require('gulp-livereload');
 var source = require('vinyl-source-stream');
 var uglify = require('gulp-uglify');
@@ -14,64 +15,43 @@ var streamify = require('gulp-streamify');
 
 // Project Vars
 var path = {
-  HTML: 'src/index.html',
-  MINIFIED_OUT: 'build.min.js',
-  OUT: 'build.js',
-  DEST: 'dist',
-  DEST_BUILD: 'dist/build',
-  DEST_SRC: 'dist/src',
-  ENTRY_POINT: './src/js/App.js'
+    HTML: 'src/index.html',
+    MINIFIED_OUT: 'build.min.js',
+    OUT: 'build.js',
+    DEST: 'dist',
+    DEST_BUILD: 'dist/build',
+    DEST_SRC: 'dist/src',
+    ENTRY_POINT: './src/js/App.js'
 };
+
+
 
 // Copy HTML Files
 gulp.task('copy', function(){
   gulp.src(path.HTML)
-  .pipe(gulp.dest(path.DEST))
-  .pipe(livereload());
-});
-
-// Watch HTML and JS Files
-gulp.task('watch', function() {
-  livereload.listen();
-  gulp.watch(path.HTML, ['copy']);
-
-  var watcher  = watchify(browserify({
-    entries: [path.ENTRY_POINT],
-    transform: [reactify],
-    debug: true,
-    cache: {}, packageCache: {}, fullPaths: true
-  }));
-
-  return watcher.on('update', function () {
-    watcher.bundle()
-    .pipe(source(path.OUT))
-    .pipe(gulp.dest(path.DEST_SRC));
-  })
-  .bundle()
-  .pipe(source(path.OUT))
-  .pipe(gulp.dest(path.DEST_SRC))
-  .pipe(livereload());
+      .pipe(gulp.dest(path.DEST))
+      .pipe(livereload());
 });
 
 // Bundle JS Files and Minify
 gulp.task('build', function(){
-  browserify({
-    entries: [path.ENTRY_POINT],
-    transform: [reactify],
-  })
-  .bundle()
-  .pipe(source(path.MINIFIED_OUT))
-  .pipe(streamify(uglify(path.MINIFIED_OUT)))
-  .pipe(gulp.dest(path.DEST_BUILD));
+    browserify({
+        entries: [path.ENTRY_POINT],
+        transform: [reactify],
+    })
+    .bundle()
+    .pipe(source(path.MINIFIED_OUT))
+    .pipe(streamify(uglify(path.MINIFIED_OUT)))
+    .pipe(gulp.dest(path.DEST_BUILD));
 });
 
 // Copy HTML Files and Update JS Path
 gulp.task('replaceHTML', function(){
   gulp.src(path.HTML)
-  .pipe(htmlreplace({
-      'js': 'build/' + path.MINIFIED_OUT
-  }))
-  .pipe(gulp.dest(path.DEST));
+      .pipe(htmlreplace({
+          'js': 'build/' + path.MINIFIED_OUT
+      }))
+      .pipe(gulp.dest(path.DEST));
 });
 
 // Start Server
@@ -81,6 +61,33 @@ gulp.task('connect', function() {
         port: 3000,
         livereload: true
     });
+});
+
+// Watch HTML and JS Files
+gulp.task('watch', function() {
+    livereload.listen();
+    gulp.watch(path.HTML, ['copy']);
+
+    var watcher = watchify(browserify({
+        entries: [path.ENTRY_POINT],
+        transform: [reactify],
+        debug: true,
+        cache: {}, packageCache: {}, fullPaths: true
+    }));
+
+    return watcher.on('update', function () {
+                  watcher.bundle()
+                      .pipe(source(path.OUT))
+                      .pipe(jshint())
+                      .pipe(jshint.reporter('default'))
+                      .pipe(gulp.dest(path.DEST_SRC));
+                  })
+                  .bundle()
+                  .pipe(source(path.OUT))
+                  .pipe(jshint())
+                  .pipe(jshint.reporter('default'))
+                  .pipe(gulp.dest(path.DEST_SRC))
+                  .pipe(livereload());
 });
 
 gulp.task('production', ['replaceHTML', 'build']);
