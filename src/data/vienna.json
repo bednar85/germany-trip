@@ -1,10 +1,12 @@
-[
-    {
-        "listingId":                "place-1",
-        "name":                     "Place 1",
-        "neighborhoods":            [ "" ],
-        "address":                  "1122 Washington Avenue",
+{
+    "zum-mond": {
+        "id":                       "zum-mond",
+        "name":                     "Zum Mond",
+        "address":                  "Köpenicker Str 159",
+        "neighborhood":             "Kreuzberg",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -53,12 +55,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    {
-        "listingId":                "place 2",
-        "name":                     "Place 2",
-        "neighborhoods":            [ "" ],
-        "address":                  "221 North 11th St",
+    "austria": {
+        "id":                       "austria",
+        "name":                     "Austria",
+        "address":                  "Bergmannstraße 30",
+        "neighborhood":             "Kreuzberg",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -107,12 +111,854 @@
         "photo":                    "",
         "description":              "..."
     },
-    {
-        "listingId":                "place-3",
-        "name":                     "Place 3",
-        "neighborhoods":            [ "" ],
-        "address":                  "907 Race St",
+    "hartweizen": {
+        "id":                       "hartweizen",
+        "name":                     "Hartweizen",
+        "address":                  "Torstraße 96",
+        "neighborhood":             "Mitte",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "bierkombinat-kreuzberg": {
+        "id":                       "bierkombinat-kreuzberg",
+        "name":                     "Bierkombinat Kreuzberg",
+        "address":                  "Manteuffelstraße 53",
+        "neighborhood":             "Kreuzberg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "good-friends": {
+        "id":                       "good-friends",
+        "name":                     "Good Friends",
+        "address":                  "Kantstraße 30",
+        "neighborhood":             "Charlottenburg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "cocolo-ramen": {
+        "id":                       "cocolo-ramen",
+        "name":                     "Cocolo Ramen",
+        "address":                  "Gipsstraße 3",
+        "neighborhood":             "Kreuzberg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "la-raclette": {
+        "id":                       "la-raclette",
+        "name":                     "La Raclette",
+        "address":                  "Lausitzer Str. 34",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "parker-bowles": {
+        "id":                       "parker-bowles",
+        "name":                     "Parker Bowles",
+        "address":                  "Prinzenstraße 85d",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "markthalle-neun": {
+        "id":                       "markthalle-neun",
+        "name":                     "Markthalle Neun",
+        "address":                  "Eisenbahnstraße 42-43",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "papaya": {
+        "id":                       "papaya",
+        "name":                     "Papaya",
+        "address":                  "Krossener Str. 11",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "lon-mens-noodle-house": {
+        "id":                       "lon-mens-noodle-house",
+        "name":                     "Lon-Men's Noodle House",
+        "address":                  "Kantstraße 33",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "wochenmarkt-am-winterfeldtplat": {
+        "id":                       "wochenmarkt-am-winterfeldtplat",
+        "name":                     "Wochenmarkt am Winterfeldtplatz",
+        "address":                  "Winterfeldtstraße",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "kadewe": {
+        "id":                       "kadewe",
+        "name":                     "KaDeWe",
+        "address":                  "Tauentzienstraße 21-24",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "wittys": {
+        "id":                       "wittys",
+        "name":                     "Witty's",
+        "address":                  "Wittenbergplatz 5, Ecke Ansbacher Str.",
+        "neighborhood":             "Schöneberg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "mustafas-gemuse-kebap": {
+        "id":                       "mustafas-gemuse-kebap",
+        "name":                     "Mustafas Gemüse Kebap",
+        "address":                  "Mehringdamm 32, 10961",
+        "neighborhood":             "Kreuzberg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "rogacki": {
+        "id":                       "rogacki",
+        "name":                     "Rogacki",
+        "address":                  "Wilmersdorfer Str. 145",
+        "neighborhood":             "Charlottenburg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "fassbender-and-rausch": {
+        "id":                       "fassbender-and-rausch",
+        "name":                     "Fassbender & Rausch",
+        "address":                  "Charlottenstraße 60",
+        "neighborhood":             "Mitte",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "confiserie-melanie": {
+        "id":                       "confiserie-melanie",
+        "name":                     "Confiserie Melanie",
+        "address":                  "Grolmanstr. 20",
+        "neighborhood":             "Charlottenburg",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -161,4 +1007,4 @@
         "photo":                    "",
         "description":              "..."
     }
-]
+}

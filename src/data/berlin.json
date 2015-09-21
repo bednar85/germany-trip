@@ -6,6 +6,7 @@
         "neighborhood":             "Kreuzberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -61,6 +62,7 @@
         "neighborhood":             "Kreuzberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -116,6 +118,7 @@
         "neighborhood":             "Mitte",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -171,6 +174,7 @@
         "neighborhood":             "Kreuzberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -226,6 +230,7 @@
         "neighborhood":             "Charlottenburg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -281,6 +286,7 @@
         "neighborhood":             "Kreuzberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -336,6 +342,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -391,6 +398,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -446,6 +454,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -501,6 +510,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -556,6 +566,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -611,6 +622,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -666,6 +678,7 @@
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -721,6 +734,7 @@
         "neighborhood":             "Schöneberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -776,6 +790,7 @@
         "neighborhood":             "Kreuzberg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -831,6 +846,7 @@
         "neighborhood":             "Charlottenburg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -886,6 +902,7 @@
         "neighborhood":             "Mitte",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -941,6 +958,7 @@
         "neighborhood":             "Charlottenburg",
         "distance":                 0,
         "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",

@@ -1,10 +1,12 @@
-[
-    {
-        "listingId":                "place-1",
-        "name":                     "Place 1",
-        "neighborhoods":            [ "" ],
-        "address":                  "1122 Washington Avenue",
+{
+    "lowenbrau": {
+        "id":                       "lowenbrau",
+        "name":                     "löwenbräu",
+        "address":                  "",
+        "neighborhood":             "",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -53,12 +55,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    {
-        "listingId":                "place 2",
-        "name":                     "Place 2",
-        "neighborhoods":            [ "" ],
-        "address":                  "221 North 11th St",
+    "hofbrauhaus": {
+        "id":                       "hofbrauhaus",
+        "name":                     "Hofbräuhaus",
+        "address":                  "Platzl 9",
+        "neighborhood":             "",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -107,12 +111,2637 @@
         "photo":                    "",
         "description":              "..."
     },
-    {
-        "listingId":                "place-3",
-        "name":                     "Place 3",
-        "neighborhoods":            [ "" ],
-        "address":                  "907 Race St",
+    "augustinerbrau": {
+        "id":                       "augustinerbrau",
+        "name":                     "Augustinerbräu",
+        "address":                  "",
+        "neighborhood":             "",
         "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "paulaner": {
+        "id":                       "paulaner",
+        "name":                     "Paulaner",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "hacker-pschorr": {
+        "id":                       "hacker-pschorr",
+        "name":                     "Hacker-Pschorr",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "spaten": {
+        "id":                       "spaten",
+        "name":                     "Spaten",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Big Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "weisses-brauhaus": {
+        "id":                       "weisses-brauhaus",
+        "name":                     "Weisses Brauhaus (Schneider Weisse)",
+        "address":                  "Tal 7",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "giesinger-brau": {
+        "id":                       "giesinger-brau",
+        "name":                     "Giesinger Bräu",
+        "address":                  "Birkenaustrasse 5",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "crew-republic": {
+        "id":                       "crew-republic",
+        "name":                     "Crew Republic",
+        "address":                  "Fraunhoferstrasse 9",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "brauerei-im-eiswerk": {
+        "id":                       "brauerei-im-eiswerk",
+        "name":                     "Brauerei im Eiswerk",
+        "address":                  "Ohlmüllerstrasse 44",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "richelbrau": {
+        "id":                       "richelbrau",
+        "name":                     "Richelbräu",
+        "address":                  "Richelstrasse 26",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "red-hot": {
+        "id":                       "red-hot",
+        "name":                     "Red Hot",
+        "address":                  "Amalienstraße 89",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar", "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "taphouse": {
+        "id":                       "taphouse",
+        "name":                     "Taphouse",
+        "address":                  "Rosenheimer Strasse 108",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "biervana": {
+        "id":                       "biervana",
+        "name":                     "Biervana",
+        "address":                  "Hohenzollernstrasse 61",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "getranke-oase": {
+        "id":                       "getranke-oase",
+        "name":                     "Getränke-Oase",
+        "address":                  "Gabelsbergerstrasse 54",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "tap-house": {
+        "id":                       "tap-house",
+        "name":                     "Tap House",
+        "address":                  "Rosenheimer Strasse 108",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "giesinger-braeu": {
+        "id":                       "giesinger-braeu",
+        "name":                     "Giesinger-Braeu",
+        "address":                  "Martin-Luther-Strasse 2",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "fei-scho": {
+        "id":                       "fei-scho",
+        "name":                     "Fei Scho",
+        "address":                  "Kolosseumstraße 6",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "gratitude": {
+        "id":                       "gratitude",
+        "name":                     "Gratitude",
+        "address":                  "Türkenstraße 55",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "schwarzer-hahn": {
+        "id":                       "schwarzer-hahn",
+        "name":                     "Schwarzer Hahn",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "upper-eat-side": {
+        "id":                       "upper-eat-side",
+        "name":                     "Upper Eat Side",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "szene-drink": {
+        "id":                       "szene-drink",
+        "name":                     "Szene Drink",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "burrito-company": {
+        "id":                       "burrito-company",
+        "name":                     "Burrito Company",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "padres": {
+        "id":                       "padres",
+        "name":                     "Padres",
+        "address":                  "Blumenstr. 43",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar", "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "goldene-bar": {
+        "id":                       "goldene-bar",
+        "name":                     "Goldene Bar",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "schoppe-brau": {
+        "id":                       "schoppe-brau",
+        "name":                     "Schoppe Bräu",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "Hops, Malt, Heart, and Soul"
+    },
+    "heidenpeters": {
+        "id":                       "heidenpeters",
+        "name":                     "Heidenpeters",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "ale-mania": {
+        "id":                       "ale-mania",
+        "name":                     "Ale Mania",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "braukunstkeller": {
+        "id":                       "braukunstkeller",
+        "name":                     "BrauKunstKeller",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "gamsei": {
+        "id":                       "gamsei",
+        "name":                     "Gamsei",
+        "address":                  "Buttermelcherstr. 9",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "bar-gabanyi": {
+        "id":                       "bar-gabanyi",
+        "name":                     "Bar Gabányi",
+        "address":                  "Beethovenplatz 2",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "ella": {
+        "id":                       "ella",
+        "name":                     "ELLA",
+        "address":                  "Luisenstr. 33",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "forschungsbrauerei": {
+        "id":                       "forschungsbrauerei",
+        "name":                     "Forschungsbrauerei",
+        "address":                  "Unterhachinger Str. 76",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "augustiner-keller": {
+        "id":                       "augustiner-keller",
+        "name":                     "Augustiner-Keller",
+        "address":                  "Arnulfstr. 52",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "bar-muenchen": {
+        "id":                       "bar-muenchen",
+        "name":                     "Bar Muenchen",
+        "address":                  "Maximilianstraße 36",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "couch-club": {
+        "id":                       "couch-club",
+        "name":                     "Couch Club",
+        "address":                  "Klenzestr. 89",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "niederlassung": {
+        "id":                       "niederlassung",
+        "name":                     "Niederlassung",
+        "address":                  "Buttermelcherstr. 6",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Cool Bar" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "tegernseer-tal-brauhaus": {
+        "id":                       "tegernseer-tal-brauhaus",
+        "name":                     "Tegernseer Tal Bräuhaus",
+        "address":                  "Tal 9",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "restaurant-marks": {
+        "id":                       "restaurant-marks",
+        "name":                     "Restaurant Mark's",
+        "address":                  "Neuturmstr. 1",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "hans-im-gluck": {
+        "id":                       "hans-im-gluck",
+        "name":                     "Hans im Glück",
+        "address":                  "Nymphenburger Str. 69",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "marais-soir": {
+        "id":                       "marais-soir",
+        "name":                     "Marais Soir",
+        "address":                  "Schwanthalerstrasse 131",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "rilano-no6": {
+        "id":                       "rilano-no6",
+        "name":                     "Rilano No.6",
+        "address":                  "Ottostraße 6",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "tantris": {
+        "id":                       "tantris",
+        "name":                     "Tantris",
+        "address":                  "Johann-Fichte-Straße 7",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "restaurant-atelier": {
+        "id":                       "restaurant-atelier",
+        "name":                     "Restaurant Atelier",
+        "address":                  "Promenadeplatz 2-6",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "yum2take": {
+        "id":                       "yum2take",
+        "name":                     "Yum2Take",
+        "address":                  "Sebastiansplatz 8",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Top Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "mullersches-volksbad": {
+        "id":                       "mullersches-volksbad",
+        "name":                     "Müller'sches Volksbad",
+        "address":                  "Rosenheimer Str. 1",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "kletter-und-boulderzentrum-munchen": {
+        "id":                       "kletter-und-boulderzentrum-munchen",
+        "name":                     "Kletter und Boulderzentrum München",
+        "address":                  "Thalkirchner Str. 207",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "the-charles-hotel": {
+        "id":                       "the-charles-hotel",
+        "name":                     "The Charles Hotel",
+        "address":                  "Sophienstr. 28",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "motel-one": {
+        "id":                       "motel-one",
+        "name":                     "Motel One",
+        "address":                  "Herzog-Wilhelm-Str. 28",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -161,4 +2790,4 @@
         "photo":                    "",
         "description":              "..."
     }
-]
+}
