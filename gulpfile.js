@@ -16,13 +16,14 @@ var streamify = require('gulp-streamify');
 // Project Vars
 var path = {
     HTML: 'src/index.html',
-    MINIFIED_OUT: 'build.min.js',
-    OUT: 'build.js',
+    MINIFIED_OUT: 'bundle.min.js',
+    OUT: 'bundle.js',
     DEST: 'dist',
-    DEST_BUILD: 'dist/build',
-    DEST_SRC: 'dist/src',
+    DEST_BUILD: 'dist/bundle',
+    DEST_SRC: 'dist',
     ENTRY_POINT: './src/js/App.js'
 };
+
 
 
 
@@ -49,7 +50,7 @@ gulp.task('build', function(){
 gulp.task('replaceHTML', function(){
   gulp.src(path.HTML)
       .pipe(htmlreplace({
-          'js': 'build/' + path.MINIFIED_OUT
+          'js': 'bundle/' + path.MINIFIED_OUT
       }))
       .pipe(gulp.dest(path.DEST));
 });

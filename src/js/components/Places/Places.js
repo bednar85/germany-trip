@@ -1,19 +1,22 @@
 var React = require('react');
-var NotesList = require('./NotesList');
+var PlacesList = require('./PlacesList');
 
-var Notes = React.createClass({
+
+
+
+var Places = React.createClass({
   propTypes: {
     destination: React.PropTypes.string.isRequired,
-    notes: React.PropTypes.array.isRequired
+    places: React.PropTypes.array.isRequired
   },
   render: function(){
     return (
       <div>
         <h3>Info for {this.props.destination} </h3>
-        <NotesList notes={this.props.notes} />
+        <PlacesList places={this.props.places} />
       </div>
     )
   }
 });
 
-module.exports = Notes;
+module.exports = Places;
