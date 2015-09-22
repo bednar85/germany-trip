@@ -1,24 +1,19 @@
 var React = require('react');
-var Router = require('react-router');
-var Route = Router.Route;
 var RouteHandler = require('react-router').RouteHandler;
-var Link = Router.Link;
+var SearchGithub = require('./SearchGithub');
 
 var Main = React.createClass({
   render: function(){
     return (
       <div className="main-container">
-        <header>
-          <ul>
-            <li><a href="#/list/berlin">Berlin</a></li>
-            <li><a href="#/list/munich">Munich</a></li>
-            <li><a href="#/list/vienna">Vienna</a></li>
-          </ul>
-        </header>
+        <nav className="navbar navbar-default" role="navigation">
+          <div className="col-sm-7 col-sm-offset-2" style={{marginTop: 15}}>
+            <SearchGithub />
+          </div>
+        </nav>
         <div className="container">
           <RouteHandler />
         </div>
-        <footer>Footer</footer>
       </div>
     )
   }

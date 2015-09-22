@@ -1,12 +1,12 @@
 {
-    "zum-mond": {
-        "id":                       "zum-mond",
-        "name":                     "Zum Mond",
-        "address":                  "Köpenicker Str 159",
-        "neighborhood":             "Kreuzberg",
+    "cafe-braunerhof": {
+        "id":                       "cafe-braunerhof",
+        "name":                     "Café Bräunerhof",
+        "address":                  "2 Stallburggasse",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -55,14 +55,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "austria": {
-        "id":                       "austria",
-        "name":                     "Austria",
-        "address":                  "Bergmannstraße 30",
-        "neighborhood":             "Kreuzberg",
+    "cafe-central": {
+        "id":                       "cafe-central",
+        "name":                     "Café Central",
+        "address":                  "17 Herrengasse",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -111,14 +111,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "hartweizen": {
-        "id":                       "hartweizen",
-        "name":                     "Hartweizen",
-        "address":                  "Torstraße 96",
-        "neighborhood":             "Mitte",
+    "cafe-korb": {
+        "id":                       "cafe-korb",
+        "name":                     "Café Korb",
+        "address":                  "9 Brandstätte",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -167,14 +167,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "bierkombinat-kreuzberg": {
-        "id":                       "bierkombinat-kreuzberg",
-        "name":                     "Bierkombinat Kreuzberg",
-        "address":                  "Manteuffelstraße 53",
-        "neighborhood":             "Kreuzberg",
+    "cafe-landtmann": {
+        "id":                       "cafe-landtmann",
+        "name":                     "Café Landtmann",
+        "address":                  "4 Dr. Karl Lueger-Ring",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -223,14 +223,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "good-friends": {
-        "id":                       "good-friends",
-        "name":                     "Good Friends",
-        "address":                  "Kantstraße 30",
-        "neighborhood":             "Charlottenburg",
+    "cafe-museum": {
+        "id":                       "cafe-museum",
+        "name":                     "Café Museum",
+        "address":                  "7 Operngasse, Karlsplatz",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -279,14 +279,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "cocolo-ramen": {
-        "id":                       "cocolo-ramen",
-        "name":                     "Cocolo Ramen",
-        "address":                  "Gipsstraße 3",
-        "neighborhood":             "Kreuzberg",
+    "cafe-pruckel": {
+        "id":                       "cafe-pruckel",
+        "name":                     "Café Prückel",
+        "address":                  "24 Stubenring",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Coffee House" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -335,10 +335,346 @@
         "photo":                    "",
         "description":              "..."
     },
-    "la-raclette": {
-        "id":                       "la-raclette",
-        "name":                     "La Raclette",
-        "address":                  "Lausitzer Str. 34",
+    "cafe-ritter": {
+        "id":                       "cafe-ritter",
+        "name":                     "Café Ritter",
+        "address":                  "73 Mariahilferstrasse",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Coffee House" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "cafe-weimar": {
+        "id":                       "cafe-weimar",
+        "name":                     "Café Weimar",
+        "address":                  "68 Währingerstrasse",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Coffee House" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "tian": {
+        "id":                       "tian",
+        "name":                     "Tian",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "tel-aviv-beach": {
+        "id":                       "tel-aviv-beach",
+        "name":                     "Tel Aviv Beach",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "restaurant-schnattl": {
+        "id":                       "restaurant-schnattl",
+        "name":                     "Restaurant Schnattl",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "veganista": {
+        "id":                       "veganista",
+        "name":                     "Veganista",
+        "address":                  "",
+        "neighborhood":             "",
+        "distance":                 0,
+        "categories":               [ "" ],
+        "tags":                     [ "Restaurant" ],
+        "hours": [
+            {
+                "day":              "Sunday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Monday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tuesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wednesday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thursday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Friday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Saturday",
+                "formatted":        "9:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "isClosed":                 false,
+        "photo":                    "",
+        "description":              "..."
+    },
+    "le-loft": {
+        "id":                       "le-loft",
+        "name":                     "Le Loft",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
@@ -391,10 +727,10 @@
         "photo":                    "",
         "description":              "..."
     },
-    "parker-bowles": {
-        "id":                       "parker-bowles",
-        "name":                     "Parker Bowles",
-        "address":                  "Prinzenstraße 85d",
+    "hotel-lamee": {
+        "id":                       "hotel-lamee",
+        "name":                     "Hotel Lamée",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
@@ -447,10 +783,10 @@
         "photo":                    "",
         "description":              "..."
     },
-    "markthalle-neun": {
-        "id":                       "markthalle-neun",
-        "name":                     "Markthalle Neun",
-        "address":                  "Eisenbahnstraße 42-43",
+    "cafe-leopold": {
+        "id":                       "cafe-leopold",
+        "name":                     "Café Leopold",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
@@ -503,14 +839,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "papaya": {
-        "id":                       "papaya",
-        "name":                     "Papaya",
-        "address":                  "Krossener Str. 11",
+    "ankerbrotfabrik": {
+        "id":                       "ankerbrotfabrik",
+        "name":                     "Ankerbrotfabrik",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Sites" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -559,14 +895,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "lon-mens-noodle-house": {
-        "id":                       "lon-mens-noodle-house",
-        "name":                     "Lon-Men's Noodle House",
-        "address":                  "Kantstraße 33",
+    "schonbrunn": {
+        "id":                       "schonbrunn",
+        "name":                     "Schönbrunn",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Sites" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -615,14 +951,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "wochenmarkt-am-winterfeldtplat": {
-        "id":                       "wochenmarkt-am-winterfeldtplat",
-        "name":                     "Wochenmarkt am Winterfeldtplatz",
-        "address":                  "Winterfeldtstraße",
+    "augarten": {
+        "id":                       "augarten",
+        "name":                     "Augarten",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Park" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -671,14 +1007,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "kadewe": {
-        "id":                       "kadewe",
-        "name":                     "KaDeWe",
-        "address":                  "Tauentzienstraße 21-24",
+    "die-au-at-augarten": {
+        "id":                       "die-au-at-augarten",
+        "name":                     "Die Au at Augarten",
+        "address":                  "",
         "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Brunch" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -727,14 +1063,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "wittys": {
-        "id":                       "wittys",
-        "name":                     "Witty's",
-        "address":                  "Wittenbergplatz 5, Ecke Ansbacher Str.",
-        "neighborhood":             "Schöneberg",
+    "motto": {
+        "id":                       "motto",
+        "name":                     "Motto",
+        "address":                  "",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Dinner" ],
         "hours": [
             {
                 "day":              "Sunday",
@@ -783,182 +1119,14 @@
         "photo":                    "",
         "description":              "..."
     },
-    "mustafas-gemuse-kebap": {
-        "id":                       "mustafas-gemuse-kebap",
-        "name":                     "Mustafas Gemüse Kebap",
-        "address":                  "Mehringdamm 32, 10961",
-        "neighborhood":             "Kreuzberg",
+    "pratersauna": {
+        "id":                       "pratersauna",
+        "name":                     "Pratersauna",
+        "address":                  "",
+        "neighborhood":             "",
         "distance":                 0,
         "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description":              "..."
-    },
-    "rogacki": {
-        "id":                       "rogacki",
-        "name":                     "Rogacki",
-        "address":                  "Wilmersdorfer Str. 145",
-        "neighborhood":             "Charlottenburg",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description":              "..."
-    },
-    "fassbender-and-rausch": {
-        "id":                       "fassbender-and-rausch",
-        "name":                     "Fassbender & Rausch",
-        "address":                  "Charlottenstraße 60",
-        "neighborhood":             "Mitte",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description":              "..."
-    },
-    "confiserie-melanie": {
-        "id":                       "confiserie-melanie",
-        "name":                     "Confiserie Melanie",
-        "address":                  "Grolmanstr. 20",
-        "neighborhood":             "Charlottenburg",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "tags":                     [ "Bar" ],
         "hours": [
             {
                 "day":              "Sunday",
