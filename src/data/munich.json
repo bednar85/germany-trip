@@ -53,7 +53,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short lowenbrau",
+            "long":                 "description.long lowenbrau"
+        }
     },
     "hofbrauhaus": {
         "id":                       "hofbrauhaus",
@@ -109,7 +112,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short hofbrauhaus",
+            "long":                 "description.long hofbrauhaus"
+        }
     },
     "augustinerbrau": {
         "id":                       "augustinerbrau",
@@ -165,7 +171,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short augustinerbrau",
+            "long":                 "description.long augustinerbrau"
+        }
     },
     "paulaner": {
         "id":                       "paulaner",
@@ -221,7 +230,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short paulaner",
+            "long":                 "description.long paulaner"
+        }
     },
     "hacker-pschorr": {
         "id":                       "hacker-pschorr",
@@ -277,7 +289,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short hacker-pschorr",
+            "long":                 "description.long hacker-pschorr"
+        }
     },
     "spaten": {
         "id":                       "spaten",
@@ -333,7 +348,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short spaten",
+            "long":                 "description.long spaten"
+        }
     },
     "weisses-brauhaus": {
         "id":                       "weisses-brauhaus",
@@ -389,7 +407,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short weisses-brauhaus",
+            "long":                 "description.long weisses-brauhaus"
+        }
     },
     "giesinger-brau": {
         "id":                       "giesinger-brau",
@@ -445,7 +466,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short giesinger-brau",
+            "long":                 "description.long giesinger-brau"
+        }
     },
     "crew-republic": {
         "id":                       "crew-republic",
@@ -501,7 +525,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short crew-republic",
+            "long":                 "description.long crew-republic"
+        }
     },
     "brauerei-im-eiswerk": {
         "id":                       "brauerei-im-eiswerk",
@@ -557,7 +584,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short brauerei-im-eiswerk",
+            "long":                 "description.long brauerei-im-eiswerk"
+        }
     },
     "richelbrau": {
         "id":                       "richelbrau",
@@ -613,7 +643,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short richelbrau",
+            "long":                 "description.long richelbrau"
+        }
     },
     "red-hot": {
         "id":                       "red-hot",
@@ -669,7 +702,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short red-hot",
+            "long":                 "description.long red-hot"
+        }
     },
     "taphouse": {
         "id":                       "taphouse",
@@ -725,7 +761,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short taphouse",
+            "long":                 "description.long taphouse"
+        }
     },
     "biervana": {
         "id":                       "biervana",
@@ -781,7 +820,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short biervana",
+            "long":                 "description.long biervana"
+        }
     },
     "getranke-oase": {
         "id":                       "getranke-oase",
@@ -837,7 +879,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short getranke-oase",
+            "long":                 "description.long getranke-oase"
+        }
     },
     "tap-house": {
         "id":                       "tap-house",
@@ -893,7 +938,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short tap-house",
+            "long":                 "description.long tap-house"
+        }
     },
     "giesinger-braeu": {
         "id":                       "giesinger-braeu",
@@ -949,7 +997,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short giesinger-braeu",
+            "long":                 "description.long giesinger-braeu"
+        }
     },
     "fei-scho": {
         "id":                       "fei-scho",
@@ -1005,7 +1056,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short fei-scho",
+            "long":                 "description.long fei-scho"
+        }
     },
     "gratitude": {
         "id":                       "gratitude",
@@ -1061,7 +1115,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short gratitude",
+            "long":                 "description.long gratitude"
+        }
     },
     "schwarzer-hahn": {
         "id":                       "schwarzer-hahn",
@@ -1117,7 +1174,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short schwarzer-hahn",
+            "long":                 "description.long schwarzer-hahn"
+        }
     },
     "upper-eat-side": {
         "id":                       "upper-eat-side",
@@ -1173,7 +1233,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short upper-eat-side",
+            "long":                 "description.long upper-eat-side"
+        }
     },
     "szene-drink": {
         "id":                       "szene-drink",
@@ -1229,7 +1292,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short szene-drink",
+            "long":                 "description.long szene-drink"
+        }
     },
     "burrito-company": {
         "id":                       "burrito-company",
@@ -1285,7 +1351,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short burrito-company",
+            "long":                 "description.long burrito-company"
+        }
     },
     "padres": {
         "id":                       "padres",
@@ -1341,7 +1410,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short padres",
+            "long":                 "description.long padres"
+        }
     },
     "goldene-bar": {
         "id":                       "goldene-bar",
@@ -1397,7 +1469,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short goldene-bar",
+            "long":                 "description.long goldene-bar"
+        }
     },
     "schoppe-brau": {
         "id":                       "schoppe-brau",
@@ -1509,7 +1584,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short heidenpeters",
+            "long":                 "description.long heidenpeters"
+        }
     },
     "ale-mania": {
         "id":                       "ale-mania",
@@ -1565,7 +1643,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short ale-mania",
+            "long":                 "description.long ale-mania"
+        }
     },
     "braukunstkeller": {
         "id":                       "braukunstkeller",
@@ -1621,7 +1702,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short braukunstkeller",
+            "long":                 "description.long braukunstkeller"
+        }
     },
     "gamsei": {
         "id":                       "gamsei",
@@ -1677,7 +1761,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short gamsei",
+            "long":                 "description.long gamsei"
+        }
     },
     "bar-gabanyi": {
         "id":                       "bar-gabanyi",
@@ -1733,7 +1820,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short bar-gabanyi",
+            "long":                 "description.long bar-gabanyi"
+        }
     },
     "ella": {
         "id":                       "ella",
@@ -1789,7 +1879,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short ella",
+            "long":                 "description.long ella"
+        }
     },
     "forschungsbrauerei": {
         "id":                       "forschungsbrauerei",
@@ -1845,7 +1938,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short forschungsbrauerei",
+            "long":                 "description.long forschungsbrauerei"
+        }
     },
     "augustiner-keller": {
         "id":                       "augustiner-keller",
@@ -1901,7 +1997,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short augustiner-keller",
+            "long":                 "description.long augustiner-keller"
+        }
     },
     "bar-muenchen": {
         "id":                       "bar-muenchen",
@@ -1957,7 +2056,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short bar-muenchen",
+            "long":                 "description.long bar-muenchen"
+        }
     },
     "couch-club": {
         "id":                       "couch-club",
@@ -2013,7 +2115,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short couch-club",
+            "long":                 "description.long couch-club"
+        }
     },
     "niederlassung": {
         "id":                       "niederlassung",
@@ -2069,7 +2174,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short niederlassung",
+            "long":                 "description.long niederlassung"
+        }
     },
     "tegernseer-tal-brauhaus": {
         "id":                       "tegernseer-tal-brauhaus",
@@ -2125,7 +2233,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short tegernseer-tal-brauhaus",
+            "long":                 "description.long tegernseer-tal-brauhaus"
+        }
     },
     "restaurant-marks": {
         "id":                       "restaurant-marks",
@@ -2181,7 +2292,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short restaurant-marks",
+            "long":                 "description.long restaurant-marks"
+        }
     },
     "hans-im-gluck": {
         "id":                       "hans-im-gluck",
@@ -2237,7 +2351,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short hans-im-gluck",
+            "long":                 "description.long hans-im-gluck"
+        }
     },
     "marais-soir": {
         "id":                       "marais-soir",
@@ -2293,7 +2410,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short marais-soir",
+            "long":                 "description.long marais-soir"
+        }
     },
     "rilano-no6": {
         "id":                       "rilano-no6",
@@ -2349,7 +2469,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short rilano-no6",
+            "long":                 "description.long rilano-no6"
+        }
     },
     "tantris": {
         "id":                       "tantris",
@@ -2405,7 +2528,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short tantris",
+            "long":                 "description.long tantris"
+        }
     },
     "restaurant-atelier": {
         "id":                       "restaurant-atelier",
@@ -2461,7 +2587,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short restaurant-atelier",
+            "long":                 "description.long restaurant-atelier"
+        }
     },
     "yum2take": {
         "id":                       "yum2take",
@@ -2517,7 +2646,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short yum2take",
+            "long":                 "description.long yum2take"
+        }
     },
     "mullersches-volksbad": {
         "id":                       "mullersches-volksbad",
@@ -2573,7 +2705,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short mullersches-volksbad",
+            "long":                 "description.long mullersches-volksbad"
+        }
     },
     "kletter-und-boulderzentrum-munchen": {
         "id":                       "kletter-und-boulderzentrum-munchen",
@@ -2629,7 +2764,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short kletter-und-boulderzentrum-munchen",
+            "long":                 "description.long kletter-und-boulderzentrum-munchen"
+        }
     },
     "the-charles-hotel": {
         "id":                       "the-charles-hotel",
@@ -2685,7 +2823,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short the-charles-hotel",
+            "long":                 "description.long the-charles-hotel"
+        }
     },
     "motel-one": {
         "id":                       "motel-one",
@@ -2741,6 +2882,9 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short motel-one",
+            "long":                 "description.long motel-one"
+        }
     }
 }

@@ -10,7 +10,8 @@ var PlacesList = React.createClass({
         <li className="list-group-item" key={index}>
           {place.id} <br />
           {place.name} <br />
-          {place.address}
+          {place.address} <br />
+          {place.description.short}
         </li>
       )
     });

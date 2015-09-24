@@ -53,7 +53,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short zum-mond",
+            "long":                 "description.long zum-mond"
+        }
     },
     "austria": {
         "id":                       "austria",
@@ -109,7 +112,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short austria",
+            "long":                 "description.long austria"
+        }
     },
     "hartweizen": {
         "id":                       "hartweizen",
@@ -165,7 +171,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short hartweizen",
+            "long":                 "description.long hartweizen"
+        }
     },
     "bierkombinat-kreuzberg": {
         "id":                       "bierkombinat-kreuzberg",
@@ -221,7 +230,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short bierkombinat-kreuzberg",
+            "long":                 "description.long bierkombinat-kreuzberg"
+        }
     },
     "good-friends": {
         "id":                       "good-friends",
@@ -277,7 +289,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short good-friends",
+            "long":                 "description.long good-friends"
+        }
     },
     "cocolo-ramen": {
         "id":                       "cocolo-ramen",
@@ -333,7 +348,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cocolo-ramen",
+            "long":                 "description.long cocolo-ramen"
+        }
     },
     "la-raclette": {
         "id":                       "la-raclette",
@@ -389,7 +407,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short la-raclette",
+            "long":                 "description.long la-raclette"
+        }
     },
     "parker-bowles": {
         "id":                       "parker-bowles",
@@ -445,7 +466,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short parker-bowles",
+            "long":                 "description.long parker-bowles"
+        }
     },
     "markthalle-neun": {
         "id":                       "markthalle-neun",
@@ -501,7 +525,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short markthalle-neun",
+            "long":                 "description.long markthalle-neun"
+        }
     },
     "papaya": {
         "id":                       "papaya",
@@ -557,7 +584,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short papaya",
+            "long":                 "description.long papaya"
+        }
     },
     "lon-mens-noodle-house": {
         "id":                       "lon-mens-noodle-house",
@@ -613,7 +643,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short lon-mens-noodle-house",
+            "long":                 "description.long lon-mens-noodle-house"
+        }
     },
     "wochenmarkt-am-winterfeldtplat": {
         "id":                       "wochenmarkt-am-winterfeldtplat",
@@ -669,7 +702,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short wochenmarkt-am-winterfeldtplat",
+            "long":                 "description.long wochenmarkt-am-winterfeldtplat"
+        }
     },
     "kadewe": {
         "id":                       "kadewe",
@@ -725,7 +761,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short kadewe",
+            "long":                 "description.long kadewe"
+        }
     },
     "wittys": {
         "id":                       "wittys",
@@ -781,7 +820,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short wittys",
+            "long":                 "description.long wittys"
+        }
     },
     "mustafas-gemuse-kebap": {
         "id":                       "mustafas-gemuse-kebap",
@@ -837,7 +879,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short mustafas-gemuse-kebap",
+            "long":                 "description.long mustafas-gemuse-kebap"
+        }
     },
     "rogacki": {
         "id":                       "rogacki",
@@ -893,7 +938,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short rogacki",
+            "long":                 "description.long rogacki"
+        }
     },
     "fassbender-and-rausch": {
         "id":                       "fassbender-and-rausch",
@@ -949,7 +997,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short fassbender-and-rausch",
+            "long":                 "description.long fassbender-and-rausch"
+        }
     },
     "confiserie-melanie": {
         "id":                       "confiserie-melanie",
@@ -1005,6 +1056,9 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short confiserie-melanie",
+            "long":                 "description.long confiserie-melanie"
+        }
     }
 }

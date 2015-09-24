@@ -53,7 +53,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-braunerhof",
+            "long":                 "description.long cafe-braunerhof"
+        }
     },
     "cafe-central": {
         "id":                       "cafe-central",
@@ -109,7 +112,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-central",
+            "long":                 "description.long cafe-central"
+        }
     },
     "cafe-korb": {
         "id":                       "cafe-korb",
@@ -165,7 +171,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-korb",
+            "long":                 "description.long cafe-korb"
+        }
     },
     "cafe-landtmann": {
         "id":                       "cafe-landtmann",
@@ -221,7 +230,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-landtmann",
+            "long":                 "description.long cafe-landtmann"
+        }
     },
     "cafe-museum": {
         "id":                       "cafe-museum",
@@ -277,7 +289,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-museum",
+            "long":                 "description.long cafe-museum"
+        }
     },
     "cafe-pruckel": {
         "id":                       "cafe-pruckel",
@@ -333,7 +348,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-pruckel",
+            "long":                 "description.long cafe-pruckel"
+        }
     },
     "cafe-ritter": {
         "id":                       "cafe-ritter",
@@ -389,7 +407,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-ritter",
+            "long":                 "description.long cafe-ritter"
+        }
     },
     "cafe-weimar": {
         "id":                       "cafe-weimar",
@@ -445,7 +466,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-weimar",
+            "long":                 "description.long cafe-weimar"
+        }
     },
     "tian": {
         "id":                       "tian",
@@ -501,7 +525,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short tian",
+            "long":                 "description.long tian"
+        }
     },
     "tel-aviv-beach": {
         "id":                       "tel-aviv-beach",
@@ -557,7 +584,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short tel-aviv-beach",
+            "long":                 "description.long tel-aviv-beach"
+        }
     },
     "restaurant-schnattl": {
         "id":                       "restaurant-schnattl",
@@ -613,7 +643,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short restaurant-schnattl",
+            "long":                 "description.long restaurant-schnattl"
+        }
     },
     "veganista": {
         "id":                       "veganista",
@@ -669,7 +702,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short veganista",
+            "long":                 "description.long veganista"
+        }
     },
     "le-loft": {
         "id":                       "le-loft",
@@ -725,7 +761,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short le-loft",
+            "long":                 "description.long le-loft"
+        }
     },
     "hotel-lamee": {
         "id":                       "hotel-lamee",
@@ -781,7 +820,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short hotel-lamee",
+            "long":                 "description.long hotel-lamee"
+        }
     },
     "cafe-leopold": {
         "id":                       "cafe-leopold",
@@ -837,7 +879,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short cafe-leopold",
+            "long":                 "description.long cafe-leopold"
+        }
     },
     "ankerbrotfabrik": {
         "id":                       "ankerbrotfabrik",
@@ -893,7 +938,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short ankerbrotfabrik",
+            "long":                 "description.long ankerbrotfabrik"
+        }
     },
     "schonbrunn": {
         "id":                       "schonbrunn",
@@ -949,7 +997,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short schonbrunn",
+            "long":                 "description.long schonbrunn"
+        }
     },
     "augarten": {
         "id":                       "augarten",
@@ -1005,7 +1056,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short augarten",
+            "long":                 "description.long augarten"
+        }
     },
     "die-au-at-augarten": {
         "id":                       "die-au-at-augarten",
@@ -1061,7 +1115,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short die-au-at-augarten",
+            "long":                 "description.long die-au-at-augarten"
+        }
     },
     "motto": {
         "id":                       "motto",
@@ -1117,7 +1174,10 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short motto",
+            "long":                 "description.long motto"
+        }
     },
     "pratersauna": {
         "id":                       "pratersauna",
@@ -1173,6 +1233,9 @@
         ],
         "isClosed":                 false,
         "photo":                    "",
-        "description":              "..."
+        "description": {
+            "short":                "description.short pratersauna",
+            "long":                 "description.long pratersauna"
+        }
     }
 }
