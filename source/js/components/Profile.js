@@ -1,6 +1,7 @@
 var React = require('react');
 var Router = require('react-router');
-var Places = require('./Places/Places');
+// var Places = require('./Places/Places');
+var PlacesList = require('./Places/PlacesList');
 var ReactFireMixin = require('reactfire');
 var Firebase = require('firebase');
 
@@ -30,11 +31,10 @@ var Profile = React.createClass({
     this.init();
   },
   render: function(){
-    var destination = this.getParams().destination;
     return (
       <div className="row">
         <div className="col-md-12">
-          <Places destination={destination} places={this.state.places} />
+          <PlacesList places={this.state.places} />
         </div>
       </div>
     )

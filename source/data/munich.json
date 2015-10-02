@@ -1,10 +1,14 @@
 {
-    "lowenbrau": {
-        "id":                       "lowenbrau",
-        "name":                     "löwenbräu",
-        "address":                  "",
+    "lowenbraukeller": {
+        "id":                       "lowenbraukeller",
+        "name":                     "Löwenbräukeller",
+        "address":                  "Nymphenburger Straße 2",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.148370,
+            "longitude":            11.558490
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -58,12 +62,16 @@
             "long":                 "description.long lowenbrau"
         }
     },
-    "hofbrauhaus": {
-        "id":                       "hofbrauhaus",
-        "name":                     "Hofbräuhaus",
+    "hofbrauhaus-munchen": {
+        "id":                       "hofbrauhaus-munchen",
+        "name":                     "Hofbräuhaus München",
         "address":                  "Platzl 9",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.137544,
+            "longitude":            11.580090
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -120,9 +128,13 @@
     "augustinerbrau": {
         "id":                       "augustinerbrau",
         "name":                     "Augustinerbräu",
-        "address":                  "",
+        "address":                  "Landsberger Straße 35",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.138510,
+            "longitude":            11.544650
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -176,12 +188,16 @@
             "long":                 "description.long augustinerbrau"
         }
     },
-    "paulaner": {
-        "id":                       "paulaner",
-        "name":                     "Paulaner",
-        "address":                  "",
+    "paulaner-brauhaus": {
+        "id":                       "paulaner-brauhaus",
+        "name":                     "Paulaner Bräuhaus",
+        "address":                  "Kapuzinerpl. 5",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.126240,
+            "longitude":            11.558970
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -235,12 +251,16 @@
             "long":                 "description.long paulaner"
         }
     },
-    "hacker-pschorr": {
-        "id":                       "hacker-pschorr",
-        "name":                     "Hacker-Pschorr",
-        "address":                  "",
+    "hacker-pschorr-brauhaus": {
+        "id":                       "hacker-pschorr-brauhaus",
+        "name":                     "Hacker - Pschorr Bräuhaus",
+        "address":                  "Theresienhöhe 7",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.136090,
+            "longitude":            11.546600
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -294,12 +314,16 @@
             "long":                 "description.long hacker-pschorr"
         }
     },
-    "spaten": {
-        "id":                       "spaten",
-        "name":                     "Spaten",
-        "address":                  "",
+    "spatenhaus-an-der-oper": {
+        "id":                       "spatenhaus-an-der-oper",
+        "name":                     "Spatenhaus an der Oper",
+        "address":                  "Residenzstraße 12",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.139902,
+            "longitude":            11.577170
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -349,16 +373,20 @@
         "isClosed":                 false,
         "photo":                    "",
         "description": {
-            "short":                "description.short spaten",
+            "short":                "description.short Spatenhaus an der Oper",
             "long":                 "description.long spaten"
         }
     },
     "weisses-brauhaus": {
         "id":                       "weisses-brauhaus",
-        "name":                     "Weisses Brauhaus (Schneider Weisse)",
+        "name":                     "Weisses Brauhaus",
         "address":                  "Tal 7",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.136461,
+            "longitude":            11.578356
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -408,16 +436,20 @@
         "isClosed":                 false,
         "photo":                    "",
         "description": {
-            "short":                "description.short weisses-brauhaus",
-            "long":                 "description.long weisses-brauhaus"
+            "short":                "description.short weisses-brauhaus (Schneider Weisse)",
+            "long":                 "description.long weisses-brauhaus (Schneider Weisse)"
         }
     },
     "giesinger-brau": {
         "id":                       "giesinger-brau",
-        "name":                     "Giesinger Bräu",
-        "address":                  "Birkenaustrasse 5",
+        "name":                     "Giesinger Bräu - Biermanufaktur und Bräustüberl",
+        "address":                  "Martin-Luther-Straße 2",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.115715,
+            "longitude":            11.576702
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -474,9 +506,13 @@
     "crew-republic": {
         "id":                       "crew-republic",
         "name":                     "Crew Republic",
-        "address":                  "Fraunhoferstrasse 9",
+        "address":                  "Andreas-Danzer-Weg 30",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.282852,
+            "longitude":            11.557298
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -532,10 +568,14 @@
     },
     "brauerei-im-eiswerk": {
         "id":                       "brauerei-im-eiswerk",
-        "name":                     "Brauerei im Eiswerk",
-        "address":                  "Ohlmüllerstrasse 44",
+        "name":                     "Brauerei im Eiswerk GmbH",
+        "address":                  "Ohlmüllerstraße 44",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.122300,
+            "longitude":            11.581600
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -589,12 +629,16 @@
             "long":                 "description.long brauerei-im-eiswerk"
         }
     },
-    "richelbrau": {
-        "id":                       "richelbrau",
-        "name":                     "Richelbräu",
-        "address":                  "Richelstrasse 26",
+    "gunther-baumann-verlag": {
+        "id":                       "gunther-baumann-verlag",
+        "name":                     "Günther Baumann Verlag",
+        "address":                  "Richelstraße 26",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.145704,
+            "longitude":            11.530467
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -653,7 +697,11 @@
         "name":                     "Red Hot",
         "address":                  "Amalienstraße 89",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.151583,
+            "longitude":            11.579135
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar", "Craft Beer" ],
         "hours": [
@@ -707,12 +755,16 @@
             "long":                 "description.long red-hot"
         }
     },
-    "taphouse": {
-        "id":                       "taphouse",
-        "name":                     "Taphouse",
+    "tap-house-munich": {
+        "id":                       "tap-house-munich",
+        "name":                     "Tap-House Munich",
         "address":                  "Rosenheimer Strasse 108",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.125289,
+            "longitude":            11.599120
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -771,7 +823,11 @@
         "name":                     "Biervana",
         "address":                  "Hohenzollernstrasse 61",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.160419,
+            "longitude":            11.573964
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -827,10 +883,14 @@
     },
     "getranke-oase": {
         "id":                       "getranke-oase",
-        "name":                     "Getränke-Oase",
+        "name":                     "Getränke Oase",
         "address":                  "Gabelsbergerstrasse 54",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.149627,
+            "longitude":            11.561294
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -884,130 +944,16 @@
             "long":                 "description.long getranke-oase"
         }
     },
-    "tap-house": {
-        "id":                       "tap-house",
-        "name":                     "Tap House",
-        "address":                  "Rosenheimer Strasse 108",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short tap-house",
-            "long":                 "description.long tap-house"
-        }
-    },
-    "giesinger-braeu": {
-        "id":                       "giesinger-braeu",
-        "name":                     "Giesinger-Braeu",
-        "address":                  "Martin-Luther-Strasse 2",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short giesinger-braeu",
-            "long":                 "description.long giesinger-braeu"
-        }
-    },
     "fei-scho": {
         "id":                       "fei-scho",
         "name":                     "Fei Scho",
         "address":                  "Kolosseumstraße 6",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.130300,
+            "longitude":            11.570940
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1061,12 +1007,16 @@
             "long":                 "description.long fei-scho"
         }
     },
-    "gratitude": {
-        "id":                       "gratitude",
-        "name":                     "Gratitude",
+    "gratitude-restaurant": {
+        "id":                       "gratitude-restaurant",
+        "name":                     "Gratitude Restaurant",
         "address":                  "Türkenstraße 55",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.150778,
+            "longitude":            11.576123
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1123,9 +1073,13 @@
     "schwarzer-hahn": {
         "id":                       "schwarzer-hahn",
         "name":                     "Schwarzer Hahn",
-        "address":                  "",
+        "address":                  "Ohlmüllerstraße 8",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.125894,
+            "longitude":            11.578711
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1179,12 +1133,16 @@
             "long":                 "description.long schwarzer-hahn"
         }
     },
-    "upper-eat-side": {
-        "id":                       "upper-eat-side",
-        "name":                     "Upper Eat Side",
-        "address":                  "",
+    "restaurant-upper-eat-side": {
+        "id":                       "restaurant-upper-eat-side",
+        "name":                     "Restaurant Upper Eat Side",
+        "address":                  "Werinherstraße 15",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.115446,
+            "longitude":            11.583037
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1238,12 +1196,16 @@
             "long":                 "description.long upper-eat-side"
         }
     },
-    "szene-drink": {
-        "id":                       "szene-drink",
-        "name":                     "Szene Drink",
-        "address":                  "",
+    "szenedrinks-and-delikatessen": {
+        "id":                       "szenedrinks-and-delikatessen",
+        "name":                     "Szenedrinks & Delikatessen",
+        "address":                  "Baaderstrasse 66",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.129087,
+            "longitude":            11.576542
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1293,16 +1255,20 @@
         "isClosed":                 false,
         "photo":                    "",
         "description": {
-            "short":                "description.short szene-drink",
-            "long":                 "description.long szene-drink"
+            "short":                "description.short Szenedrinks & Delikatessen",
+            "long":                 "description.long Szenedrinks & Delikatessen"
         }
     },
     "burrito-company": {
         "id":                       "burrito-company",
         "name":                     "Burrito Company",
-        "address":                  "",
+        "address":                  "Augustenstraße 74",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.150110,
+            "longitude":            11.563816
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1359,9 +1325,13 @@
     "padres": {
         "id":                       "padres",
         "name":                     "Padres",
-        "address":                  "Blumenstr. 43",
+        "address":                  "Blumenstraße 43",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.132206,
+            "longitude":            11.568760
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar", "Craft Beer" ],
         "hours": [
@@ -1415,12 +1385,16 @@
             "long":                 "description.long padres"
         }
     },
-    "goldene-bar": {
-        "id":                       "goldene-bar",
-        "name":                     "Goldene Bar",
-        "address":                  "",
+    "die-goldene-bar": {
+        "id":                       "die-goldene-bar",
+        "name":                     "Die Goldene Bar",
+        "address":                  "Prinzregentenstraße 1",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.144110,
+            "longitude":            11.586100
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1474,245 +1448,16 @@
             "long":                 "description.long goldene-bar"
         }
     },
-    "schoppe-brau": {
-        "id":                       "schoppe-brau",
-        "name":                     "Schoppe Bräu",
-        "address":                  "",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description":              "Hops, Malt, Heart, and Soul"
-    },
-    "heidenpeters": {
-        "id":                       "heidenpeters",
-        "name":                     "Heidenpeters",
-        "address":                  "",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short heidenpeters",
-            "long":                 "description.long heidenpeters"
-        }
-    },
-    "ale-mania": {
-        "id":                       "ale-mania",
-        "name":                     "Ale Mania",
-        "address":                  "",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short ale-mania",
-            "long":                 "description.long ale-mania"
-        }
-    },
-    "braukunstkeller": {
-        "id":                       "braukunstkeller",
-        "name":                     "BrauKunstKeller",
-        "address":                  "",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short braukunstkeller",
-            "long":                 "description.long braukunstkeller"
-        }
-    },
     "gamsei": {
         "id":                       "gamsei",
         "name":                     "Gamsei",
-        "address":                  "Buttermelcherstr. 9",
+        "address":                  "Buttermelcherstraße 9",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.132515,
+            "longitude":            11.578364
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1771,7 +1516,11 @@
         "name":                     "Bar Gabányi",
         "address":                  "Beethovenplatz 2",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.132960,
+            "longitude":            11.557690
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1827,10 +1576,13 @@
     },
     "ella": {
         "id":                       "ella",
-        "name":                     "ELLA",
-        "address":                  "Luisenstr. 33",
-        "neighborhood":             "",
-        "distance":                 0,
+        "name":                     "Ella",
+        "address":                  "Luisenstraße 33",
+        "latlongnetData": {
+            "latitude":             48.147220,
+            "longitude":            11.563540
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1884,12 +1636,16 @@
             "long":                 "description.long ella"
         }
     },
-    "forschungsbrauerei": {
-        "id":                       "forschungsbrauerei",
-        "name":                     "Forschungsbrauerei",
-        "address":                  "Unterhachinger Str. 76",
+    "braustuberl-der-forschungsbrauerei": {
+        "id":                       "braustuberl-der-forschungsbrauerei",
+        "name":                     "Bräustüberl der Forschungsbrauerei",
+        "address":                  "Unterhachinger Straße 78",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.094412,
+            "longitude":            11.624705
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1946,9 +1702,13 @@
     "augustiner-keller": {
         "id":                       "augustiner-keller",
         "name":                     "Augustiner-Keller",
-        "address":                  "Arnulfstr. 52",
+        "address":                  "Arnulfstraße 52",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.143425,
+            "longitude":            11.552017
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -2004,10 +1764,14 @@
     },
     "bar-muenchen": {
         "id":                       "bar-muenchen",
-        "name":                     "Bar Muenchen",
+        "name":                     "BAR Muenchen",
         "address":                  "Maximilianstraße 36",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.137940,
+            "longitude":            11.583740
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -2064,9 +1828,13 @@
     "couch-club": {
         "id":                       "couch-club",
         "name":                     "Couch Club",
-        "address":                  "Klenzestr. 89",
+        "address":                  "Klenzestraße 89",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.126954,
+            "longitude":            11.570281
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -2123,9 +1891,13 @@
     "niederlassung": {
         "id":                       "niederlassung",
         "name":                     "Niederlassung",
-        "address":                  "Buttermelcherstr. 6",
+        "address":                  "Buttermelcherstraße 6",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.132688,
+            "longitude":            11.577240
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -2181,10 +1953,14 @@
     },
     "tegernseer-tal-brauhaus": {
         "id":                       "tegernseer-tal-brauhaus",
-        "name":                     "Tegernseer Tal Bräuhaus",
-        "address":                  "Tal 9",
+        "name":                     "Tegernseer Tal - Bräuhaus",
+        "address":                  "Tal 8",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.135999,
+            "longitude":            11.578214
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2238,12 +2014,16 @@
             "long":                 "description.long tegernseer-tal-brauhaus"
         }
     },
-    "restaurant-marks": {
-        "id":                       "restaurant-marks",
-        "name":                     "Restaurant Mark's",
-        "address":                  "Neuturmstr. 1",
+    "marks-restaurant": {
+        "id":                       "marks-restaurant",
+        "name":                     "Mark's Restaurant (Inside Mandarin Oriental)",
+        "address":                  "Neuturmstraße 1",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.137294,
+            "longitude":            11.580727
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2293,16 +2073,20 @@
         "isClosed":                 false,
         "photo":                    "",
         "description": {
-            "short":                "description.short restaurant-marks",
-            "long":                 "description.long restaurant-marks"
+            "short":                "description.short marks-restaurant",
+            "long":                 "description.long marks-restaurant"
         }
     },
     "hans-im-gluck": {
         "id":                       "hans-im-gluck",
-        "name":                     "Hans im Glück",
-        "address":                  "Nymphenburger Str. 69",
+        "name":                     "Hans im Glück - Burgergrill",
+        "address":                  "Nymphenburger Straße 69",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.149472,
+            "longitude":            11.546706
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2359,9 +2143,13 @@
     "marais-soir": {
         "id":                       "marais-soir",
         "name":                     "Marais Soir",
-        "address":                  "Schwanthalerstrasse 131",
+        "address":                  "Schwanthalerstraße 133",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.137765,
+            "longitude":            11.543443
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2415,12 +2203,16 @@
             "long":                 "description.long marais-soir"
         }
     },
-    "rilano-no6": {
-        "id":                       "rilano-no6",
-        "name":                     "Rilano No.6",
+    "palais-lenbach": {
+        "id":                       "palais-lenbach",
+        "name":                     "Palais Lenbach",
         "address":                  "Ottostraße 6",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.141362,
+            "longitude":            11.567902
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2470,8 +2262,8 @@
         "isClosed":                 false,
         "photo":                    "",
         "description": {
-            "short":                "description.short rilano-no6",
-            "long":                 "description.long rilano-no6"
+            "short":                "description.short palais-lenbach",
+            "long":                 "description.long palais-lenbach"
         }
     },
     "tantris": {
@@ -2479,7 +2271,11 @@
         "name":                     "Tantris",
         "address":                  "Johann-Fichte-Straße 7",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.169683,
+            "longitude":            11.588339
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2533,12 +2329,16 @@
             "long":                 "description.long tantris"
         }
     },
-    "restaurant-atelier": {
-        "id":                       "restaurant-atelier",
-        "name":                     "Restaurant Atelier",
-        "address":                  "Promenadeplatz 2-6",
+    "atelier": {
+        "id":                       "atelier",
+        "name":                     "Atelier (im Hotel Bayerischer Hof)",
+        "address":                  "Promenadeplatz 2",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.140466,
+            "longitude":            11.573098
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2594,10 +2394,14 @@
     },
     "yum2take": {
         "id":                       "yum2take",
-        "name":                     "Yum2Take",
+        "name":                     "Yum2take",
         "address":                  "Sebastiansplatz 8",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.134610,
+            "longitude":            11.574230
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2653,10 +2457,14 @@
     },
     "mullersches-volksbad": {
         "id":                       "mullersches-volksbad",
-        "name":                     "Müller'sches Volksbad",
-        "address":                  "Rosenheimer Str. 1",
+        "name":                     "Müller´sches Volksbad",
+        "address":                  "Rosenheimer Straße 1",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.131768,
+            "longitude":            11.588249
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -2710,71 +2518,16 @@
             "long":                 "description.long mullersches-volksbad"
         }
     },
-    "kletter-und-boulderzentrum-munchen": {
-        "id":                       "kletter-und-boulderzentrum-munchen",
-        "name":                     "Kletter und Boulderzentrum München",
-        "address":                  "Thalkirchner Str. 207",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short kletter-und-boulderzentrum-munchen",
-            "long":                 "description.long kletter-und-boulderzentrum-munchen"
-        }
-    },
     "the-charles-hotel": {
         "id":                       "the-charles-hotel",
         "name":                     "The Charles Hotel",
-        "address":                  "Sophienstr. 28",
+        "address":                  "Sophienstraße 28",
         "neighborhood":             "",
-        "distance":                 0,
+        "latlongnetData": {
+            "latitude":             48.142670,
+            "longitude":            11.562628
+        },
+        "distanceFromHotel":        0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -2826,65 +2579,6 @@
         "description": {
             "short":                "description.short the-charles-hotel",
             "long":                 "description.long the-charles-hotel"
-        }
-    },
-    "motel-one": {
-        "id":                       "motel-one",
-        "name":                     "Motel One",
-        "address":                  "Herzog-Wilhelm-Str. 28",
-        "neighborhood":             "",
-        "distance":                 0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
-        "description": {
-            "short":                "description.short motel-one",
-            "long":                 "description.long motel-one"
         }
     }
 }
