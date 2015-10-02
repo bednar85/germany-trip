@@ -1,59 +1,103 @@
 // Gulp + Helpers
 var gulp = require('gulp');
 var connect = require('gulp-connect');
-var htmlreplace = require('gulp-html-replace');
-var jshint = require('gulp-jshint');
+var copy = require('gulp-copy');
+var gutil = require('gulp-util');
+// var jshint = require('gulp-jshint');
 var livereload = require('gulp-livereload');
+var notify = require('gulp-notify');
 var source = require('vinyl-source-stream');
-var uglify = require('gulp-uglify');
 
 // Browserify + Helpers
 var browserify = require('browserify');
-var watchify = require('watchify');
 var reactify = require('reactify');
-var streamify = require('gulp-streamify');
+var babelify = require('babelify');
+var watchify = require('watchify');
 
 // Project Vars
 var path = {
-    HTML: 'src/index.html',
+    HTML: 'source/index.html',
     MINIFIED_OUT: 'bundle.min.js',
     OUT: 'bundle.js',
-    DEST: 'dist',
-    DEST_BUILD: 'dist/bundle',
-    DEST_SRC: 'dist',
-    ENTRY_POINT: './src/js/App.js'
+    DEST: 'build',
+    DEST_BUILD: 'build/bundle',
+    DEST_SRC: 'build',
+    ENTRY_POINT: './source/js/App.js'
 };
 
 
 
 
+function handleErrors() {
+    var args = Array.prototype.slice.call(arguments);
+    notify.onError({
+        title: 'Compile Error',
+        message: '<%= error.message %>'
+    }).apply(this, args);
+    this.emit('end'); // Keep gulp from hanging on this task
+}
+
+function buildScript(file, watch) {
+    var props = {
+        entries: ['source/js/' + file],
+        debug : true,
+        transform: [babelify, reactify]
+    };
+
+    // watchify() if watch requested, otherwise run browserify() once 
+    var bundler = watch ? watchify(browserify(props)) : browserify(props);
+
+    function rebundle() {
+        var stream = bundler.bundle();
+        return stream
+        .on('error', handleErrors)
+        .pipe(source(file))
+        .pipe(gulp.dest('build/js/'));
+    }
+
+    // listen for an update and run rebundle
+    bundler.on('update', function() {
+        rebundle();
+        gutil.log('Rebundle...');
+    });
+
+    // run it once the first time buildScript is called
+    return rebundle();
+}
+
+gulp.task('scripts', function() {
+    return buildScript('App.js', false);
+});
+
+
+
 // Copy HTML Files
-gulp.task('copy', function(){
-  gulp.src(path.HTML)
-      .pipe(gulp.dest(path.DEST))
-      .pipe(livereload());
+gulp.task('copyHTML', function(){
+    gulp.src('source/index.html')
+        .pipe(gulp.dest('build'))
+        .pipe(livereload());
 });
 
 // Bundle JS Files and Minify
-gulp.task('build', function(){
-    browserify({
-        entries: [path.ENTRY_POINT],
-        transform: [reactify],
-    })
-    .bundle()
-    .pipe(source(path.MINIFIED_OUT))
-    .pipe(streamify(uglify(path.MINIFIED_OUT)))
-    .pipe(gulp.dest(path.DEST_BUILD));
-});
+// gulp.task('build', function(){
+//     browserify({
+//         entries: [path.ENTRY_POINT],
+//         transform: [reactify],
+//     })
+//     .bundle()
+//     .pipe(source(path.MINIFIED_OUT))
+//     .pipe(streamify(uglify(path.MINIFIED_OUT)))
+//     .pipe(gulp.dest(path.DEST_BUILD));
+// });
 
 // Copy HTML Files and Update JS Path
-gulp.task('replaceHTML', function(){
-  gulp.src(path.HTML)
-      .pipe(htmlreplace({
-          'js': 'bundle/' + path.MINIFIED_OUT
-      }))
-      .pipe(gulp.dest(path.DEST));
-});
+// gulp.task('replaceHTML', function(){
+//     gulp.src(path.HTML)
+//         .pipe(htmlreplace({
+//             'js': 'bundle/' + path.MINIFIED_OUT
+//         }))
+//         .pipe(gulp.dest(path.DEST));
+// });
 
 // Start Server
 gulp.task('connect', function() {
@@ -67,33 +111,40 @@ gulp.task('connect', function() {
 // Watch HTML and JS Files
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch(path.HTML, ['copy']);
+    gulp.watch(path.HTML, ['copyHTML']);
 
-    var watcher = watchify(browserify({
-        entries: [path.ENTRY_POINT],
-        transform: [reactify],
-        debug: true,
-        cache: {}, packageCache: {}, fullPaths: true
-    }));
+    // var watcher = watchify(browserify({
+    //     entries: [path.ENTRY_POINT],
+    //     transform: [reactify],
+    //     debug: true,
+    //     cache: {}, packageCache: {}, fullPaths: true
+    // }));
 
-    return watcher.on('update', function () {
-                  watcher.bundle()
-                      .pipe(source(path.OUT))
-                      .pipe(jshint())
-                      .pipe(jshint.reporter('default'))
-                      .pipe(gulp.dest(path.DEST_SRC));
-                  })
-                  .bundle()
-                  .pipe(source(path.OUT))
-                  .pipe(jshint())
-                  .pipe(jshint.reporter('default'))
-                  .pipe(gulp.dest(path.DEST_SRC))
-                  .pipe(livereload());
+    // return watcher.on('update', function () {
+    //               watcher.bundle()
+    //                   .pipe(source(path.OUT))
+    //                   .pipe(jshint())
+    //                   .pipe(jshint.reporter('default'))
+    //                   .pipe(gulp.dest(path.DEST_SRC));
+    //               })
+    //               .bundle()
+    //               .pipe(source(path.OUT))
+    //               .pipe(jshint())
+    //               .pipe(jshint.reporter('default'))
+    //               .pipe(gulp.dest(path.DEST_SRC))
+    //               .pipe(livereload());
 });
 
-gulp.task('production', ['replaceHTML', 'build']);
 
-gulp.task('default', ['connect', 'watch']);
+// gulp.task('default', ['scripts', 'copyHTML', 'connect'], function() {
+//   return buildScript('app.js', true);
+// });
+
+// gulp.task('production', ['replaceHTML', 'build']);
+
+gulp.task('default', ['scripts', 'copyHTML', 'watch', 'connect'], function() {
+    return buildScript('App.js', true);
+});
 
 // // Default Modules
 // var browserify =  require('browserify'),
