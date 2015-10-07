@@ -1,4 +1,5 @@
 var React = require('react');
+var FilterBar = require('./FilterBar');
 var _ = require('lodash');
 
 
@@ -81,13 +82,15 @@ var PlacesList = React.createClass({
           name: {place.name}<br />
           address: {place.address}<br />
           description.short: {place.description.short}<br />
-          distanceFromHotel: {place.distanceFromHotel}
+          distanceFromHotel: {place.distanceFromHotel}<br />
+          distanceFromUs: {place.distanceFromUs}
         </li>
       )
     });
 
     return (
       <div>
+        <FilterBar />
         <h3>Info for {destination}</h3>
         <ul className="list-group">
           {places}

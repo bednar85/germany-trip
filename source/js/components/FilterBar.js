@@ -8,15 +8,15 @@ var FilterBar = React.createClass({
   getInitialState: function() {
     return {
       sort: [],
-      price_range: [],
+      price: [],
       distance: []
     };
   },
   componentDidMount: function() {
     this.setState({
-      sort: this.refs.sortingGroup.getCheckedValues(),
-      price_range: this.refs.filterPriceRangeGroup.getCheckedValues(),
-      distance: this.refs.filterDistanceGroup.getCheckedValues()
+      sort: this.refs.sortGroup.getCheckedValues(),
+      price: this.refs.priceGroup.getCheckedValues(),
+      distance: this.refs.distanceGroup.getCheckedValues()
     });
   },
   componentDidUpdate: function() {
@@ -26,17 +26,17 @@ var FilterBar = React.createClass({
   },
   handleChange: function() {
     this.setState({
-      sort: this.refs.sortingGroup.getCheckedValues(),
-      price_range: this.refs.filterPriceRangeGroup.getCheckedValues(),
-      distance: this.refs.filterDistanceGroup.getCheckedValues()
+      sort: this.refs.sortGroup.getCheckedValues(),
+      price: this.refs.priceGroup.getCheckedValues(),
+      distance: this.refs.distanceGroup.getCheckedValues()
     });
   },
   render: function() {
     return (
       <div>
         <CheckboxGroup
-          name="sorting"
-          ref="sortingGroup"
+          name="sort"
+          ref="sortGroup"
           onChange={this.handleChange}
         >
           <div>
@@ -45,42 +45,42 @@ var FilterBar = React.createClass({
               A-Z
             </label>
             <label>
-              <input type="radio" value="closest_to_us" />
-              Closest to Us
-            </label>
-            <label>
               <input type="radio" value="closest_to_hotel" />
               Closest to Our Hotel
+            </label>
+            <label>
+              <input type="radio" value="closest_to_us" />
+              Closest to Us
             </label>
           </div>
         </CheckboxGroup>
         <CheckboxGroup
-          name="filter-price-range"
-          ref="filterPriceRangeGroup"
+          name="price"
+          ref="priceGroup"
           onChange={this.handleChange}
         >
           <div>
             <label>
-              <input type="checkbox" value="price_range_1" />
+              <input type="checkbox" value="price_1" />
               $
             </label>
             <label>
-              <input type="checkbox" value="price_range_2" />
+              <input type="checkbox" value="price_2" />
               $$
             </label>
             <label>
-              <input type="checkbox" value="price_range_3" />
+              <input type="checkbox" value="price_3" />
               $$$
             </label>
             <label>
-              <input type="checkbox" value="price_range_4" />
+              <input type="checkbox" value="price_4" />
               $$$$
             </label>
           </div>
         </CheckboxGroup>
         <CheckboxGroup
-          name="filter-distance"
-          ref="filterDistanceGroup"
+          name="distance"
+          ref="distanceGroup"
           onChange={this.handleChange}
         >
           <div>

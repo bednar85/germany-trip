@@ -1,6 +1,5 @@
 var React = require('react');
 var Router = require('react-router');
-var FilterBar = require('./FilterBar');
 var PlacesList = require('./PlacesList');
 var ReactFireMixin = require('reactfire');
 var Firebase = require('firebase');
@@ -38,7 +37,6 @@ var Destination = React.createClass({
     return (
       <div className="row">
         <div className="col-md-12">
-          <FilterBar />
           <PlacesList destination={this.getParams().destination} places={this.state.places} />
         </div>
       </div>
