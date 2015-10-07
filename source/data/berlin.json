@@ -9,6 +9,7 @@
             "longitude":            13.561370
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -56,7 +57,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short zum-mond",
             "long":                 "description.long zum-mond"
@@ -72,6 +73,7 @@
             "longitude":            13.396490
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -119,7 +121,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short austria",
             "long":                 "description.long austria"
@@ -135,6 +137,7 @@
             "longitude":            13.404410
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -182,7 +185,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short hartweizen",
             "long":                 "description.long hartweizen"
@@ -198,6 +201,7 @@
             "longitude":            13.424725
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -245,7 +249,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short bierkombinat-kreuzberg",
             "long":                 "description.long bierkombinat-kreuzberg"
@@ -261,6 +265,7 @@
             "longitude":            13.318200
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -308,7 +313,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short good-friends",
             "long":                 "description.long good-friends"
@@ -324,6 +329,7 @@
             "longitude":            13.399203
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -371,7 +377,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cocolo-ramen",
             "long":                 "description.long cocolo-ramen"
@@ -387,6 +393,7 @@
             "longitude":            13.428020
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -434,7 +441,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short la-raclette",
             "long":                 "description.long la-raclette"
@@ -450,6 +457,7 @@
             "longitude":            13.409593
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -497,7 +505,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short parker-bowles",
             "long":                 "description.long parker-bowles"
@@ -513,6 +521,7 @@
             "longitude":            13.431860
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -560,7 +569,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short markthalle-neun",
             "long":                 "description.long markthalle-neun"
@@ -576,6 +585,7 @@
             "longitude":            13.458100
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -623,7 +633,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short papaya",
             "long":                 "description.long papaya"
@@ -639,6 +649,7 @@
             "longitude":            13.316510
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -686,7 +697,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short lon-mens-noodle-house",
             "long":                 "description.long lon-mens-noodle-house"
@@ -702,6 +713,7 @@
             "longitude":            13.354376
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -749,7 +761,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short wochenmarkt-am-winterfeldtplat",
             "long":                 "description.long wochenmarkt-am-winterfeldtplat"
@@ -765,6 +777,7 @@
             "longitude":            13.341323
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -812,7 +825,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short kadewe",
             "long":                 "description.long kadewe"
@@ -828,6 +841,7 @@
             "longitude":            13.342164
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -875,7 +889,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short wittys",
             "long":                 "description.long wittys"
@@ -891,6 +905,7 @@
             "longitude":            13.387871
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -938,7 +953,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short mustafas-gemuse-kebap",
             "long":                 "description.long mustafas-gemuse-kebap"
@@ -954,6 +969,7 @@
             "longitude":            13.305310
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -1001,7 +1017,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short rogacki",
             "long":                 "description.long rogacki"
@@ -1017,6 +1033,7 @@
             "longitude":            13.391250
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -1064,7 +1081,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short fassbender-and-rausch",
             "long":                 "description.long fassbender-and-rausch"
@@ -1080,6 +1097,7 @@
             "longitude":            13.320680
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -1127,7 +1145,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short confiserie-melanie",
             "long":                 "description.long confiserie-melanie"
@@ -1143,54 +1161,10 @@
             "longitude":            13.410310
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short schoppe-brau Hops, Malt, Heart, and Soul",
             "long":                 "description.long schoppe-brau Hops, Malt, Heart, and Soul"
@@ -1206,54 +1180,10 @@
             "longitude":            13.431860
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short heidenpeters",
             "long":                 "description.long heidenpeters"

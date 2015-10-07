@@ -9,6 +9,7 @@
             "longitude":            16.368723
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -56,7 +57,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short braunerhof",
             "long":                 "description.long braunerhof"
@@ -72,6 +73,7 @@
             "longitude":            16.365191
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -119,7 +121,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-central",
             "long":                 "description.long cafe-central"
@@ -135,6 +137,7 @@
             "longitude":            16.371178
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -182,7 +185,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-korb",
             "long":                 "description.long cafe-korb"
@@ -198,6 +201,7 @@
             "longitude":            16.361467
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -245,7 +249,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-landtmann",
             "long":                 "description.long cafe-landtmann"
@@ -261,6 +265,7 @@
             "longitude":            16.367636
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -308,7 +313,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-museum",
             "long":                 "description.long cafe-museum"
@@ -324,6 +329,7 @@
             "longitude":            16.38054
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -371,7 +377,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-pruckel",
             "long":                 "description.long cafe-pruckel"
@@ -387,6 +393,7 @@
             "longitude":            16.350565
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Coffee House" ],
         "hours": [
@@ -434,7 +441,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-ritter",
             "long":                 "description.long cafe-ritter"
@@ -450,6 +457,7 @@
             "longitude":            16.351573
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cafe", "Coffee House" ],
         "hours": [
@@ -497,7 +505,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-weimar",
             "long":                 "description.long cafe-weimar"
@@ -560,7 +568,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short tian",
             "long":                 "description.long tian"
@@ -576,6 +584,7 @@
             "longitude":            16.394743
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Restaurant" ],
         "hours": [
@@ -623,7 +632,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short tel-aviv-beach",
             "long":                 "description.long tel-aviv-beach"
@@ -639,6 +648,7 @@
             "longitude":            16.351918
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Restaurant" ],
         "hours": [
@@ -686,7 +696,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short restaurant-schnattl",
             "long":                 "description.long restaurant-schnattl"
@@ -702,6 +712,7 @@
             "longitude":            16.353122
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Restaurant" ],
         "hours": [
@@ -749,7 +760,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short veganista",
             "long":                 "description.long veganista"
@@ -765,6 +776,7 @@
             "longitude":            16.379988
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -812,7 +824,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short le-loft",
             "long":                 "description.long le-loft"
@@ -828,6 +840,7 @@
             "longitude":            16.359118
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -875,7 +888,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short cafe-leopold",
             "long":                 "description.long cafe-leopold"
@@ -891,6 +904,7 @@
             "longitude":            16.313142
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Sites" ],
         "hours": [
@@ -938,7 +952,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short schonbrunn",
             "long":                 "description.long schonbrunn"
@@ -954,6 +968,7 @@
             "longitude":            16.415049
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Park" ],
         "hours": [
@@ -1001,7 +1016,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short augarten",
             "long":                 "description.long augarten"
@@ -1017,6 +1032,7 @@
             "longitude":            16.382220
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Brunch" ],
         "hours": [
@@ -1064,7 +1080,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short die-au-at-augarten",
             "long":                 "description.long die-au-at-augarten"
@@ -1080,6 +1096,7 @@
             "longitude":            16.357546
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Dinner" ],
         "hours": [
@@ -1127,7 +1144,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short motto",
             "long":                 "description.long motto"
@@ -1143,6 +1160,7 @@
             "longitude":            16.404805
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Bar" ],
         "hours": [
@@ -1190,7 +1208,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short pratersauna",
             "long":                 "description.long pratersauna"

@@ -9,6 +9,7 @@
             "longitude":            11.558490
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -56,7 +57,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short lowenbrau",
             "long":                 "description.long lowenbrau"
@@ -72,6 +73,7 @@
             "longitude":            11.580090
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -119,7 +121,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short hofbrauhaus",
             "long":                 "description.long hofbrauhaus"
@@ -135,6 +137,7 @@
             "longitude":            11.544650
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -182,7 +185,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short augustinerbrau",
             "long":                 "description.long augustinerbrau"
@@ -198,6 +201,7 @@
             "longitude":            11.558970
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -245,7 +249,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short paulaner",
             "long":                 "description.long paulaner"
@@ -261,6 +265,7 @@
             "longitude":            11.546600
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -308,7 +313,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short hacker-pschorr",
             "long":                 "description.long hacker-pschorr"
@@ -324,6 +329,7 @@
             "longitude":            11.577170
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Big Beer" ],
         "hours": [
@@ -371,7 +377,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short Spatenhaus an der Oper",
             "long":                 "description.long spaten"
@@ -387,6 +393,7 @@
             "longitude":            11.578356
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -434,7 +441,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short weisses-brauhaus (Schneider Weisse)",
             "long":                 "description.long weisses-brauhaus (Schneider Weisse)"
@@ -450,6 +457,7 @@
             "longitude":            11.576702
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -497,7 +505,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short giesinger-brau",
             "long":                 "description.long giesinger-brau"
@@ -513,6 +521,7 @@
             "longitude":            11.557298
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -560,7 +569,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short crew-republic",
             "long":                 "description.long crew-republic"
@@ -576,6 +585,7 @@
             "longitude":            11.581600
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -623,7 +633,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short brauerei-im-eiswerk",
             "long":                 "description.long brauerei-im-eiswerk"
@@ -639,6 +649,7 @@
             "longitude":            11.530467
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -686,7 +697,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short richelbrau",
             "long":                 "description.long richelbrau"
@@ -702,6 +713,7 @@
             "longitude":            11.579135
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar", "Craft Beer" ],
         "hours": [
@@ -749,7 +761,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short red-hot",
             "long":                 "description.long red-hot"
@@ -765,6 +777,7 @@
             "longitude":            11.599120
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -812,7 +825,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short taphouse",
             "long":                 "description.long taphouse"
@@ -828,6 +841,7 @@
             "longitude":            11.573964
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -875,7 +889,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short biervana",
             "long":                 "description.long biervana"
@@ -891,6 +905,7 @@
             "longitude":            11.561294
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -938,7 +953,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short getranke-oase",
             "long":                 "description.long getranke-oase"
@@ -954,6 +969,7 @@
             "longitude":            11.570940
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1001,7 +1017,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short fei-scho",
             "long":                 "description.long fei-scho"
@@ -1017,6 +1033,7 @@
             "longitude":            11.576123
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1064,7 +1081,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short gratitude",
             "long":                 "description.long gratitude"
@@ -1080,6 +1097,7 @@
             "longitude":            11.578711
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1127,7 +1145,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short schwarzer-hahn",
             "long":                 "description.long schwarzer-hahn"
@@ -1143,6 +1161,7 @@
             "longitude":            11.583037
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1190,7 +1209,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short upper-eat-side",
             "long":                 "description.long upper-eat-side"
@@ -1206,6 +1225,7 @@
             "longitude":            11.576542
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1253,7 +1273,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short Szenedrinks & Delikatessen",
             "long":                 "description.long Szenedrinks & Delikatessen"
@@ -1269,6 +1289,7 @@
             "longitude":            11.563816
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1316,7 +1337,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short burrito-company",
             "long":                 "description.long burrito-company"
@@ -1332,6 +1353,7 @@
             "longitude":            11.568760
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar", "Craft Beer" ],
         "hours": [
@@ -1379,7 +1401,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short padres",
             "long":                 "description.long padres"
@@ -1395,6 +1417,7 @@
             "longitude":            11.586100
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
@@ -1442,7 +1465,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short goldene-bar",
             "long":                 "description.long goldene-bar"
@@ -1458,6 +1481,7 @@
             "longitude":            11.578364
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1505,7 +1529,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short gamsei",
             "long":                 "description.long gamsei"
@@ -1521,6 +1545,7 @@
             "longitude":            11.557690
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1568,7 +1593,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short bar-gabanyi",
             "long":                 "description.long bar-gabanyi"
@@ -1583,6 +1608,7 @@
             "longitude":            11.563540
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1630,7 +1656,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short ella",
             "long":                 "description.long ella"
@@ -1646,6 +1672,7 @@
             "longitude":            11.624705
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1693,7 +1720,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short forschungsbrauerei",
             "long":                 "description.long forschungsbrauerei"
@@ -1709,6 +1736,7 @@
             "longitude":            11.552017
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1756,7 +1784,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short augustiner-keller",
             "long":                 "description.long augustiner-keller"
@@ -1772,6 +1800,7 @@
             "longitude":            11.583740
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1819,7 +1848,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short bar-muenchen",
             "long":                 "description.long bar-muenchen"
@@ -1835,6 +1864,7 @@
             "longitude":            11.570281
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1882,7 +1912,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short couch-club",
             "long":                 "description.long couch-club"
@@ -1898,6 +1928,7 @@
             "longitude":            11.577240
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Cool Bar" ],
         "hours": [
@@ -1945,7 +1976,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short niederlassung",
             "long":                 "description.long niederlassung"
@@ -1961,6 +1992,7 @@
             "longitude":            11.578214
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2008,7 +2040,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short tegernseer-tal-brauhaus",
             "long":                 "description.long tegernseer-tal-brauhaus"
@@ -2024,6 +2056,7 @@
             "longitude":            11.580727
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2071,7 +2104,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short marks-restaurant",
             "long":                 "description.long marks-restaurant"
@@ -2087,6 +2120,7 @@
             "longitude":            11.546706
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2134,7 +2168,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short hans-im-gluck",
             "long":                 "description.long hans-im-gluck"
@@ -2150,6 +2184,7 @@
             "longitude":            11.543443
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2197,7 +2232,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short marais-soir",
             "long":                 "description.long marais-soir"
@@ -2213,6 +2248,7 @@
             "longitude":            11.567902
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2260,7 +2296,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short palais-lenbach",
             "long":                 "description.long palais-lenbach"
@@ -2276,6 +2312,7 @@
             "longitude":            11.588339
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2323,7 +2360,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short tantris",
             "long":                 "description.long tantris"
@@ -2339,6 +2376,7 @@
             "longitude":            11.573098
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2386,7 +2424,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short restaurant-atelier",
             "long":                 "description.long restaurant-atelier"
@@ -2402,6 +2440,7 @@
             "longitude":            11.574230
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "Top Restaurant" ],
         "hours": [
@@ -2449,7 +2488,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short yum2take",
             "long":                 "description.long yum2take"
@@ -2465,6 +2504,7 @@
             "longitude":            11.588249
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -2512,7 +2552,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short mullersches-volksbad",
             "long":                 "description.long mullersches-volksbad"
@@ -2528,6 +2568,7 @@
             "longitude":            11.562628
         },
         "distanceFromHotel":        0,
+        "distanceFromUs":           0,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
@@ -2575,7 +2616,7 @@
             }
         ],
         "isClosed":                 false,
-        "photo":                    "",
+        "price":                    0,
         "description": {
             "short":                "description.short the-charles-hotel",
             "long":                 "description.long the-charles-hotel"

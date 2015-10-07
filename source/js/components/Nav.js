@@ -9,12 +9,12 @@ var Link = Router.Link;
 
 var Nav = React.createClass({
   mixins: [Router.Navigation],
-  handleSubmit: function(){
+  handleSubmit: function() {
     var destination = this.refs.destination.getDOMNode().value;
     this.refs.destination.getDOMNode().value = '';
     this.transitionTo('profile', {destination: destination});
   },
-  render: function(){
+  render: function() {
     return (
       <div className="col-sm-12">
         <ul className="col-sm-12 list-inline">

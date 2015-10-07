@@ -6,7 +6,7 @@ var Nav = require('./Nav');
 
 
 var Main = React.createClass({
-  render: function(){
+  render: function() {
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">

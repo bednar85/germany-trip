@@ -5,6 +5,6 @@ var routes = require('./config/routes');
 
 
 
-Router.run(routes, function(Root){
+Router.run(routes, function(Root) {
   React.render(<Root />, document.getElementById('app'));
 });
