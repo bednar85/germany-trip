@@ -1,78 +1,109 @@
 var React = require('react');
+var CheckboxGroup = require('react-checkbox-group');
 
 
 
 
 var FilterBar = React.createClass({
-  handleSubmit: function() {
-    // var destination = this.refs.destination.getDOMNode().value;
-    // this.refs.destination.getDOMNode().value = '';
-    // this.transitionTo('destination', {destination: destination});
+  getInitialState: function() {
+    return {
+      sort: [],
+      price_range: [],
+      distance: []
+    };
+  },
+  componentDidMount: function() {
+    this.setState({
+      sort: this.refs.sortingGroup.getCheckedValues(),
+      price_range: this.refs.filterPriceRangeGroup.getCheckedValues(),
+      distance: this.refs.filterDistanceGroup.getCheckedValues()
+    });
+  },
+  componentDidUpdate: function() {
+    console.log('componentDidUpdate');
+    console.log('this.state: ', this.state);
+    console.log('\n\n');
+  },
+  handleChange: function() {
+    this.setState({
+      sort: this.refs.sortingGroup.getCheckedValues(),
+      price_range: this.refs.filterPriceRangeGroup.getCheckedValues(),
+      distance: this.refs.filterDistanceGroup.getCheckedValues()
+    });
   },
   render: function() {
     return (
-      <form>
-        <div>
-          <h2>Sort By</h2>
-          <fieldset>
-          <label htmlFor="sort--alphabetical">
-            <input type="radio" name="sort" id="sort--alphabetical" defaultChecked />
-            A-Z
-          </label>
-          <label htmlFor="sort--closest_to_us">
-            <input type="radio" name="sort" id="sort--closest_to_us" />
-            Closest to Us
-          </label>
-          <label htmlFor="sort--closest_to_hotel">
-            <input type="radio" name="sort" id="sort--closest_to_hotel" />
-            Closest to Hotel
-          </label>
-          </fieldset>
-        </div>
-        <div>
-          <h2>Price</h2>
-          <fieldset>
-            <label htmlFor="filter--price_range_1">
-              <input type="checkbox" name="price_range" id="filter--price_range_1" />
+      <div>
+        <CheckboxGroup
+          name="sorting"
+          ref="sortingGroup"
+          onChange={this.handleChange}
+        >
+          <div>
+            <label>
+              <input type="radio" value="alphabetical" defaultChecked />
+              A-Z
+            </label>
+            <label>
+              <input type="radio" value="closest_to_us" />
+              Closest to Us
+            </label>
+            <label>
+              <input type="radio" value="closest_to_hotel" />
+              Closest to Our Hotel
+            </label>
+          </div>
+        </CheckboxGroup>
+        <CheckboxGroup
+          name="filter-price-range"
+          ref="filterPriceRangeGroup"
+          onChange={this.handleChange}
+        >
+          <div>
+            <label>
+              <input type="checkbox" value="price_range_1" />
               $
             </label>
-            <label htmlFor="filter--price_range_2">
-              <input type="checkbox" name="price_range" id="filter--price_range_2" />
+            <label>
+              <input type="checkbox" value="price_range_2" />
               $$
             </label>
-            <label htmlFor="filter--price_range_3">
-              <input type="checkbox" name="price_range" id="filter--price_range_3" />
+            <label>
+              <input type="checkbox" value="price_range_3" />
               $$$
             </label>
-            <label htmlFor="filter--price_range_4">
-              <input type="checkbox" name="price_range" id="filter--price_range_4" />
+            <label>
+              <input type="checkbox" value="price_range_4" />
               $$$$
             </label>
-          </fieldset>
-        </div>
-        <div>
-          <h2>Distance</h2>
-          <fieldset>
-            <label htmlFor="filter--distance_1">
-              <input type="radio" name="distance" id="filter--distance_1" />
+          </div>
+        </CheckboxGroup>
+        <CheckboxGroup
+          name="filter-distance"
+          ref="filterDistanceGroup"
+          onChange={this.handleChange}
+        >
+          <div>
+            <label>
+              <input type="radio" value="distance_1" />
               Within 4 Blocks
             </label>
-            <label htmlFor="filter--distance_2">
-              <input type="radio" name="distance" id="filter--distance_2" defaultChecked />
+            <label>
+              <input type="radio" value="distance_2" defaultChecked />
               Walking (1.5 mi)
             </label>
-            <label htmlFor="filter--distance_3">
-              <input type="radio" name="distance" id="filter--distance_3" />
-              Busing (5 mi)
+            <label>
+              <input type="radio" value="distance_3" />
+              Bus/Subway (5 mi)
             </label>
-            <label htmlFor="filter--distance_4">
-              <input type="radio" name="distance" id="filter--distance_4" />
+            <label>
+              <input type="radio" value="distance_4" />
               If We Had More Time
             </label>
-          </fieldset>
-        </div>
-      </form>
-    )
+          </div>
+        </CheckboxGroup>
+      </div>
+    );
   }
 });
 
