@@ -12,15 +12,15 @@ var Nav = React.createClass({
   handleSubmit: function() {
     var destination = this.refs.destination.getDOMNode().value;
     this.refs.destination.getDOMNode().value = '';
-    this.transitionTo('profile', {destination: destination});
+    this.transitionTo('destination', {destination: destination});
   },
   render: function() {
     return (
       <div className="col-sm-12">
         <ul className="col-sm-12 list-inline">
-          <li className="col-sm-4 text-center"><Link to="profile" params={{destination: "berlin"}}>Berlin</Link></li>
-          <li className="col-sm-4 text-center"><Link to="profile" params={{destination: "munich"}}>Munich</Link></li>
-          <li className="col-sm-4 text-center"><Link to="profile" params={{destination: "vienna"}}>Vienna</Link></li>
+          <li className="col-sm-4 text-center"><Link to="destination" params={{destination: "berlin"}}>Berlin</Link></li>
+          <li className="col-sm-4 text-center"><Link to="destination" params={{destination: "munich"}}>Munich</Link></li>
+          <li className="col-sm-4 text-center"><Link to="destination" params={{destination: "vienna"}}>Vienna</Link></li>
         </ul>
       </div>
     )
