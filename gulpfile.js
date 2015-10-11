@@ -72,10 +72,12 @@ gulp.task('scripts', function() {
 
 
 // Copy HTML Files
-gulp.task('copyHTML', function(){
-    gulp.src('source/index.html')
-        .pipe(gulp.dest('build'))
-        .pipe(livereload());
+gulp.task('copyFiles', function(){
+    gulp.src('source/*.html')
+        .pipe(gulp.dest('build'));
+
+    gulp.src('source/data/*.json')
+      .pipe(gulp.dest('build/data/'));
 });
 
 // Bundle JS Files and Minify
@@ -111,7 +113,7 @@ gulp.task('connect', function() {
 // Watch HTML and JS Files
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch(path.HTML, ['copyHTML']);
+    gulp.watch(path.HTML, ['copyFiles']);
 
     // var watcher = watchify(browserify({
     //     entries: [path.ENTRY_POINT],
@@ -142,7 +144,7 @@ gulp.task('watch', function() {
 
 // gulp.task('production', ['replaceHTML', 'build']);
 
-gulp.task('default', ['scripts', 'copyHTML', 'watch', 'connect'], function() {
+gulp.task('default', ['scripts', 'copyFiles', 'watch', 'connect'], function() {
     return buildScript('App.js', true);
 });
 

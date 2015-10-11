@@ -1,5 +1,5 @@
-{
-    "zum-mond": {
+[
+    {
         "id":                       "zum-mond",
         "name":                     "Zum Mond",
         "address":                  "Köpenicker Str 159",
@@ -63,7 +63,7 @@
             "long":                 "description.long zum-mond"
         }
     },
-    "austria": {
+    {
         "id":                       "austria",
         "name":                     "Austria",
         "address":                  "Bergmannstraße 30",
@@ -127,7 +127,7 @@
             "long":                 "description.long austria"
         }
     },
-    "hartweizen": {
+    {
         "id":                       "hartweizen",
         "name":                     "Hartweizen",
         "address":                  "Torstraße 96",
@@ -191,7 +191,7 @@
             "long":                 "description.long hartweizen"
         }
     },
-    "bierkombinat-kreuzberg": {
+    {
         "id":                       "bierkombinat-kreuzberg",
         "name":                     "Bierkombinat Kreuzberg",
         "address":                  "Manteuffelstraße 53",
@@ -255,7 +255,7 @@
             "long":                 "description.long bierkombinat-kreuzberg"
         }
     },
-    "good-friends": {
+    {
         "id":                       "good-friends",
         "name":                     "Good Friends",
         "address":                  "Kantstraße 30",
@@ -319,7 +319,7 @@
             "long":                 "description.long good-friends"
         }
     },
-    "cocolo-ramen": {
+    {
         "id":                       "cocolo-ramen",
         "name":                     "Cocolo Ramen",
         "address":                  "Gipsstraße 3",
@@ -383,7 +383,7 @@
             "long":                 "description.long cocolo-ramen"
         }
     },
-    "la-raclette": {
+    {
         "id":                       "la-raclette",
         "name":                     "La Raclette",
         "address":                  "Lausitzer Straße 34",
@@ -447,7 +447,7 @@
             "long":                 "description.long la-raclette"
         }
     },
-    "parker-bowles": {
+    {
         "id":                       "parker-bowles",
         "name":                     "Parker Bowles",
         "address":                  "Prinzenstraße 85d",
@@ -511,7 +511,7 @@
             "long":                 "description.long parker-bowles"
         }
     },
-    "markthalle-neun": {
+    {
         "id":                       "markthalle-neun",
         "name":                     "Markthalle Neun",
         "address":                  "Eisenbahnstraße 42-43",
@@ -575,7 +575,7 @@
             "long":                 "description.long markthalle-neun"
         }
     },
-    "papaya": {
+    {
         "id":                       "papaya",
         "name":                     "Papaya",
         "address":                  "Krossener Straße 11",
@@ -639,7 +639,7 @@
             "long":                 "description.long papaya"
         }
     },
-    "lon-mens-noodle-house": {
+    {
         "id":                       "lon-mens-noodle-house",
         "name":                     "Lon-Men's Noodle House",
         "address":                  "Kantstraße 33",
@@ -703,7 +703,7 @@
             "long":                 "description.long lon-mens-noodle-house"
         }
     },
-    "wochenmarkt-am-winterfeldtplat": {
+    {
         "id":                       "wochenmarkt-am-winterfeldtplat",
         "name":                     "Wochenmarkt am Winterfeldtplatz",
         "address":                  "Winterfeldtplatz",
@@ -767,7 +767,7 @@
             "long":                 "description.long wochenmarkt-am-winterfeldtplat"
         }
     },
-    "kadewe": {
+    {
         "id":                       "kaufhaus-des-westens",
         "name":                     "Kaufhaus des Westens",
         "address":                  "Tauentzienstraße 21-24",
@@ -831,7 +831,7 @@
             "long":                 "description.long kadewe"
         }
     },
-    "wittys": {
+    {
         "id":                       "wittys",
         "name":                     "Witty's",
         "address":                  "Wittenbergplatz 5, Ecke Ansbacher Straße",
@@ -895,7 +895,7 @@
             "long":                 "description.long wittys"
         }
     },
-    "mustafas-gemuse-kebap": {
+    {
         "id":                       "mustafas-gemuse-kebap",
         "name":                     "Mustafas Gemüse Kebap",
         "address":                  "Mehringdamm 32, 10961",
@@ -959,7 +959,7 @@
             "long":                 "description.long mustafas-gemuse-kebap"
         }
     },
-    "rogacki": {
+    {
         "id":                       "rogacki",
         "name":                     "Rogacki",
         "address":                  "Wilmersdorfer Straße 145",
@@ -1023,7 +1023,7 @@
             "long":                 "description.long rogacki"
         }
     },
-    "fassbender-and-rausch": {
+    {
         "id":                       "fassbender-and-rausch",
         "name":                     "Fassbender & Rausch",
         "address":                  "Charlottenstraße 60",
@@ -1087,7 +1087,7 @@
             "long":                 "description.long fassbender-and-rausch"
         }
     },
-    "confiserie-melanie": {
+    {
         "id":                       "confiserie-melanie",
         "name":                     "Confiserie Melanie",
         "address":                  "Grolmanstraße 20",
@@ -1151,7 +1151,7 @@
             "long":                 "description.long confiserie-melanie"
         }
     },
-    "schoppe-brau": {
+    {
         "id":                       "schoppe-brau",
         "name":                     "Schoppe Bräu",
         "address":                  "Hasenheide 69",
@@ -1170,7 +1170,7 @@
             "long":                 "description.long schoppe-brau Hops, Malt, Heart, and Soul"
         }
     },
-    "heidenpeters": {
+    {
         "id":                       "heidenpeters",
         "name":                     "Heidenpeters (Markthalle Neun)",
         "address":                  "Eisenbahnstraße 42-43",
@@ -1189,4 +1189,4 @@
             "long":                 "description.long heidenpeters"
         }
     }
-}
+]

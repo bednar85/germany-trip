@@ -1,19 +1,11 @@
 var React = require('react');
 var Router = require('react-router');
-var Route = Router.Route;
-var RouteHandler = Router.RouteHandler;
 var Link = Router.Link;
 
 
 
 
 var Nav = React.createClass({
-  mixins: [Router.Navigation],
-  handleSubmit: function() {
-    var destination = this.refs.destination.getDOMNode().value;
-    this.refs.destination.getDOMNode().value = '';
-    this.transitionTo('destination', {destination: destination});
-  },
   render: function() {
     return (
       <div className="col-sm-12">

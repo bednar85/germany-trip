@@ -1,5 +1,5 @@
-{
-    "lowenbraukeller": {
+[
+    {
         "id":                       "lowenbraukeller",
         "name":                     "Löwenbräukeller",
         "address":                  "Nymphenburger Straße 2",
@@ -63,7 +63,7 @@
             "long":                 "description.long lowenbrau"
         }
     },
-    "hofbrauhaus-munchen": {
+    {
         "id":                       "hofbrauhaus-munchen",
         "name":                     "Hofbräuhaus München",
         "address":                  "Platzl 9",
@@ -127,7 +127,7 @@
             "long":                 "description.long hofbrauhaus"
         }
     },
-    "augustinerbrau": {
+    {
         "id":                       "augustinerbrau",
         "name":                     "Augustinerbräu",
         "address":                  "Landsberger Straße 35",
@@ -191,7 +191,7 @@
             "long":                 "description.long augustinerbrau"
         }
     },
-    "paulaner-brauhaus": {
+    {
         "id":                       "paulaner-brauhaus",
         "name":                     "Paulaner Bräuhaus",
         "address":                  "Kapuzinerpl. 5",
@@ -255,7 +255,7 @@
             "long":                 "description.long paulaner"
         }
     },
-    "hacker-pschorr-brauhaus": {
+    {
         "id":                       "hacker-pschorr-brauhaus",
         "name":                     "Hacker - Pschorr Bräuhaus",
         "address":                  "Theresienhöhe 7",
@@ -319,7 +319,7 @@
             "long":                 "description.long hacker-pschorr"
         }
     },
-    "spatenhaus-an-der-oper": {
+    {
         "id":                       "spatenhaus-an-der-oper",
         "name":                     "Spatenhaus an der Oper",
         "address":                  "Residenzstraße 12",
@@ -383,7 +383,7 @@
             "long":                 "description.long spaten"
         }
     },
-    "weisses-brauhaus": {
+    {
         "id":                       "weisses-brauhaus",
         "name":                     "Weisses Brauhaus",
         "address":                  "Tal 7",
@@ -447,7 +447,7 @@
             "long":                 "description.long weisses-brauhaus (Schneider Weisse)"
         }
     },
-    "giesinger-brau": {
+    {
         "id":                       "giesinger-brau",
         "name":                     "Giesinger Bräu - Biermanufaktur und Bräustüberl",
         "address":                  "Martin-Luther-Straße 2",
@@ -511,7 +511,7 @@
             "long":                 "description.long giesinger-brau"
         }
     },
-    "crew-republic": {
+    {
         "id":                       "crew-republic",
         "name":                     "Crew Republic",
         "address":                  "Andreas-Danzer-Weg 30",
@@ -575,7 +575,7 @@
             "long":                 "description.long crew-republic"
         }
     },
-    "brauerei-im-eiswerk": {
+    {
         "id":                       "brauerei-im-eiswerk",
         "name":                     "Brauerei im Eiswerk GmbH",
         "address":                  "Ohlmüllerstraße 44",
@@ -639,7 +639,7 @@
             "long":                 "description.long brauerei-im-eiswerk"
         }
     },
-    "gunther-baumann-verlag": {
+    {
         "id":                       "gunther-baumann-verlag",
         "name":                     "Günther Baumann Verlag",
         "address":                  "Richelstraße 26",
@@ -703,7 +703,7 @@
             "long":                 "description.long richelbrau"
         }
     },
-    "red-hot": {
+    {
         "id":                       "red-hot",
         "name":                     "Red Hot",
         "address":                  "Amalienstraße 89",
@@ -767,7 +767,7 @@
             "long":                 "description.long red-hot"
         }
     },
-    "tap-house-munich": {
+    {
         "id":                       "tap-house-munich",
         "name":                     "Tap-House Munich",
         "address":                  "Rosenheimer Strasse 108",
@@ -831,7 +831,7 @@
             "long":                 "description.long taphouse"
         }
     },
-    "biervana": {
+    {
         "id":                       "biervana",
         "name":                     "Biervana",
         "address":                  "Hohenzollernstrasse 61",
@@ -895,7 +895,7 @@
             "long":                 "description.long biervana"
         }
     },
-    "getranke-oase": {
+    {
         "id":                       "getranke-oase",
         "name":                     "Getränke Oase",
         "address":                  "Gabelsbergerstrasse 54",
@@ -959,7 +959,7 @@
             "long":                 "description.long getranke-oase"
         }
     },
-    "fei-scho": {
+    {
         "id":                       "fei-scho",
         "name":                     "Fei Scho",
         "address":                  "Kolosseumstraße 6",
@@ -1023,7 +1023,7 @@
             "long":                 "description.long fei-scho"
         }
     },
-    "gratitude-restaurant": {
+    {
         "id":                       "gratitude-restaurant",
         "name":                     "Gratitude Restaurant",
         "address":                  "Türkenstraße 55",
@@ -1087,7 +1087,7 @@
             "long":                 "description.long gratitude"
         }
     },
-    "schwarzer-hahn": {
+    {
         "id":                       "schwarzer-hahn",
         "name":                     "Schwarzer Hahn",
         "address":                  "Ohlmüllerstraße 8",
@@ -1151,7 +1151,7 @@
             "long":                 "description.long schwarzer-hahn"
         }
     },
-    "restaurant-upper-eat-side": {
+    {
         "id":                       "restaurant-upper-eat-side",
         "name":                     "Restaurant Upper Eat Side",
         "address":                  "Werinherstraße 15",
@@ -1215,7 +1215,7 @@
             "long":                 "description.long upper-eat-side"
         }
     },
-    "szenedrinks-and-delikatessen": {
+    {
         "id":                       "szenedrinks-and-delikatessen",
         "name":                     "Szenedrinks & Delikatessen",
         "address":                  "Baaderstrasse 66",
@@ -1279,7 +1279,7 @@
             "long":                 "description.long Szenedrinks & Delikatessen"
         }
     },
-    "burrito-company": {
+    {
         "id":                       "burrito-company",
         "name":                     "Burrito Company",
         "address":                  "Augustenstraße 74",
@@ -1343,7 +1343,7 @@
             "long":                 "description.long burrito-company"
         }
     },
-    "padres": {
+    {
         "id":                       "padres",
         "name":                     "Padres",
         "address":                  "Blumenstraße 43",
@@ -1407,7 +1407,7 @@
             "long":                 "description.long padres"
         }
     },
-    "die-goldene-bar": {
+    {
         "id":                       "die-goldene-bar",
         "name":                     "Die Goldene Bar",
         "address":                  "Prinzregentenstraße 1",
@@ -1471,7 +1471,7 @@
             "long":                 "description.long goldene-bar"
         }
     },
-    "gamsei": {
+    {
         "id":                       "gamsei",
         "name":                     "Gamsei",
         "address":                  "Buttermelcherstraße 9",
@@ -1535,7 +1535,7 @@
             "long":                 "description.long gamsei"
         }
     },
-    "bar-gabanyi": {
+    {
         "id":                       "bar-gabanyi",
         "name":                     "Bar Gabányi",
         "address":                  "Beethovenplatz 2",
@@ -1599,7 +1599,7 @@
             "long":                 "description.long bar-gabanyi"
         }
     },
-    "ella": {
+    {
         "id":                       "ella",
         "name":                     "Ella",
         "address":                  "Luisenstraße 33",
@@ -1662,7 +1662,7 @@
             "long":                 "description.long ella"
         }
     },
-    "braustuberl-der-forschungsbrauerei": {
+    {
         "id":                       "braustuberl-der-forschungsbrauerei",
         "name":                     "Bräustüberl der Forschungsbrauerei",
         "address":                  "Unterhachinger Straße 78",
@@ -1726,7 +1726,7 @@
             "long":                 "description.long forschungsbrauerei"
         }
     },
-    "augustiner-keller": {
+    {
         "id":                       "augustiner-keller",
         "name":                     "Augustiner-Keller",
         "address":                  "Arnulfstraße 52",
@@ -1790,7 +1790,7 @@
             "long":                 "description.long augustiner-keller"
         }
     },
-    "bar-muenchen": {
+    {
         "id":                       "bar-muenchen",
         "name":                     "BAR Muenchen",
         "address":                  "Maximilianstraße 36",
@@ -1854,7 +1854,7 @@
             "long":                 "description.long bar-muenchen"
         }
     },
-    "couch-club": {
+    {
         "id":                       "couch-club",
         "name":                     "Couch Club",
         "address":                  "Klenzestraße 89",
@@ -1918,7 +1918,7 @@
             "long":                 "description.long couch-club"
         }
     },
-    "niederlassung": {
+    {
         "id":                       "niederlassung",
         "name":                     "Niederlassung",
         "address":                  "Buttermelcherstraße 6",
@@ -1982,7 +1982,7 @@
             "long":                 "description.long niederlassung"
         }
     },
-    "tegernseer-tal-brauhaus": {
+    {
         "id":                       "tegernseer-tal-brauhaus",
         "name":                     "Tegernseer Tal - Bräuhaus",
         "address":                  "Tal 8",
@@ -2046,7 +2046,7 @@
             "long":                 "description.long tegernseer-tal-brauhaus"
         }
     },
-    "marks-restaurant": {
+    {
         "id":                       "marks-restaurant",
         "name":                     "Mark's Restaurant (Inside Mandarin Oriental)",
         "address":                  "Neuturmstraße 1",
@@ -2110,7 +2110,7 @@
             "long":                 "description.long marks-restaurant"
         }
     },
-    "hans-im-gluck": {
+    {
         "id":                       "hans-im-gluck",
         "name":                     "Hans im Glück - Burgergrill",
         "address":                  "Nymphenburger Straße 69",
@@ -2174,7 +2174,7 @@
             "long":                 "description.long hans-im-gluck"
         }
     },
-    "marais-soir": {
+    {
         "id":                       "marais-soir",
         "name":                     "Marais Soir",
         "address":                  "Schwanthalerstraße 133",
@@ -2238,7 +2238,7 @@
             "long":                 "description.long marais-soir"
         }
     },
-    "palais-lenbach": {
+    {
         "id":                       "palais-lenbach",
         "name":                     "Palais Lenbach",
         "address":                  "Ottostraße 6",
@@ -2302,7 +2302,7 @@
             "long":                 "description.long palais-lenbach"
         }
     },
-    "tantris": {
+    {
         "id":                       "tantris",
         "name":                     "Tantris",
         "address":                  "Johann-Fichte-Straße 7",
@@ -2366,7 +2366,7 @@
             "long":                 "description.long tantris"
         }
     },
-    "atelier": {
+    {
         "id":                       "atelier",
         "name":                     "Atelier (im Hotel Bayerischer Hof)",
         "address":                  "Promenadeplatz 2",
@@ -2430,7 +2430,7 @@
             "long":                 "description.long restaurant-atelier"
         }
     },
-    "yum2take": {
+    {
         "id":                       "yum2take",
         "name":                     "Yum2take",
         "address":                  "Sebastiansplatz 8",
@@ -2494,7 +2494,7 @@
             "long":                 "description.long yum2take"
         }
     },
-    "mullersches-volksbad": {
+    {
         "id":                       "mullersches-volksbad",
         "name":                     "Müller´sches Volksbad",
         "address":                  "Rosenheimer Straße 1",
@@ -2558,7 +2558,7 @@
             "long":                 "description.long mullersches-volksbad"
         }
     },
-    "the-charles-hotel": {
+    {
         "id":                       "the-charles-hotel",
         "name":                     "The Charles Hotel",
         "address":                  "Sophienstraße 28",
@@ -2622,4 +2622,4 @@
             "long":                 "description.long the-charles-hotel"
         }
     }
-}
+]
