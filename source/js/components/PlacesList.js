@@ -27,26 +27,23 @@ var PlacesList = React.createClass({
         var outputData = collection;
         var filterBar = this.state.filterBarSelections;
         var distanceMax = 0;
-        var sortBy = '';
+        var sortByKey = '';
 
         switch(filterBar.sort) {
             case 'a_to_z':
-                console.log('sort by a_to_z');
-                sortBy = 'name';
+                sortByKey = 'name';
                 break;
             case 'closest_to_hotel':
-                console.log('sort by closest_to_hotel');
-                sortBy = 'distanceFromHotel';
+                sortByKey = 'distanceFromHotel';
                 break;
             case 'closest_to_us':
-                console.log('sort by closest_to_us');
-                sortBy = 'distanceFromUs';
+                sortByKey = 'distanceFromUs';
                 break;
             default:
-                console.log('default');
+                sortByKey = 'distanceFromHotel';
         }
 
-        outputData = _.map(_.sortBy(outputData, sortBy));
+        outputData = _.map(_.sortBy(outputData, sortByKey));
 
         if(filterBar.sort === 'closest_to_hotel' || filterBar.sort === 'closest_to_us') {
 
@@ -69,12 +66,10 @@ var PlacesList = React.createClass({
 
             console.log('distanceMax: ', distanceMax);
 
-            // outputData = _.filter(outputData, function(n) {
-            //     return n[sortBy] <= distanceMax;
-            // });
+            outputData = _.filter(outputData, function(n) {
+                return n[sortByKey] <= distanceMax;
+            });
         }
-
-        
 
         // sort places data based on distanceFromHotel value
         return outputData;
