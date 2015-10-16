@@ -56,7 +56,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short braunerhof",
@@ -120,7 +120,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-central",
@@ -184,7 +184,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-korb",
@@ -248,7 +248,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-landtmann",
@@ -312,7 +312,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-museum",
@@ -376,7 +376,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-pruckel",
@@ -440,7 +440,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-ritter",
@@ -504,7 +504,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-weimar",
@@ -567,7 +567,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short tian",
@@ -631,7 +631,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short tel-aviv-beach",
@@ -695,7 +695,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short restaurant-schnattl",
@@ -759,7 +759,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short veganista",
@@ -823,7 +823,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short le-loft",
@@ -887,7 +887,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short cafe-leopold",
@@ -951,7 +951,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short schonbrunn",
@@ -1015,7 +1015,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short augarten",
@@ -1079,7 +1079,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short die-au-at-augarten",
@@ -1143,7 +1143,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short motto",
@@ -1207,7 +1207,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short pratersauna",

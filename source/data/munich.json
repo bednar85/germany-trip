@@ -56,7 +56,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short lowenbrau",
@@ -120,7 +120,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short hofbrauhaus",
@@ -184,7 +184,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short augustinerbrau",
@@ -248,7 +248,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short paulaner",
@@ -312,7 +312,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short hacker-pschorr",
@@ -376,7 +376,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short Spatenhaus an der Oper",
@@ -440,7 +440,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short weisses-brauhaus (Schneider Weisse)",
@@ -504,7 +504,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short giesinger-brau",
@@ -568,7 +568,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short crew-republic",
@@ -632,7 +632,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short brauerei-im-eiswerk",
@@ -696,7 +696,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short richelbrau",
@@ -760,7 +760,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short red-hot",
@@ -824,7 +824,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short taphouse",
@@ -888,7 +888,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short biervana",
@@ -952,7 +952,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short getranke-oase",
@@ -1016,7 +1016,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short fei-scho",
@@ -1080,7 +1080,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short gratitude",
@@ -1144,7 +1144,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short schwarzer-hahn",
@@ -1208,7 +1208,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short upper-eat-side",
@@ -1272,7 +1272,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short Szenedrinks & Delikatessen",
@@ -1336,7 +1336,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short burrito-company",
@@ -1400,7 +1400,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short padres",
@@ -1464,7 +1464,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short goldene-bar",
@@ -1528,7 +1528,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short gamsei",
@@ -1592,7 +1592,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short bar-gabanyi",
@@ -1655,7 +1655,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short ella",
@@ -1719,7 +1719,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short forschungsbrauerei",
@@ -1783,7 +1783,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short augustiner-keller",
@@ -1847,7 +1847,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short bar-muenchen",
@@ -1911,7 +1911,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short couch-club",
@@ -1975,7 +1975,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short niederlassung",
@@ -2039,7 +2039,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short tegernseer-tal-brauhaus",
@@ -2103,7 +2103,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short marks-restaurant",
@@ -2167,7 +2167,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short hans-im-gluck",
@@ -2231,7 +2231,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short marais-soir",
@@ -2295,7 +2295,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short palais-lenbach",
@@ -2359,7 +2359,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short tantris",
@@ -2423,7 +2423,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short restaurant-atelier",
@@ -2487,7 +2487,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short yum2take",
@@ -2551,7 +2551,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short mullersches-volksbad",
@@ -2615,7 +2615,7 @@
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
+        "openNow":                  true,
         "price":                    0,
         "description": {
             "short":                "description.short the-charles-hotel",

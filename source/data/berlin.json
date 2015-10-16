@@ -1,69 +1,5 @@
 [
     {
-        "id":                       "zum-mond",
-        "name":                     "Zum Mond",
-        "address":                  "Köpenicker Str 159",
-        "neighborhood":             "Kreuzberg",
-        "latlongnetData": {
-            "latitude":             52.490450,
-            "longitude":            13.561370
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short zum-mond",
-            "long":                 "description.long zum-mond"
-        }
-    },
-    {
         "id":                       "austria",
         "name":                     "Austria",
         "address":                  "Bergmannstraße 30",
@@ -74,126 +10,65 @@
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "rating":                   4,
+        "reviews":                  117,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Restaurant" ],
+        "tags":                     [ "German", "Austrian" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sun",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Mon",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
-        "price":                    0,
+        "openNow":                  true,
         "description": {
             "short":                "description.short austria",
             "long":                 "description.long austria"
         }
     },
     {
-        "id":                       "hartweizen",
-        "name":                     "Hartweizen",
-        "address":                  "Torstraße 96",
-        "neighborhood":             "Mitte",
-        "latlongnetData": {
-            "latitude":             52.529310,
-            "longitude":            13.404410
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short hartweizen",
-            "long":                 "description.long hartweizen"
-        }
-    },
-    {
-        "id":                       "bierkombinat-kreuzberg",
-        "name":                     "Bierkombinat Kreuzberg",
+        "id":                       "bkk",
+        "name":                     "Bier Kombinat Kreuzberg BKK",
         "address":                  "Manteuffelstraße 53",
         "neighborhood":             "Kreuzberg",
         "latlongnetData": {
@@ -202,889 +77,127 @@
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
-        "categories":               [ "" ],
+        "rating":                   4,
+        "reviews":                  24,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Bar" ],
         "tags":                     [ "" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sun",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Mon",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 2:00 am",
                 "open":             900,
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
-        "price":                    0,
+        "openNow":                  true,
         "description": {
             "short":                "description.short bierkombinat-kreuzberg",
             "long":                 "description.long bierkombinat-kreuzberg"
         }
     },
     {
-        "id":                       "good-friends",
-        "name":                     "Good Friends",
-        "address":                  "Kantstraße 30",
-        "neighborhood":             "Charlottenburg",
-        "latlongnetData": {
-            "latitude":             52.506310,
-            "longitude":            13.318200
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short good-friends",
-            "long":                 "description.long good-friends"
-        }
-    },
-    {
         "id":                       "cocolo-ramen",
         "name":                     "Cocolo Ramen",
         "address":                  "Gipsstraße 3",
-        "neighborhood":             "Kreuzberg",
+        "neighborhood":             "Mitte",
         "latlongnetData": {
             "latitude":             52.527200,
             "longitude":            13.399203
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
+        "rating":                   4,
+        "reviews":                  157,
+        "interestLevel":            1,
+        "priceRange":               2,
         "categories":               [ "" ],
         "tags":                     [ "" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sun",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Mon",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 12:00 am",
                 "open":             900,
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
-        "price":                    0,
+        "openNow":                  true,
         "description": {
             "short":                "description.short cocolo-ramen",
             "long":                 "description.long cocolo-ramen"
-        }
-    },
-    {
-        "id":                       "la-raclette",
-        "name":                     "La Raclette",
-        "address":                  "Lausitzer Straße 34",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.495540,
-            "longitude":            13.428020
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short la-raclette",
-            "long":                 "description.long la-raclette"
-        }
-    },
-    {
-        "id":                       "parker-bowles",
-        "name":                     "Parker Bowles",
-        "address":                  "Prinzenstraße 85d",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.502686,
-            "longitude":            13.409593
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short parker-bowles",
-            "long":                 "description.long parker-bowles"
-        }
-    },
-    {
-        "id":                       "markthalle-neun",
-        "name":                     "Markthalle Neun",
-        "address":                  "Eisenbahnstraße 42-43",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.502020,
-            "longitude":            13.431860
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short markthalle-neun",
-            "long":                 "description.long markthalle-neun"
-        }
-    },
-    {
-        "id":                       "papaya",
-        "name":                     "Papaya",
-        "address":                  "Krossener Straße 11",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.510738,
-            "longitude":            13.458100
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short papaya",
-            "long":                 "description.long papaya"
-        }
-    },
-    {
-        "id":                       "lon-mens-noodle-house",
-        "name":                     "Lon-Men's Noodle House",
-        "address":                  "Kantstraße 33",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.506450,
-            "longitude":            13.316510
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short lon-mens-noodle-house",
-            "long":                 "description.long lon-mens-noodle-house"
-        }
-    },
-    {
-        "id":                       "wochenmarkt-am-winterfeldtplat",
-        "name":                     "Wochenmarkt am Winterfeldtplatz",
-        "address":                  "Winterfeldtplatz",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.496518,
-            "longitude":            13.354376
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short wochenmarkt-am-winterfeldtplat",
-            "long":                 "description.long wochenmarkt-am-winterfeldtplat"
-        }
-    },
-    {
-        "id":                       "kaufhaus-des-westens",
-        "name":                     "Kaufhaus des Westens",
-        "address":                  "Tauentzienstraße 21-24",
-        "neighborhood":             "",
-        "latlongnetData": {
-            "latitude":             52.502159,
-            "longitude":            13.341323
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short kadewe",
-            "long":                 "description.long kadewe"
-        }
-    },
-    {
-        "id":                       "wittys",
-        "name":                     "Witty's",
-        "address":                  "Wittenbergplatz 5, Ecke Ansbacher Straße",
-        "neighborhood":             "Schöneberg",
-        "latlongnetData": {
-            "latitude":             52.501867,
-            "longitude":            13.342164
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short wittys",
-            "long":                 "description.long wittys"
-        }
-    },
-    {
-        "id":                       "mustafas-gemuse-kebap",
-        "name":                     "Mustafas Gemüse Kebap",
-        "address":                  "Mehringdamm 32, 10961",
-        "neighborhood":             "Kreuzberg",
-        "latlongnetData": {
-            "latitude":             52.493826,
-            "longitude":            13.387871
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short mustafas-gemuse-kebap",
-            "long":                 "description.long mustafas-gemuse-kebap"
-        }
-    },
-    {
-        "id":                       "rogacki",
-        "name":                     "Rogacki",
-        "address":                  "Wilmersdorfer Straße 145",
-        "neighborhood":             "Charlottenburg",
-        "latlongnetData": {
-            "latitude":             52.512914,
-            "longitude":            13.305310
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short rogacki",
-            "long":                 "description.long rogacki"
-        }
-    },
-    {
-        "id":                       "fassbender-and-rausch",
-        "name":                     "Fassbender & Rausch",
-        "address":                  "Charlottenstraße 60",
-        "neighborhood":             "Mitte",
-        "latlongnetData": {
-            "latitude":             52.512004,
-            "longitude":            13.391250
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "isClosed":                 false,
-        "price":                    0,
-        "description": {
-            "short":                "description.short fassbender-and-rausch",
-            "long":                 "description.long fassbender-and-rausch"
         }
     },
     {
@@ -1098,81 +211,534 @@
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "rating":                   4.5,
+        "reviews":                  24,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Shop" ],
+        "tags":                     [ "Chocolatiers", "Candy" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sun",
+                "formatted":        "Closed",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Mon",
+                "formatted":        "10:00 am - 7:00 pm",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Tue",
+                "formatted":        "10:00 am - 7:00 pm",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Wed",
+                "formatted":        "10:00 am - 7:00 pm",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Thu",
+                "formatted":        "10:00 am - 7:00 pm",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Fri",
+                "formatted":        "10:00 am - 7:00 pm",
                 "open":             900,
                 "close":            2000
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
+                "day":              "Sat",
+                "formatted":        "10:00 am - 4:00 pm",
                 "open":             900,
                 "close":            2000
             }
         ],
-        "isClosed":                 false,
-        "price":                    0,
+        "openNow":                  true,
         "description": {
             "short":                "description.short confiserie-melanie",
-            "long":                 "description.long confiserie-melanie"
+            "long":                 "<p>In a traditional, Central European atmosphere, Melanie serves chocolate truffles in unusual variants like curry, horseradish, garlic, green tea and asparagus. Intrigued? There are at least 70 different flavors of chocolate to choose from.</p>"
         }
     },
     {
-        "id":                       "schoppe-brau",
-        "name":                     "Schoppe Bräu",
-        "address":                  "Hasenheide 69",
-        "neighborhood":             "",
+        "id":                       "da-jia-le",
+        "name":                     "Da Jia Le",
+        "address":                  "Goebenstraße 23",
+        "neighborhood":             "Schöneberg",
         "latlongnetData": {
-            "latitude":             52.488310,
-            "longitude":            13.410310
+            "latitude":             52.494210,
+            "longitude":            13.363780
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "price":                    0,
+        "rating":                   5,
+        "reviews":                  28,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Restaurant" ],
+        "tags":                     [ "Chinese" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
         "description": {
-            "short":                "description.short schoppe-brau Hops, Malt, Heart, and Soul",
-            "long":                 "description.long schoppe-brau Hops, Malt, Heart, and Soul"
+            "short":                "description.short lon-mens-noodle-house",
+            "long":                 "description.long lon-mens-noodle-house"
+        }
+    },
+    {
+        "id":                       "fassbender-and-rausch",
+        "name":                     "Fassbender & Rausch",
+        "address":                  "Charlottenstraße 60",
+        "neighborhood":             "Mitte",
+        "latlongnetData": {
+            "latitude":             52.512004,
+            "longitude":            13.391250
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  213,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Shop", "Cafe" ],
+        "tags":                     [ "Chocolatiers", "Candy" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "11:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short fassbender-and-rausch",
+            "long":                 "<p>The brisk air of Berlin might incite a craving for chocolate. Should this occur, head straight for the legendary Fassbender & Rausch Chocolatiers. Established in 1863, since the mid ‘90s it also features a restaurant on the first floor.</p>"
         }
     },
     {
         "id":                       "heidenpeters",
-        "name":                     "Heidenpeters (Markthalle Neun)",
+        "name":                     "Heidenpeters",
+        "address":                  "Markthalle Neun, Eisenbahnstraße 42-43",
+        "neighborhood":             "Kreuzberg",
+        "latlongnetData": {
+            "latitude":             52.502020,
+            "longitude":            13.431860
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  14,
+        "interestLevel":            1,
+        "priceRange":               1,
+        "categories":               [ "Brewpub", "Bar" ],
+        "tags":                     [ "Craft Beer" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "2:00 pm - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "5:00 pm - 10:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "2:00 pm - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short heidenpeters",
+            "long":                 "description.long heidenpeters"
+        }
+    },
+    {
+        "id":                       "kadewe",
+        "name":                     "KaDeWe",
+        "address":                  "Tauentzienstraße 21-24",
+        "neighborhood":             "Schöneberg",
+        "latlongnetData": {
+            "latitude":             52.502159,
+            "longitude":            13.341323
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.0,
+        "reviews":                  415,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Department Stores" ],
+        "tags":                     [ "Donuts" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "10:00 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "10:00 am - 9:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "9:30 am - 8:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short kadewe",
+            "long":                 "<p>With all due respect for Harrods and its immense department dedicated to gastronomic delights, foodies will think they have died and gone to heaven when walking onto the sixth floor of Berlin’s KaDeWe.</p><p>The second-largest food market in the world, after Takashimaya in Tokyo. Since 1907, the 60 thousand square meter space (the size of two soccer fields), has been catering to the needs of epicureans and curious eaters, while currently employing 110 cooks and 40 bakers and pastry chefs who furnish the dozens of counters and small restaurants held within.</p><p>The chronically indecisive may have trouble deciding among the 1,800 different kinds of cheeses, the 1,500 jars of sauces and condiments and the 400 types of bread. Ah yes, Berlin is a bread-lovers paradise with variants in sesame, sunflower seeds, walnuts and anise: it’s worth a trip here just for the bread alone. The seventh floor, added in the early ‘90s, features a winter garden with a seating capacity for 1,000 and a restaurant with a view of the Wittenbergplatz.</p><h2>Donuts</h2><p>The entire sixth floor of this West Berlin luxury department store is dedicated to a market of world foods, including everything from boutique chocolates and artisanal French cheeses to exotic fruits and Asian pantry ingredients. Tucked in a small bäkerei stall towards the back, you'll find two beautiful examples of the classic pfannkuchen, both extremely light and airy. The glazed doughnut is dripping in thick sugar icing; a decadent ball of fluffy dough filled with tangy and not-too-sweet raspberry jelly.</p>"
+        }
+    },
+    {
+        "id":                       "la-raclette",
+        "name":                     "La Raclette",
+        "address":                  "Lausitzer Straße 34",
+        "neighborhood":             "Kreuzberg",
+        "latlongnetData": {
+            "latitude":             52.495540,
+            "longitude":            13.428020
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4,
+        "reviews":                  74,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Bar" ],
+        "tags":                     [ "French, Cocktail Bars" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short la-raclette",
+            "long":                 "description.long la-raclette"
+        }
+    },
+    {
+        "id":                       "lon-mens-noodle-house",
+        "name":                     "Lon-Men's Noodle House",
+        "address":                  "Kantstraße 33",
+        "neighborhood":             "Charlottenburg",
+        "latlongnetData": {
+            "latitude":             52.506450,
+            "longitude":            13.316510
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  127,
+        "interestLevel":            1,
+        "priceRange":               1,
+        "categories":               [ "Fast Food" ],
+        "tags":                     [ "Chinese, Taiwanese" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 12:00 am",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short lon-mens-noodle-house",
+            "long":                 "description.long lon-mens-noodle-house"
+        }
+    },
+    {
+        "id":                       "markt-am-winterfeldtplatz",
+        "name":                     "Markt am Winterfeldtplatz",
+        "address":                  "Winterfeldtplatz",
+        "neighborhood":             "Schöneberg",
+        "latlongnetData": {
+            "latitude":             52.496518,
+            "longitude":            13.354376
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  73,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Farmers Market" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "8:00 am - 2:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "8:00 am - 4:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short wochenmarkt-am-winterfeldtplat",
+            "long":                 "<p>If you happen to be in Berlin on a Saturday, don’t miss the food market Wochenmarkt Winterfeldtplatz, with its myriad food stalls where you can taste bread, meat, vegetables and cheeses. There’s a wide variety of ethnic and organic products as well.</p>"
+        }
+    },
+    {
+        "id":                       "markthalle-neun",
+        "name":                     "Markthalle Neun",
         "address":                  "Eisenbahnstraße 42-43",
         "neighborhood":             "",
         "latlongnetData": {
@@ -1181,12 +747,261 @@
         },
         "distanceFromHotel":        0,
         "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "price":                    0,
+        "rating":                   4,
+        "reviews":                  98,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Farmers Market" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "10:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "10:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "10:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "10:00 am - 10:00 pm ",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "10:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "10:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
         "description": {
-            "short":                "description.short heidenpeters",
-            "long":                 "description.long heidenpeters"
+            "short":                "description.short markthalle-neun",
+            "long":                 "description.long markthalle-neun"
+        }
+    },
+    {
+        "id":                       "mustafas-gemusedoner",
+        "name":                     "Mustafas Gemüsedöner",
+        "address":                  "Mehringdamm 32",
+        "neighborhood":             "Kreuzberg",
+        "latlongnetData": {
+            "latitude":             52.493826,
+            "longitude":            13.387871
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  575,
+        "interestLevel":            1,
+        "priceRange":               1,
+        "categories":               [ "Fast Food" ],
+        "tags":                     [ "Food Stands", "Kebab" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "10:00 am - 2:00 am",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short mustafas-gemuse-kebap",
+            "long":                 "<p>No Döner list is complete without Mustafa Gemüse Kebab and this one might just be the most famous Döner on our planet. I can’t really think of any other Kebab joint that has a website with flying Döners, their own commercial, over 20.000 Facebook fans and at any given time a line that stretches at least 50 m past the shop. It’s the Döner joint that is recommended by every single guide book ever written about Berlin and it’s on every tourist’s bucket list. So, is it really as good as every guide claims? Well, I’ve already answered the question, it’s really not the best Döner in Berlin. Ask the Turkish population about Mustafas and they usually laugh at all the people who are willing to stand in line for a Döner. In the end it’s a good Döner made with a lot of love, that’s for sure. The bread at Mustafas is unique and crispy, kind of like a mix between a pita and regular Döner bread. The Döner meat is chicken and the condiments are classic salad and onions/tomato with the very fresh and welcome addition of grilled vegetables. I’ve always respected Mustafas for their continuous dedication to details, despite the never-ending stream of tourists standing in line they never stop caring about their product. The cut meat is always seasoned extra with sauce and a spice mix and the whole döner is always topped off with some goat cheese crumbles and a squeeze of lemon. If just more of this effort would actually show in the actual product, they might even be able to get a better spot in this list, but it really doesn’t. In the end the massive line is a huge vibe killer, when you can get an Imren or Tadim Döner with zero waiting time it’s very hard to justify a 45 minute wait for an inferior product. Should Mustafas Gemüse Kebab be on your Berlin bucket list? If you live here, probably. If you’re visiting, only without standing in line.</p>"
+        }
+    },
+    {
+        "id":                       "rogacki",
+        "name":                     "Rogacki",
+        "address":                  "Wilmersdorfer Straße 145",
+        "neighborhood":             "Charlottenburg",
+        "latlongnetData": {
+            "latitude":             52.512914,
+            "longitude":            13.305310
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  128,
+        "interestLevel":            1,
+        "priceRange":               3,
+        "categories":               [ "Delicatessen" ],
+        "tags":                     [ "" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "9:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "9:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "9:00 am - 6:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "9:00 am - 7:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "8:00 am - 7:00 pm",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "8:00 am - 4:00 pm",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short rogacki",
+            "long":                 "<p>A bit off the touristic track is Rogacki, which serves and sells fresh and smoked fish—both local variants as well as eel. Established in 1932 in Wilmersdorferstraße, you’ll be greeted by the scent of smoky herbs as products are smoked on site. You can eat right there at the counter, and will surely be able to satisfy your hunger for around 10 euro. Also worth trying: their salads, deli goods, game meats and chicken.</p>"
+        }
+    },
+    {
+        "id":                       "zum-mond",
+        "name":                     "Zum Mond",
+        "address":                  "Köpenicker Str 159",
+        "neighborhood":             "Kreuzberg",
+        "latlongnetData": {
+            "latitude":             52.490450,
+            "longitude":            13.561370
+        },
+        "distanceFromHotel":        0,
+        "distanceFromUs":           0,
+        "rating":                   4.5,
+        "reviews":                  3,
+        "interestLevel":            1,
+        "priceRange":               0,
+        "categories":               [ "Restaurant" ],
+        "tags":                     [ "German" ],
+        "hours": [
+            {
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Tue",
+                "formatted":        "5:00 pm - 1:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Wed",
+                "formatted":        "5:00 pm - 1:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Thu",
+                "formatted":        "5:00 pm - 1:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Fri",
+                "formatted":        "5:00 pm - 1:00 am",
+                "open":             900,
+                "close":            2000
+            },
+            {
+                "day":              "Sat",
+                "formatted":        "5:00 pm - 1:00 am",
+                "open":             900,
+                "close":            2000
+            }
+        ],
+        "openNow":                  true,
+        "description": {
+            "short":                "description.short zum-mond",
+            "long":                 "description.long zum-mond"
         }
     }
 ]
