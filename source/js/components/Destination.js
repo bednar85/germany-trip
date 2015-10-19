@@ -35,7 +35,9 @@ var Destination = React.createClass({
             }
         };
     },
-    init: function() {        
+    init: function() {
+        console.log('Destination init');
+
         var component = this;
         var currentCity = this.getParams().destination;
         var dataPath = '/data/' + currentCity + '.json';
@@ -44,9 +46,25 @@ var Destination = React.createClass({
         this.getCurrentLocation();
 
         // get JSON data
-        $.get(dataPath, function(places) {
-            this.setInitialDistance(places);
-        }.bind(this));
+        $.getJSON(dataPath, function(places) {
+            console.log('getJSON success');
+            console.log('places.length: ', places.length);
+            component.setInitialDistance(component, currentCity, places);
+        })
+        .done(function() {
+            console.log('getJSON done');
+        })
+        .fail(function(status, error) {
+            if(status == 'parseerror'){
+                console.log('getJSON error: not valid json');
+            } else {
+                console.log('some other error');
+                console.log('getJSON error: ', status);
+            }
+        })
+        .always(function() {
+            console.log('getJSON complete');
+        });
     },
     componentWillMount: function() {
         // attach helper method to Number prototype
@@ -93,19 +111,19 @@ var Destination = React.createClass({
 
         return output; // convert to miles
     },
-    setInitialDistance: function(places) {
+    setInitialDistance: function(component, currentCity, places) {
         // store value of this in a var for later use deeper in scope of this function
-        var component = this;
-        var currentCity = this.getParams().destination;
-        var places = places;
+        // var component = this;
+        // var currentCity = this.getParams().destination;
+        // var places = places;
 
         // for each place in places
         places.forEach(function(place) {
             // calculate distance from "hotel"
-            place.distanceFromHotel = component.calculateDistance(place.latlongnetData.latitude, place.latlongnetData.longitude, component.state.cityCoords[currentCity].latitude, component.state.cityCoords[currentCity].longitude);
+            place.distanceFromHotel = component.calculateDistance(place.coords.latitude, place.coords.longitude, component.state.cityCoords[currentCity].latitude, component.state.cityCoords[currentCity].longitude);
 
             // calculate distance from current location
-            place.distanceFromUs = component.calculateDistance(place.latlongnetData.latitude, place.latlongnetData.longitude, component.state.ourCoords.latitude, component.state.ourCoords.longitude);
+            place.distanceFromUs = component.calculateDistance(place.coords.latitude, place.coords.longitude, component.state.ourCoords.latitude, component.state.ourCoords.longitude);
         });
 
         // store places in state
