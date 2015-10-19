@@ -24,10 +24,16 @@
     "gulp-jshint": "^1.11.2",
     "gulp-livereload": "^3.8.0",
     "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.1.0",
     "gulp-util": "^3.0.6",
+    "jeet": "^6.1.2",
     "jquery": "^2.1.4",
+    "kouto-swiss": "^0.11.13",
     "lodash": "^3.10.1",
     "reactify": "^1.1.1",
+    "rupture": "^0.6.1",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.4.0"
   }

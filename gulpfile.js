@@ -1,18 +1,26 @@
 // Gulp + Helpers
-var gulp = require('gulp');
-var connect = require('gulp-connect');
-var copy = require('gulp-copy');
-var gutil = require('gulp-util');
+var gulp =       require('gulp');
+var connect =    require('gulp-connect');
+var copy =       require('gulp-copy');
+var gutil =      require('gulp-util');
 // var jshint = require('gulp-jshint');
 var livereload = require('gulp-livereload');
-var notify = require('gulp-notify');
-var source = require('vinyl-source-stream');
+var notify =     require('gulp-notify');
+var plumber =    require('gulp-plumber');
+var source =     require('vinyl-source-stream');
+var sourcemaps = require('gulp-sourcemaps');
+var stylus =     require('gulp-stylus');
 
 // Browserify + Helpers
 var browserify = require('browserify');
 var reactify = require('reactify');
 var babelify = require('babelify');
 var watchify = require('watchify');
+
+// Stylus Plugins
+var jeet =       require('jeet');
+var koutoswiss = require('kouto-swiss');
+var rupture =    require('rupture');
 
 // Project Vars
 var path = {
@@ -28,6 +36,7 @@ var path = {
 
 
 
+// Bundle and Watch Scripts
 function handleErrors() {
     var args = Array.prototype.slice.call(arguments);
     notify.onError({
@@ -70,6 +79,30 @@ gulp.task('scripts', function() {
 });
 
 
+// Compile CSS
+gulp.task('styles', function() {
+    return gulp.src('source/styl/main.styl')
+               .pipe(plumber({
+                   errorHandler: function(error) {
+                       console.log(error.message);
+                       this.emit('end');
+                   }
+               }))
+               .pipe(sourcemaps.init()) // only for dev
+               .pipe(stylus({
+                   'include css': true,
+                   // compress: true, // only for build
+                   use: [
+                       jeet(),
+                       koutoswiss(),
+                       rupture()
+                   ]
+               }))
+               .pipe(sourcemaps.write('')) // only for dev
+               .pipe(gulp.dest('build/css'))
+               .pipe(livereload());
+});
+
 
 // Copy HTML Files
 gulp.task('copyFiles', function(){
@@ -77,7 +110,10 @@ gulp.task('copyFiles', function(){
         .pipe(gulp.dest('build'));
 
     gulp.src('source/data/*.json')
-      .pipe(gulp.dest('build/data/'));
+        .pipe(gulp.dest('build/data/'));
+
+    gulp.src('source/img/**')
+        .pipe(gulp.dest('build/img/'));
 });
 
 // Bundle JS Files and Minify
@@ -113,28 +149,8 @@ gulp.task('connect', function() {
 // Watch HTML and JS Files
 gulp.task('watch', function() {
     livereload.listen();
-    gulp.watch(path.HTML, ['copyFiles']);
-
-    // var watcher = watchify(browserify({
-    //     entries: [path.ENTRY_POINT],
-    //     transform: [reactify],
-    //     debug: true,
-    //     cache: {}, packageCache: {}, fullPaths: true
-    // }));
-
-    // return watcher.on('update', function () {
-    //               watcher.bundle()
-    //                   .pipe(source(path.OUT))
-    //                   .pipe(jshint())
-    //                   .pipe(jshint.reporter('default'))
-    //                   .pipe(gulp.dest(path.DEST_SRC));
-    //               })
-    //               .bundle()
-    //               .pipe(source(path.OUT))
-    //               .pipe(jshint())
-    //               .pipe(jshint.reporter('default'))
-    //               .pipe(gulp.dest(path.DEST_SRC))
-    //               .pipe(livereload());
+    gulp.watch([path.HTML, 'source/data/*.json', 'source/img/**'], ['copyFiles']);
+    gulp.watch(['source/styl/*.styl', 'source/styl/**/*.styl'], ['styles']);
 });
 
 
@@ -144,9 +160,15 @@ gulp.task('watch', function() {
 
 // gulp.task('production', ['replaceHTML', 'build']);
 
-gulp.task('default', ['scripts', 'copyFiles', 'watch', 'connect'], function() {
+gulp.task('default', ['scripts', 'styles', 'copyFiles', 'watch', 'connect'], function() {
     return buildScript('App.js', true);
 });
+
+
+
+
+
+
 
 // // Default Modules
 // var browserify =  require('browserify'),

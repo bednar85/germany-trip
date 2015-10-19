@@ -10,7 +10,7 @@ var Main = React.createClass({
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">
-          <div className="center-block" style={{marginTop: 15, overflow: 'hidden', width: 600}}>
+          <div className="center-block">
             <Nav />
           </div>
         </nav>
