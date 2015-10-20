@@ -1088,7 +1088,7 @@
         }
     },
     {
-        "id":                       "tc-gemüse-kebap",
+        "id":                       "tc-gemuse-kebap",
         "name":                     "T&C Gemüse Kebap",
         "address":                  "Breslauer Platz",
         "directionsQuery":          "",
@@ -2880,7 +2880,7 @@
         }
     },
     {
-        "id":                       "Soluna Brot und Öl",
+        "id":                       "soluna-brot-und-ol",
         "name":                     "Soluna Brot und Öl",
         "address":                  "Gneisenaustrasse 58",
         "directionsQuery":          "",

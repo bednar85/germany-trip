@@ -11,9 +11,9 @@ var Route = Router.Route;
 
 
 module.exports = (
-  <Route name="app" path="/" handler={Main}>
-    <Route name="details" path="details/:destination" handler={Details} />
-    <Route name="destination" path="destination/:destination" handler={Destination} />
-    <DefaultRoute handler={Home} />
-  </Route>
+    <Route name="app" path="/" handler={Main}>
+        <Route name="details" path="details/:place" handler={Details} />
+        <Route name="destination" path="destination/:destination" handler={Destination} />
+        <DefaultRoute handler={Home} />
+    </Route>
 );

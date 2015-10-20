@@ -127,7 +127,7 @@ var PlacesList = React.createClass({
                 <li className="list-group-item place" key={index}>
                     <div className="place__general-info">
                         <h1 className="place__name">
-                            {place.name}
+                            <Link to="details" params={{place: place.id}}>{place.name}</Link>
                             <div className="icon-wrapper icon-wrapper--inline icon-wrapper--interest-level">{interestLevel}</div>
                         </h1>
                         <h2 className="place__address">{place.address}</h2>
