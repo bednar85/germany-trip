@@ -24,11 +24,13 @@ var PlacesList = React.createClass({
         // console.log('PlacesList componentDidUpdate: ', this.state.filterBarSelections.sort);
     },
     filterData: function(collection) {
-        var outputData = collection;
+        var outputData = [];
+        var inputData = collection;
         var filterBar = this.state.filterBarSelections;
         var distanceMax = 0;
         var sortByKey = '';
 
+        // Determin sortByKey value
         switch(filterBar.sort) {
             case 'a_to_z':
                 sortByKey = 'name';
@@ -43,8 +45,7 @@ var PlacesList = React.createClass({
                 sortByKey = 'distanceFromHotel';
         }
 
-        outputData = _.map(_.sortBy(outputData, sortByKey));
-
+        // Filter
         if(filterBar.sort === 'closest_to_hotel' || filterBar.sort === 'closest_to_us') {
             switch(filterBar.distance) {
                 case 'distance_1':
@@ -68,10 +69,13 @@ var PlacesList = React.createClass({
             // temp distanceMax to show all
             // distanceMax = 100;
 
-            outputData = _.filter(outputData, function(n) {
+            outputData = _.filter(inputData, function(n) {
                 return n[sortByKey] <= distanceMax;
             });
         }
+
+        // Sort
+        outputData = _.map(_.sortBy(inputData, sortByKey));
 
         // sort places data based on distanceFromHotel value
         return outputData;
@@ -91,13 +95,13 @@ var PlacesList = React.createClass({
             var i = 0;
             while (i < property) {
                 i++;
-                output.push(<image className={classes} src={src} />);
+                output.push(<img className={classes} src={src} />);
             }
         }
         else {
             src = src[property - 1];
             if(src != '') {
-                output.push(<image className={classes} src={src} />);
+                output.push(<img className={classes} src={src} />);
             }
         }
 

@@ -38,6 +38,7 @@ var Destination = React.createClass({
     init: function() {
         console.log('Destination init');
 
+        // store value of this in a var for later use deeper in scope of this function
         var component = this;
         var currentCity = this.getParams().destination;
         var dataPath = '/data/' + currentCity + '.json';
@@ -112,11 +113,6 @@ var Destination = React.createClass({
         return output; // convert to miles
     },
     setInitialDistance: function(component, currentCity, places) {
-        // store value of this in a var for later use deeper in scope of this function
-        // var component = this;
-        // var currentCity = this.getParams().destination;
-        // var places = places;
-
         // for each place in places
         places.forEach(function(place) {
             // calculate distance from "hotel"

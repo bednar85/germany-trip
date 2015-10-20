@@ -4,7 +4,7 @@
         "name":                     "Löwenbräukeller",
         "address":                  "Nymphenburger Straße 2",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.148370,
             "longitude":            11.558490
         },
@@ -68,7 +68,7 @@
         "name":                     "Hofbräuhaus München",
         "address":                  "Platzl 9",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.137544,
             "longitude":            11.580090
         },
@@ -132,7 +132,7 @@
         "name":                     "Augustinerbräu",
         "address":                  "Landsberger Straße 35",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.138510,
             "longitude":            11.544650
         },
@@ -196,7 +196,7 @@
         "name":                     "Paulaner Bräuhaus",
         "address":                  "Kapuzinerpl. 5",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.126240,
             "longitude":            11.558970
         },
@@ -260,7 +260,7 @@
         "name":                     "Hacker - Pschorr Bräuhaus",
         "address":                  "Theresienhöhe 7",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.136090,
             "longitude":            11.546600
         },
@@ -324,7 +324,7 @@
         "name":                     "Spatenhaus an der Oper",
         "address":                  "Residenzstraße 12",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.139902,
             "longitude":            11.577170
         },
@@ -388,7 +388,7 @@
         "name":                     "Weisses Brauhaus",
         "address":                  "Tal 7",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.136461,
             "longitude":            11.578356
         },
@@ -452,7 +452,7 @@
         "name":                     "Giesinger Bräu - Biermanufaktur und Bräustüberl",
         "address":                  "Martin-Luther-Straße 2",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.115715,
             "longitude":            11.576702
         },
@@ -516,7 +516,7 @@
         "name":                     "Crew Republic",
         "address":                  "Andreas-Danzer-Weg 30",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.282852,
             "longitude":            11.557298
         },
@@ -580,7 +580,7 @@
         "name":                     "Brauerei im Eiswerk GmbH",
         "address":                  "Ohlmüllerstraße 44",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.122300,
             "longitude":            11.581600
         },
@@ -644,7 +644,7 @@
         "name":                     "Günther Baumann Verlag",
         "address":                  "Richelstraße 26",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.145704,
             "longitude":            11.530467
         },
@@ -708,7 +708,7 @@
         "name":                     "Red Hot",
         "address":                  "Amalienstraße 89",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.151583,
             "longitude":            11.579135
         },
@@ -772,7 +772,7 @@
         "name":                     "Tap-House Munich",
         "address":                  "Rosenheimer Strasse 108",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.125289,
             "longitude":            11.599120
         },
@@ -836,7 +836,7 @@
         "name":                     "Biervana",
         "address":                  "Hohenzollernstrasse 61",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.160419,
             "longitude":            11.573964
         },
@@ -900,7 +900,7 @@
         "name":                     "Getränke Oase",
         "address":                  "Gabelsbergerstrasse 54",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.149627,
             "longitude":            11.561294
         },
@@ -964,7 +964,7 @@
         "name":                     "Fei Scho",
         "address":                  "Kolosseumstraße 6",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.130300,
             "longitude":            11.570940
         },
@@ -1028,7 +1028,7 @@
         "name":                     "Gratitude Restaurant",
         "address":                  "Türkenstraße 55",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.150778,
             "longitude":            11.576123
         },
@@ -1092,7 +1092,7 @@
         "name":                     "Schwarzer Hahn",
         "address":                  "Ohlmüllerstraße 8",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.125894,
             "longitude":            11.578711
         },
@@ -1156,7 +1156,7 @@
         "name":                     "Restaurant Upper Eat Side",
         "address":                  "Werinherstraße 15",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.115446,
             "longitude":            11.583037
         },
@@ -1220,7 +1220,7 @@
         "name":                     "Szenedrinks & Delikatessen",
         "address":                  "Baaderstrasse 66",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.129087,
             "longitude":            11.576542
         },
@@ -1284,7 +1284,7 @@
         "name":                     "Burrito Company",
         "address":                  "Augustenstraße 74",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.150110,
             "longitude":            11.563816
         },
@@ -1348,7 +1348,7 @@
         "name":                     "Padres",
         "address":                  "Blumenstraße 43",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.132206,
             "longitude":            11.568760
         },
@@ -1412,7 +1412,7 @@
         "name":                     "Die Goldene Bar",
         "address":                  "Prinzregentenstraße 1",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.144110,
             "longitude":            11.586100
         },
@@ -1476,7 +1476,7 @@
         "name":                     "Gamsei",
         "address":                  "Buttermelcherstraße 9",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.132515,
             "longitude":            11.578364
         },
@@ -1540,7 +1540,7 @@
         "name":                     "Bar Gabányi",
         "address":                  "Beethovenplatz 2",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.132960,
             "longitude":            11.557690
         },
@@ -1603,7 +1603,7 @@
         "id":                       "ella",
         "name":                     "Ella",
         "address":                  "Luisenstraße 33",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.147220,
             "longitude":            11.563540
         },
@@ -1667,7 +1667,7 @@
         "name":                     "Bräustüberl der Forschungsbrauerei",
         "address":                  "Unterhachinger Straße 78",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.094412,
             "longitude":            11.624705
         },
@@ -1731,7 +1731,7 @@
         "name":                     "Augustiner-Keller",
         "address":                  "Arnulfstraße 52",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.143425,
             "longitude":            11.552017
         },
@@ -1795,7 +1795,7 @@
         "name":                     "BAR Muenchen",
         "address":                  "Maximilianstraße 36",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.137940,
             "longitude":            11.583740
         },
@@ -1859,7 +1859,7 @@
         "name":                     "Couch Club",
         "address":                  "Klenzestraße 89",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.126954,
             "longitude":            11.570281
         },
@@ -1923,7 +1923,7 @@
         "name":                     "Niederlassung",
         "address":                  "Buttermelcherstraße 6",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.132688,
             "longitude":            11.577240
         },
@@ -1987,7 +1987,7 @@
         "name":                     "Tegernseer Tal - Bräuhaus",
         "address":                  "Tal 8",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.135999,
             "longitude":            11.578214
         },
@@ -2051,7 +2051,7 @@
         "name":                     "Mark's Restaurant (Inside Mandarin Oriental)",
         "address":                  "Neuturmstraße 1",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.137294,
             "longitude":            11.580727
         },
@@ -2115,7 +2115,7 @@
         "name":                     "Hans im Glück - Burgergrill",
         "address":                  "Nymphenburger Straße 69",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.149472,
             "longitude":            11.546706
         },
@@ -2179,7 +2179,7 @@
         "name":                     "Marais Soir",
         "address":                  "Schwanthalerstraße 133",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.137765,
             "longitude":            11.543443
         },
@@ -2243,7 +2243,7 @@
         "name":                     "Palais Lenbach",
         "address":                  "Ottostraße 6",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.141362,
             "longitude":            11.567902
         },
@@ -2307,7 +2307,7 @@
         "name":                     "Tantris",
         "address":                  "Johann-Fichte-Straße 7",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.169683,
             "longitude":            11.588339
         },
@@ -2371,7 +2371,7 @@
         "name":                     "Atelier (im Hotel Bayerischer Hof)",
         "address":                  "Promenadeplatz 2",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.140466,
             "longitude":            11.573098
         },
@@ -2435,7 +2435,7 @@
         "name":                     "Yum2take",
         "address":                  "Sebastiansplatz 8",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.134610,
             "longitude":            11.574230
         },
@@ -2499,7 +2499,7 @@
         "name":                     "Müller´sches Volksbad",
         "address":                  "Rosenheimer Straße 1",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.131768,
             "longitude":            11.588249
         },
@@ -2563,7 +2563,7 @@
         "name":                     "The Charles Hotel",
         "address":                  "Sophienstraße 28",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.142670,
             "longitude":            11.562628
         },

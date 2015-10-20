@@ -4,7 +4,7 @@
         "name":                     "Bräunerhof",
         "address":                  "Stallburggasse 2",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.207159,
             "longitude":            16.368723
         },
@@ -68,7 +68,7 @@
         "name":                     "Café Central",
         "address":                  "Herrengasse 14",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.210548,
             "longitude":            16.365191
         },
@@ -132,7 +132,7 @@
         "name":                     "Café Korb",
         "address":                  "Brandstätte 9",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.209793,
             "longitude":            16.371178
         },
@@ -196,7 +196,7 @@
         "name":                     "Café Landtmann",
         "address":                  "Universitätsring 4",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.211482,
             "longitude":            16.361467
         },
@@ -260,7 +260,7 @@
         "name":                     "Café Museum",
         "address":                  "Operngasse 7",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.201492,
             "longitude":            16.367636
         },
@@ -324,7 +324,7 @@
         "name":                     "Café Prückel",
         "address":                  "Stubenring 24",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.207699,
             "longitude":            16.38054
         },
@@ -388,7 +388,7 @@
         "name":                     "Café Ritter",
         "address":                  "Mariahilfer Strasse 73",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.197954,
             "longitude":            16.350565
         },
@@ -452,7 +452,7 @@
         "name":                     "Café Restaurant Weimar",
         "address":                  "Währinger Strasse 68",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.223503,
             "longitude":            16.351573
         },
@@ -516,7 +516,7 @@
         "name":                     "TIAN restaurant Wien",
         "address":                  "Himmelpfortgasse 23",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.205289,
             "longitude":            16.374469
         },
@@ -579,7 +579,7 @@
         "name":                     "Tel Aviv Beach",
         "address":                  "Donaukanal Strasse 26",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.210303,
             "longitude":            16.394743
         },
@@ -643,7 +643,7 @@
         "name":                     "Restaurant Schnattl",
         "address":                  "Lange Gasse 40",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.210561,
             "longitude":            16.351918
         },
@@ -707,7 +707,7 @@
         "name":                     "Veganista",
         "address":                  "Neustiftgasse 23",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.205236,
             "longitude":            16.353122
         },
@@ -771,7 +771,7 @@
         "name":                     "Le Loft",
         "address":                  "Praterstraße 1",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.213001,
             "longitude":            16.379988
         },
@@ -835,7 +835,7 @@
         "name":                     "Café Leopold (Leopold Museum)",
         "address":                  "Museumsplatz 1",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.203499,
             "longitude":            16.359118
         },
@@ -899,7 +899,7 @@
         "name":                     "Schönbrunn Palace",
         "address":                  "Schönbrunner Schloßstraße 47",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.186568,
             "longitude":            16.313142
         },
@@ -963,7 +963,7 @@
         "name":                     "Augarten",
         "address":                  "1020 Wien",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.209104,
             "longitude":            16.415049
         },
@@ -1027,7 +1027,7 @@
         "name":                     "Die AU at Augarten",
         "address":                  "Scherzergasse 1A",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.224842,
             "longitude":            16.382220
         },
@@ -1091,7 +1091,7 @@
         "name":                     "Motto",
         "address":                  "Schönbrunner Strasse 30",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.192956,
             "longitude":            16.357546
         },
@@ -1155,7 +1155,7 @@
         "name":                     "Pratersauna",
         "address":                  "Waldsteingartenstraße 135",
         "neighborhood":             "",
-        "latlongnetData": {
+        "coords": {
             "latitude":             48.213783,
             "longitude":            16.404805
         },
