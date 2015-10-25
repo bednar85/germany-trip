@@ -111,6 +111,9 @@ var PlacesList = React.createClass({
         console.log('PlacesList render');
         var component = this;
         var destination = this.props.destination;
+
+        console.log('this.props.places: ', this.props.places);
+
         var filteredData = this.filterData(this.props.places);
 
         // output storedPlacesData to a var, render var to screen

@@ -1,7 +1,8 @@
 var React = require('react');
 var Router = require('react-router');
 // Components
-var PlacesList = require('./PlacesList');
+var GlobalHeader = require('../components/GlobalHeader');
+var PlacesList = require('../components/PlacesList');
 // Libs
 var $ = require('jquery');
 
@@ -131,8 +132,9 @@ var Destination = React.createClass({
         console.log('Destination render');
 
         return (
-            <div className="row">
-                <div className="col-md-12">
+            <div className="">
+                <GlobalHeader locationData={this.state.ourCoords} />
+                <div className="container">
                     <PlacesList destination={this.getParams().destination} places={this.state.places} filterBarSelections={this.state.filterBarSelections} />
                 </div>
             </div>
