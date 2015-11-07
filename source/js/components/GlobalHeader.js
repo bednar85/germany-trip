@@ -13,14 +13,6 @@ var GlobalHeader = React.createClass({
 
         return (
             <header className="global-header">
-                <CitySelector />
-
-                Architecture
-
-                Art/Design
-
-                Food/Drink
-
                 <div className="global-header__location-data">
                     <span className="global-header__location-data__value -latitude">{latitude}&deg;</span>, <span className="global-header__location-data__value -longitude">{longitude}&deg;</span>
                 </div>

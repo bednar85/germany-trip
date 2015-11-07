@@ -2,27 +2,47 @@
 
 .city-selector
     background: #e5e5e5
+    // box-shadow: inset 0 0 10px #999
 
 .city-selector__option
-    padding-top: 56.25%
+    // padding-top: 56.25%
+    padding-top: 44.5%
     position: relative
     text-align: center
     width: 100%
 
 .city-selector__option__content
+    height: 100%
     left: 0
     position: absolute
     top: 0
     width: 100%
 
 .city-selector__option__heading
-    font-size: 24px
+    color: #fff
+    font-family: 'Montserrat'
+    font-size: 5rem
+    font-weight: $bold
+    margin-top: -2.5rem
+    margin-bottom: 0
     position: relative
-    z-index: 1
+    text-shadow: 0 0 10px rgba(76, 76, 76, 0.5)
+    top: 50%
+    width: 100%
+    z-index: 2
+    
+    .-berlin &
+        color: $gold
+
+    .-munich &
+        color: $teal
+
+    .-vienna &
+        color: $lime
 
 .city-selector__option__background
     left: 0
     position: absolute
     top: 0
     width: 100%
-    z-index: 2
+    z-index: 1

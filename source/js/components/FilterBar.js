@@ -19,6 +19,8 @@ var FilterBar = React.createClass({
         console.log('FilterBar componentDidUpdate');
         // console.log('this.state: ', this.state);
 
+        // console.log('this.state.category: ', this.state.category);
+        // console.log('this.state.subcategory: ', this.state.subcategory);
         // console.log('this.state.sort: ', this.state.sort);
         // console.log('this.state.price: ', this.state.price);
         // console.log('this.state.distance: ', this.state.distance);
@@ -26,10 +28,14 @@ var FilterBar = React.createClass({
     },
     updateSelections: function() {
         var newState = {
+            category: this.refs.categoryGroup.getCheckedValues()[0],
+            subcategory: this.refs.subcategoryGroup.getCheckedValues()[0],
             sort: this.refs.sortGroup.getCheckedValues()[0],
             price: this.refs.priceGroup.getCheckedValues(),
             distance: this.refs.distanceGroup.getCheckedValues()[0]
         };
+
+        console.log('newState: ', newState);
 
         this.setState({
             selections: newState
@@ -39,23 +45,97 @@ var FilterBar = React.createClass({
     },
     render: function() {
         return (
-            <div>
+            <div className="filter-bar">
+                <CheckboxGroup
+                    name="category"
+                    ref="categoryGroup"
+                    onChange={this.updateSelections}
+                >
+                    <div className="filter-bar__group -inline -main-group">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="all" defaultChecked />
+                            All
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="sights" />
+                            Sights
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="food" />
+                            Food
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="drinks" />
+                            Drinks
+                        </label>
+                    </div>
+                </CheckboxGroup>
+                <CheckboxGroup
+                    name="subcategory"
+                    ref="subcategoryGroup"
+                    onChange={this.updateSelections}
+                >
+                    Subcategory:<br />
+                    <div className="filter-bar__group -sights">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="architecture" />
+                            Architecture
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="art" />
+                            Art
+                        </label>
+                    </div>
+                    <div className="filter-bar__group -food">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="bakery" />
+                            Bakery
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="bar" />
+                            Bar
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="farmers-market" />
+                            Farmer&#8217;s Market
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="fast-food" />
+                            Fast Food
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="restaurant" />
+                            Restaurant
+                        </label>
+                    </div>
+                    <div className="filter-bar__group -drinks">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="bar" />
+                            Bar
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="brewery" />
+                            Brewery/Brewpub
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="cafe" />
+                            Cafe
+                        </label>
+                    </div>
+                </CheckboxGroup>
                 <CheckboxGroup
                     name="sort"
                     ref="sortGroup"
                     onChange={this.updateSelections}
                 >
-                    <div>
-                        <label>
-                            <input type="radio" value="a_to_z" />
-                            A-Z
-                        </label>
-                        <label>
-                            <input type="radio" value="closest_to_hotel" defaultChecked />
+                    Sort:<br />
+                    <div className="filter-bar__group">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="closest_to_hotel" defaultChecked />
                             Closest to Our Hotel
                         </label>
-                        <label>
-                            <input type="radio" value="closest_to_us" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="closest_to_us" />
                             Closest to Us
                         </label>
                     </div>
@@ -65,21 +145,22 @@ var FilterBar = React.createClass({
                     ref="priceGroup"
                     onChange={this.updateSelections}
                 >
-                    <div>
-                        <label>
-                            <input type="checkbox" value="price_1" />
+                    Price:<br />
+                    <div className="filter-bar__group">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="checkbox" value="price_1" />
                             $
                         </label>
-                        <label>
-                            <input type="checkbox" value="price_2" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="checkbox" value="price_2" />
                             $$
                         </label>
-                        <label>
-                            <input type="checkbox" value="price_3" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="checkbox" value="price_3" />
                             $$$
                         </label>
-                        <label>
-                            <input type="checkbox" value="price_4" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="checkbox" value="price_4" />
                             $$$$
                         </label>
                     </div>
@@ -89,21 +170,22 @@ var FilterBar = React.createClass({
                     ref="distanceGroup"
                     onChange={this.updateSelections}
                 >
-                    <div>
-                        <label>
-                            <input type="radio" value="distance_1" />
+                    Distance:<br />
+                    <div className="filter-bar__group">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="distance_1" />
                             Within 4 Blocks
                         </label>
-                        <label>
-                            <input type="radio" value="distance_2" defaultChecked />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="distance_2" defaultChecked />
                             Walking (1.5 mi)
                         </label>
-                        <label>
-                            <input type="radio" value="distance_3" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="distance_3" />
                             Bus/Subway (5 mi)
                         </label>
-                        <label>
-                            <input type="radio" value="distance_4" />
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="distance_4" />
                             If We Had More Time
                         </label>
                     </div>

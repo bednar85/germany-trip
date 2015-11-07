@@ -2,6 +2,7 @@ var React = require('react');
 var Router = require('react-router');
 var Navigation = Router.Navigation;
 // Libs
+var $ = require('jquery');
 var Flickity = require('flickity');
 
 
@@ -12,7 +13,7 @@ var CitySelector = React.createClass({
     mixins: [ Navigation ],
     getInitialState: function() {
         return {
-            selections: {}
+            selection: {}
         };
     },
     componentDidMount: function() {
@@ -49,6 +50,8 @@ var CitySelector = React.createClass({
 
             component.navigateAfterSomethingHappened(selection);
         });
+
+        // $('body').addClass('berlin');
     },
     componentDidUpdate: function() {
         console.log('CitySelector componentDidUpdate');
@@ -67,31 +70,34 @@ var CitySelector = React.createClass({
         // };
 
         // this.setState({
-        //     selections: newState
+        //     selection: newState
         // });
 
         // this.props.callbackParent(newState);
     },
     navigateAfterSomethingHappened: function(selection) {
         // probably would be better to handle this change of data without a route change, seems to stutter as the slider is transitioning
-        this.transitionTo('destination', { destination: selection });
+        // this.transitionTo('destination', { destination: selection });
+
+        // $('body').removeClass('berlin munich vienna');
+        // $('body').addClass(selection);
     },
     render: function() {
         return (
             <div className="city-selector">
-                <div className="city-selector__option" data-city="berlin">
+                <div className="city-selector__option -berlin" data-city="berlin">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Berlin</h1>
                         <img className="city-selector__option__background" src="img/cities/berlin.jpg" />
                     </div>
                 </div>
-                <div className="city-selector__option" data-city="munich">
+                <div className="city-selector__option -munich" data-city="munich">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Munich</h1>
                         <img className="city-selector__option__background" src="img/cities/munich.jpg" />
                     </div>
                 </div>
-                <div className="city-selector__option" data-city="vienna">
+                <div className="city-selector__option -vienna" data-city="vienna">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Vienna</h1>
                         <img className="city-selector__option__background" src="img/cities/vienna.jpg" />

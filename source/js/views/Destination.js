@@ -1,7 +1,8 @@
 var React = require('react');
 var Router = require('react-router');
 // Components
-var GlobalHeader = require('../components/GlobalHeader');
+// var GlobalHeader = require('../components/GlobalHeader');
+var CitySelector = require('../components/CitySelector');
 var PlacesList = require('../components/PlacesList');
 // Libs
 var $ = require('jquery');
@@ -133,7 +134,7 @@ var Destination = React.createClass({
 
         return (
             <div className="">
-                <GlobalHeader locationData={this.state.ourCoords} />
+                <CitySelector />
                 <div className="container">
                     <PlacesList destination={this.getParams().destination} places={this.state.places} filterBarSelections={this.state.filterBarSelections} />
                 </div>
