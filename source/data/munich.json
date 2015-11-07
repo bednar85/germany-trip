@@ -1,193 +1,66 @@
 [
     {
-        "id":                       "lowenbraukeller",
-        "name":                     "Löwenbräukeller",
-        "address":                  "Nymphenburger Straße 2",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.148370,
-            "longitude":            11.558490
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short lowenbrau",
-            "long":                 "description.long lowenbrau"
-        }
-    },
-    {
-        "id":                       "hofbrauhaus-munchen",
-        "name":                     "Hofbräuhaus München",
-        "address":                  "Platzl 9",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.137544,
-            "longitude":            11.580090
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short hofbrauhaus",
-            "long":                 "description.long hofbrauhaus"
-        }
-    },
-    {
-        "id":                       "augustinerbrau",
-        "name":                     "Augustinerbräu",
+        "id":                       "augustiner-brauerei",
+        "name":                     "Augustiner Brauerei",
         "address":                  "Landsberger Straße 35",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Schwanthalerhöhe",
         "coords": {
             "latitude":             48.138510,
             "longitude":            11.544650
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
+        "yelpRating":               4.5,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Brewery" ],
+        "tags":                     [],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "9:00 am - 12:00 am",
+                "open":             {"hour": 9},
+                "close":            {"hour": 24}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short augustinerbrau",
             "long":                 "description.long augustinerbrau"
         }
     },
@@ -195,1023 +68,519 @@
         "id":                       "paulaner-brauhaus",
         "name":                     "Paulaner Bräuhaus",
         "address":                  "Kapuzinerpl. 5",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Isarvorstadt",
         "coords": {
             "latitude":             48.126240,
             "longitude":            11.558970
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Brewery", "Restaurant" ],
+        "tags":                     [ "Bavarian" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "10:00 am - 12:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short paulaner",
             "long":                 "description.long paulaner"
         }
     },
     {
-        "id":                       "hacker-pschorr-brauhaus",
-        "name":                     "Hacker - Pschorr Bräuhaus",
-        "address":                  "Theresienhöhe 7",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.136090,
-            "longitude":            11.546600
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short hacker-pschorr",
-            "long":                 "description.long hacker-pschorr"
-        }
-    },
-    {
-        "id":                       "spatenhaus-an-der-oper",
-        "name":                     "Spatenhaus an der Oper",
-        "address":                  "Residenzstraße 12",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.139902,
-            "longitude":            11.577170
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Big Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short Spatenhaus an der Oper",
-            "long":                 "description.long spaten"
-        }
-    },
-    {
         "id":                       "weisses-brauhaus",
-        "name":                     "Weisses Brauhaus",
+        "name":                     "Weisses Bräuhaus",
         "address":                  "Tal 7",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Altstadt",
         "coords": {
             "latitude":             48.136461,
             "longitude":            11.578356
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            3,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Brewery", "Restaurant" ],
+        "tags":                     [ "Bavarian", "German" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "8:00 am - 12:30 am",
+                "open":             {"hour": 8},
+                "close":            {"hour": 24, "minute": 30}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short weisses-brauhaus (Schneider Weisse)",
             "long":                 "description.long weisses-brauhaus (Schneider Weisse)"
         }
     },
     {
-        "id":                       "giesinger-brau",
-        "name":                     "Giesinger Bräu - Biermanufaktur und Bräustüberl",
-        "address":                  "Martin-Luther-Straße 2",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.115715,
-            "longitude":            11.576702
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short giesinger-brau",
-            "long":                 "description.long giesinger-brau"
-        }
-    },
-    {
-        "id":                       "crew-republic",
-        "name":                     "Crew Republic",
-        "address":                  "Andreas-Danzer-Weg 30",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.282852,
-            "longitude":            11.557298
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short crew-republic",
-            "long":                 "description.long crew-republic"
-        }
-    },
-    {
         "id":                       "brauerei-im-eiswerk",
-        "name":                     "Brauerei im Eiswerk GmbH",
+        "name":                     "Brauerei im Eiswerk",
         "address":                  "Ohlmüllerstraße 44",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Au",
         "coords": {
             "latitude":             48.122300,
             "longitude":            11.581600
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Brewery" ],
+        "tags":                     [],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short brauerei-im-eiswerk",
             "long":                 "description.long brauerei-im-eiswerk"
         }
     },
     {
-        "id":                       "gunther-baumann-verlag",
-        "name":                     "Günther Baumann Verlag",
+        "id":                       "richelbrau",
+        "name":                     "Richelbräu",
         "address":                  "Richelstraße 26",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Neuhausen",
         "coords": {
             "latitude":             48.145704,
             "longitude":            11.530467
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               5,
+        "interestLevel":            2,
+        "priceRange":               1,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Brewery" ],
+        "tags":                     [],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "",
+                "open":             {},
+                "close":            {}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short richelbrau",
             "long":                 "description.long richelbrau"
         }
     },
     {
-        "id":                       "red-hot",
-        "name":                     "Red Hot",
+        "id":                       "redhot",
+        "name":                     "Redhot",
         "address":                  "Amalienstraße 89",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Maxvorstadt",
         "coords": {
             "latitude":             48.151583,
             "longitude":            11.579135
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar", "Craft Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bar", "Restaurant" ],
+        "tags":                     [ "American (Traditional)" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "2:00 pm - 11:00 pm",
+                "open":             {"hour": 14},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 1:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short red-hot",
             "long":                 "description.long red-hot"
         }
     },
     {
-        "id":                       "tap-house-munich",
-        "name":                     "Tap-House Munich",
+        "id":                       "tap-house",
+        "name":                     "Tap-House",
         "address":                  "Rosenheimer Strasse 108",
+        "directionsQuery":          "",
         "neighborhood":             "",
         "coords": {
             "latitude":             48.125289,
             "longitude":            11.599120
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4.5,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [ "Beer Hall" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "6:00 pm - 1:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 1:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 1:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 2:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 2:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 2:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short taphouse",
             "long":                 "description.long taphouse"
         }
     },
     {
-        "id":                       "biervana",
-        "name":                     "Biervana",
-        "address":                  "Hohenzollernstrasse 61",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.160419,
-            "longitude":            11.573964
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short biervana",
-            "long":                 "description.long biervana"
-        }
-    },
-    {
-        "id":                       "getranke-oase",
-        "name":                     "Getränke Oase",
-        "address":                  "Gabelsbergerstrasse 54",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.149627,
-            "longitude":            11.561294
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short getranke-oase",
-            "long":                 "description.long getranke-oase"
-        }
-    },
-    {
-        "id":                       "fei-scho",
-        "name":                     "Fei Scho",
-        "address":                  "Kolosseumstraße 6",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.130300,
-            "longitude":            11.570940
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short fei-scho",
-            "long":                 "description.long fei-scho"
-        }
-    },
-    {
-        "id":                       "gratitude-restaurant",
-        "name":                     "Gratitude Restaurant",
+        "id":                       "gratitude-organic-eatery",
+        "name":                     "Gratitude Organic Eatery",
         "address":                  "Türkenstraße 55",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Maxvorstadt",
         "coords": {
             "latitude":             48.150778,
             "longitude":            11.576123
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
+        "tags":                     [ "Vegan" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "12:00 pm - 4:00 pm; 6:00 pm - 12:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "12:00 pm - 4:00 pm; 6:00 pm - 12:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "12:00 pm - 4:00 pm; 6:00 pm - 12:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "12:00 pm - 4:00 pm; 6:00 pm - 12:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 4:00 pm; 6:00 pm - 12:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short gratitude",
             "long":                 "description.long gratitude"
         }
     },
     {
-        "id":                       "schwarzer-hahn",
-        "name":                     "Schwarzer Hahn",
-        "address":                  "Ohlmüllerstraße 8",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.125894,
-            "longitude":            11.578711
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short schwarzer-hahn",
-            "long":                 "description.long schwarzer-hahn"
-        }
-    },
-    {
-        "id":                       "restaurant-upper-eat-side",
-        "name":                     "Restaurant Upper Eat Side",
+        "id":                       "upper-eat-side",
+        "name":                     "Upper Eat Side",
         "address":                  "Werinherstraße 15",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Obergiesing",
         "coords": {
             "latitude":             48.115446,
             "longitude":            11.583037
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4.5,
+        "interestLevel":            2,
+        "priceRange":               3,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Restaurant" ],
+        "tags":                     [ "German", "Bistros", "Tapas/Small Plates" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "6:00 pm - 12:00 am",
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short upper-eat-side",
             "long":                 "description.long upper-eat-side"
         }
     },
@@ -1219,63 +588,64 @@
         "id":                       "szenedrinks-and-delikatessen",
         "name":                     "Szenedrinks & Delikatessen",
         "address":                  "Baaderstrasse 66",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Isarvorstadt",
         "coords": {
             "latitude":             48.129087,
             "longitude":            11.576542
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
+        "yelpRating":               4.5,
+        "interestLevel":            3,
+        "priceRange":               3,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Deli", "Beverage Store" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "12:00 pm - 11:00 pm",
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "12:00 pm - 3:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "12:00 pm - 3:00 am",
+                "open":             {"hour": 12},
+                "close":            {"hour": 27}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short Szenedrinks & Delikatessen",
             "long":                 "description.long Szenedrinks & Delikatessen"
         }
     },
@@ -1283,63 +653,64 @@
         "id":                       "burrito-company",
         "name":                     "Burrito Company",
         "address":                  "Augustenstraße 74",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Isarvorstadt",
         "coords": {
             "latitude":             48.150110,
             "longitude":            11.563816
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
+        "yelpRating":               4.5,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Fast Food" ],
+        "tags":                     [ "American (Traditional)", "Mexican", "Craft Beer" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "11:30 am - 9:30 pm",
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 21, "minute": 30}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short burrito-company",
             "long":                 "description.long burrito-company"
         }
     },
@@ -1347,382 +718,129 @@
         "id":                       "padres",
         "name":                     "Padres",
         "address":                  "Blumenstraße 43",
+        "directionsQuery":          "",
         "neighborhood":             "",
         "coords": {
             "latitude":             48.132206,
             "longitude":            11.568760
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar", "Craft Beer" ],
+        "yelpRating":               4,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "7:00 pm - 4:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 28}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "7:00 pm - 4:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 28}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short padres",
             "long":                 "description.long padres"
         }
     },
     {
-        "id":                       "die-goldene-bar",
-        "name":                     "Die Goldene Bar",
-        "address":                  "Prinzregentenstraße 1",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.144110,
-            "longitude":            11.586100
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Craft Beer" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short goldene-bar",
-            "long":                 "description.long goldene-bar"
-        }
-    },
-    {
-        "id":                       "gamsei",
-        "name":                     "Gamsei",
-        "address":                  "Buttermelcherstraße 9",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.132515,
-            "longitude":            11.578364
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short gamsei",
-            "long":                 "description.long gamsei"
-        }
-    },
-    {
-        "id":                       "bar-gabanyi",
-        "name":                     "Bar Gabányi",
-        "address":                  "Beethovenplatz 2",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.132960,
-            "longitude":            11.557690
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short bar-gabanyi",
-            "long":                 "description.long bar-gabanyi"
-        }
-    },
-    {
-        "id":                       "ella",
-        "name":                     "Ella",
-        "address":                  "Luisenstraße 33",
-        "coords": {
-            "latitude":             48.147220,
-            "longitude":            11.563540
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short ella",
-            "long":                 "description.long ella"
-        }
-    },
-    {
-        "id":                       "braustuberl-der-forschungsbrauerei",
-        "name":                     "Bräustüberl der Forschungsbrauerei",
+        "id":                       "forschungsbrauerei",
+        "name":                     "Forschungsbrauerei",
         "address":                  "Unterhachinger Straße 78",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Ramersdorf-Perlach",
         "coords": {
             "latitude":             48.094412,
             "longitude":            11.624705
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Brewery", "Gastropub" ],
+        "tags":                     [],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "11:00 am - 10:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "11:00 am - 11:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "11:00 am - 11:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "11:00 am - 11:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "11:00 am - 11:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "11:00 am - 11:00 pm",
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short forschungsbrauerei",
             "long":                 "description.long forschungsbrauerei"
         }
     },
@@ -1730,191 +848,129 @@
         "id":                       "augustiner-keller",
         "name":                     "Augustiner-Keller",
         "address":                  "Arnulfstraße 52",
+        "directionsQuery":          "",
         "neighborhood":             "",
         "coords": {
             "latitude":             48.143425,
             "longitude":            11.552017
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
+        "yelpRating":               4,
+        "interestLevel":            3,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Beer Garden" ],
+        "tags":                     [ "Bavarian" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "10:00 am - 1:00 am",
+                "open":             {"hour": 10},
+                "close":            {"hour": 25}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short augustiner-keller",
             "long":                 "description.long augustiner-keller"
-        }
-    },
-    {
-        "id":                       "bar-muenchen",
-        "name":                     "BAR Muenchen",
-        "address":                  "Maximilianstraße 36",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.137940,
-            "longitude":            11.583740
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short bar-muenchen",
-            "long":                 "description.long bar-muenchen"
         }
     },
     {
         "id":                       "couch-club",
         "name":                     "Couch Club",
         "address":                  "Klenzestraße 89",
-        "neighborhood":             "",
+        "directionsQuery":          "",
+        "neighborhood":             "Isarvorstadt",
         "coords": {
             "latitude":             48.126954,
             "longitude":            11.570281
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
+        "yelpRating":               4,
+        "interestLevel":            1,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar", "Cocktail Bar" ],
+        "tags":                     [ "Lounge" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short couch-club",
             "long":                 "description.long couch-club"
         }
     },
@@ -1922,704 +978,130 @@
         "id":                       "niederlassung",
         "name":                     "Niederlassung",
         "address":                  "Buttermelcherstraße 6",
+        "directionsQuery":          "",
         "neighborhood":             "",
         "coords": {
             "latitude":             48.132688,
             "longitude":            11.577240
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Cool Bar" ],
+        "yelpRating":               4.5,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar", "Dive Bar" ],
+        "tags":                     [ "Lounge" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "Closed",
+                "open":             null,
+                "close":            null
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "7:00 pm - 1:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "7:00 pm - 3:00 am",
+                "open":             {"hour": 19},
+                "close":            {"hour": 27}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short niederlassung",
             "long":                 "description.long niederlassung"
         }
     },
     {
         "id":                       "tegernseer-tal-brauhaus",
-        "name":                     "Tegernseer Tal - Bräuhaus",
-        "address":                  "Tal 8",
-        "neighborhood":             "",
+        "name":                     "Tegernseer Tal Bräuhaus",
+        "address":                  "Im Tal 8",
+        "directionsQuery":          "",
+        "neighborhood":             "Altstadt",
         "coords": {
             "latitude":             48.135999,
             "longitude":            11.578214
         },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
+        "yelpRating":               4,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Restaurant" ],
+        "tags":                     [ "Bavarian", "German", "Top Restaurant" ],
         "hours": [
             {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sun",
+                "formatted":        "9:30 am - 1:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Mon",
+                "formatted":        "9:30 am - 1:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Tue",
+                "formatted":        "9:30 am - 1:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Wed",
+                "formatted":        "9:30 am - 1:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 25}
             },
             {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Thu",
+                "formatted":        "9:30 am - 3:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Fri",
+                "formatted":        "9:30 am - 3:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 27}
             },
             {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "day":              "Sat",
+                "formatted":        "9:30 am - 3:00 am",
+                "open":             {"hour": 9, "minute": 30},
+                "close":            {"hour": 27}
             }
         ],
-        "openNow":                  true,
-        "price":                    0,
+        "recommendations":          "",
         "description": {
-            "short":                "description.short tegernseer-tal-brauhaus",
             "long":                 "description.long tegernseer-tal-brauhaus"
-        }
-    },
-    {
-        "id":                       "marks-restaurant",
-        "name":                     "Mark's Restaurant (Inside Mandarin Oriental)",
-        "address":                  "Neuturmstraße 1",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.137294,
-            "longitude":            11.580727
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short marks-restaurant",
-            "long":                 "description.long marks-restaurant"
-        }
-    },
-    {
-        "id":                       "hans-im-gluck",
-        "name":                     "Hans im Glück - Burgergrill",
-        "address":                  "Nymphenburger Straße 69",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.149472,
-            "longitude":            11.546706
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short hans-im-gluck",
-            "long":                 "description.long hans-im-gluck"
-        }
-    },
-    {
-        "id":                       "marais-soir",
-        "name":                     "Marais Soir",
-        "address":                  "Schwanthalerstraße 133",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.137765,
-            "longitude":            11.543443
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short marais-soir",
-            "long":                 "description.long marais-soir"
-        }
-    },
-    {
-        "id":                       "palais-lenbach",
-        "name":                     "Palais Lenbach",
-        "address":                  "Ottostraße 6",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.141362,
-            "longitude":            11.567902
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short palais-lenbach",
-            "long":                 "description.long palais-lenbach"
-        }
-    },
-    {
-        "id":                       "tantris",
-        "name":                     "Tantris",
-        "address":                  "Johann-Fichte-Straße 7",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.169683,
-            "longitude":            11.588339
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short tantris",
-            "long":                 "description.long tantris"
-        }
-    },
-    {
-        "id":                       "atelier",
-        "name":                     "Atelier (im Hotel Bayerischer Hof)",
-        "address":                  "Promenadeplatz 2",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.140466,
-            "longitude":            11.573098
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short restaurant-atelier",
-            "long":                 "description.long restaurant-atelier"
-        }
-    },
-    {
-        "id":                       "yum2take",
-        "name":                     "Yum2take",
-        "address":                  "Sebastiansplatz 8",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.134610,
-            "longitude":            11.574230
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "Top Restaurant" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short yum2take",
-            "long":                 "description.long yum2take"
-        }
-    },
-    {
-        "id":                       "mullersches-volksbad",
-        "name":                     "Müller´sches Volksbad",
-        "address":                  "Rosenheimer Straße 1",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.131768,
-            "longitude":            11.588249
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short mullersches-volksbad",
-            "long":                 "description.long mullersches-volksbad"
-        }
-    },
-    {
-        "id":                       "the-charles-hotel",
-        "name":                     "The Charles Hotel",
-        "address":                  "Sophienstraße 28",
-        "neighborhood":             "",
-        "coords": {
-            "latitude":             48.142670,
-            "longitude":            11.562628
-        },
-        "distanceFromHotel":        0,
-        "distanceFromUs":           0,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sunday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Monday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Tuesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Wednesday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Thursday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Friday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            },
-            {
-                "day":              "Saturday",
-                "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
-            }
-        ],
-        "openNow":                  true,
-        "price":                    0,
-        "description": {
-            "short":                "description.short the-charles-hotel",
-            "long":                 "description.long the-charles-hotel"
         }
     }
 ]

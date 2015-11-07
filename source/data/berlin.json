@@ -1,133 +1,5 @@
 [
     {
-        "id":                       "austria",
-        "name":                     "Austria",
-        "address":                  "Bergmannstraße 30",
-        "directionsQuery":          "",
-        "neighborhood":             "Kreuzberg",
-        "coords": {
-            "latitude":             52.488710,
-            "longitude":            13.396490
-        },
-        "rating":                   4,
-        "reviews":                  117,
-        "interestLevel":            1,
-        "priceRange":               3,
-        "categories":               [ "Restaurant" ],
-        "tags":                     [ "German", "Austrian" ],
-        "hours": [
-            {
-                "day":              "Sun",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Mon",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Tue",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Wed",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Thu",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Fri",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Sat",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            }
-        ],
-        "description": {
-            "long":                 "description.long austria"
-        }
-    },
-    {
-        "id":                       "bkk",
-        "name":                     "Bier Kombinat Kreuzberg BKK",
-        "address":                  "Manteuffelstraße 53",
-        "directionsQuery":          "",
-        "neighborhood":             "Kreuzberg",
-        "coords": {
-            "latitude":             52.497749,
-            "longitude":            13.424725
-        },
-        "rating":                   4,
-        "reviews":                  24,
-        "interestLevel":            1,
-        "priceRange":               2,
-        "categories":               [ "Bar" ],
-        "tags":                     [ "" ],
-        "hours": [
-            {
-                "day":              "Sun",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Mon",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Tue",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Wed",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Thu",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Fri",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            },
-            {
-                "day":              "Sat",
-                "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
-            }
-        ],
-        "description": {
-            "long":                 "description.long bierkombinat-kreuzberg"
-        }
-    },
-    {
         "id":                       "cocolo-ramen",
         "name":                     "Cocolo Ramen",
         "address":                  "Gipsstraße 3",
@@ -137,56 +9,57 @@
             "latitude":             52.527200,
             "longitude":            13.399203
         },
-        "rating":                   4,
-        "reviews":                  157,
-        "interestLevel":            1,
+        "yelpRating":               4,
+        "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
+        "tags":                     [ "Ramen" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Mon",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
+                "open":             {"hour": 18},
+                "close":            {"hour": 24}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long cocolo-ramen"
         }
@@ -201,11 +74,11 @@
             "latitude":             52.507480,
             "longitude":            13.320680
         },
-        "rating":                   4.5,
-        "reviews":                  24,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               3,
-        "categories":               [ "Shop" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Shop" ],
         "tags":                     [ "Chocolatiers", "Candy" ],
         "hours": [
             {
@@ -217,42 +90,43 @@
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 4:00 pm",
-                "open":             1000,
-                "close":            1600
+                "open":             {"hour": 10},
+                "close":            {"hour": 16}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>In a traditional, Central European atmosphere, Melanie serves chocolate truffles in unusual variants like curry, horseradish, garlic, green tea and asparagus. Intrigued? There are at least 70 different flavors of chocolate to choose from.</p>"
+            "long":                 "In a traditional, Central European atmosphere, Melanie serves chocolate truffles in unusual variants like curry, horseradish, garlic, green tea and asparagus. Intrigued? There are at least 70 different flavors of chocolate to choose from."
         }
     },
     {
@@ -265,56 +139,57 @@
             "latitude":             52.494210,
             "longitude":            13.363780
         },
-        "rating":                   5,
-        "reviews":                  28,
-        "interestLevel":            1,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Restaurant" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
         "tags":                     [ "Chinese" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Mon",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Tue",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Wed",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Thu",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Fri",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Sat",
                 "formatted":        "12:00 pm - 11:00 pm",
-                "open":             1200,
-                "close":            2300
+                "open":             {"hour": 12},
+                "close":            {"hour": 23}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long lon-mens-noodle-house"
         }
@@ -329,58 +204,59 @@
             "latitude":             52.512004,
             "longitude":            13.391250
         },
-        "rating":                   4.5,
-        "reviews":                  213,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               3,
-        "categories":               [ "Shop", "Cafe" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Cafe", "Shop" ],
         "tags":                     [ "Chocolatiers", "Candy" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "11:00 am - 8:00 pm",
-                "open":             1100,
-                "close":            2000
+                "open":             {"hour": 11},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>The brisk air of Berlin might incite a craving for chocolate. Should this occur, head straight for the legendary Fassbender & Rausch Chocolatiers. Established in 1863, since the mid ‘90s it also features a restaurant on the first floor.</p>"
+            "long":                 "The brisk air of Berlin might incite a craving for chocolate. Should this occur, head straight for the legendary Fassbender & Rausch Chocolatiers. Established in 1863, since the mid ‘90s it also features a restaurant on the first floor."
         }
     },
     {
@@ -393,11 +269,11 @@
             "latitude":             52.502020,
             "longitude":            13.431860
         },
-        "rating":                   4.5,
-        "reviews":                  14,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               1,
-        "categories":               [ "Brewpub", "Bar" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar", "Brewpub" ],
         "tags":                     [ "Craft Beer" ],
         "hours": [
             {
@@ -415,8 +291,8 @@
             {
                 "day":              "Tue",
                 "formatted":        "2:00 pm - 8:00 pm",
-                "open":             1400,
-                "close":            2000
+                "open":             {"hour": 14},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
@@ -427,22 +303,23 @@
             {
                 "day":              "Thu",
                 "formatted":        "5:00 pm - 10:00 pm",
-                "open":             1700,
-                "close":            2200
+                "open":             {"hour": 17},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "2:00 pm - 8:00 pm",
-                "open":             1400,
-                "close":            2000
+                "open":             {"hour": 14},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "12:00 pm - 8:00 pm",
-                "open":             1200,
-                "close":            2000
+                "open":             {"hour": 12},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long heidenpeters"
         }
@@ -457,12 +334,12 @@
             "latitude":             52.502159,
             "longitude":            13.341323
         },
-        "rating":                   4.0,
-        "reviews":                  415,
-        "interestLevel":            1,
+        "yelpRating":               4.0,
+        "interestLevel":            3,
         "priceRange":               3,
-        "categories":               [ "Department Stores" ],
-        "tags":                     [ "Donuts" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Restaurant", "Shop" ],
+        "tags":                     [ "Department Stores" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -473,106 +350,43 @@
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 9:00 pm",
-                "open":             1000,
-                "close":            2100
+                "open":             {"hour": 10},
+                "close":            {"hour": 21}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:30 am - 8:00 pm",
-                "open":             930,
-                "close":            2000
+                "open":             {"hour": 9,  "minute": 30},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>With all due respect for Harrods and its immense department dedicated to gastronomic delights, foodies will think they have died and gone to heaven when walking onto the sixth floor of Berlin’s KaDeWe.</p><p>The second-largest food market in the world, after Takashimaya in Tokyo. Since 1907, the 60 thousand square meter space (the size of two soccer fields), has been catering to the needs of epicureans and curious eaters, while currently employing 110 cooks and 40 bakers and pastry chefs who furnish the dozens of counters and small restaurants held within.</p><p>The chronically indecisive may have trouble deciding among the 1,800 different kinds of cheeses, the 1,500 jars of sauces and condiments and the 400 types of bread. Ah yes, Berlin is a bread-lovers paradise with variants in sesame, sunflower seeds, walnuts and anise: it’s worth a trip here just for the bread alone. The seventh floor, added in the early ‘90s, features a winter garden with a seating capacity for 1,000 and a restaurant with a view of the Wittenbergplatz.</p><h2>Donuts</h2><p>The entire sixth floor of this West Berlin luxury department store is dedicated to a market of world foods, including everything from boutique chocolates and artisanal French cheeses to exotic fruits and Asian pantry ingredients. Tucked in a small bäkerei stall towards the back, you'll find two beautiful examples of the classic pfannkuchen, both extremely light and airy. The glazed doughnut is dripping in thick sugar icing; a decadent ball of fluffy dough filled with tangy and not-too-sweet raspberry jelly.</p>"
-        }
-    },
-    {
-        "id":                       "la-raclette",
-        "name":                     "La Raclette",
-        "address":                  "Lausitzer Straße 34",
-        "directionsQuery":          "",
-        "neighborhood":             "Kreuzberg",
-        "coords": {
-            "latitude":             52.495540,
-            "longitude":            13.428020
-        },
-        "rating":                   4,
-        "reviews":                  74,
-        "interestLevel":            1,
-        "priceRange":               3,
-        "categories":               [ "Bar" ],
-        "tags":                     [ "French, Cocktail Bars" ],
-        "hours": [
-            {
-                "day":              "Sun",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Mon",
-                "formatted":        "Closed",
-                "open":             null,
-                "close":            null
-            },
-            {
-                "day":              "Tue",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Wed",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Thu",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Fri",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            },
-            {
-                "day":              "Sat",
-                "formatted":        "6:00 pm - 12:00 am",
-                "open":             600,
-                "close":            2400
-            }
-        ],
-        "description": {
-            "long":                 "description.long la-raclette"
+            "long":                 "With all due respect for Harrods and its immense department dedicated to gastronomic delights, foodies will think they have died and gone to heaven when walking onto the sixth floor of Berlin’s KaDeWe.The second-largest food market in the world, after Takashimaya in Tokyo. Since 1907, the 60 thousand square meter space (the size of two soccer fields), has been catering to the needs of epicureans and curious eaters, while currently employing 110 cooks and 40 bakers and pastry chefs who furnish the dozens of counters and small restaurants held within.The chronically indecisive may have trouble deciding among the 1,800 different kinds of cheeses, the 1,500 jars of sauces and condiments and the 400 types of bread. Ah yes, Berlin is a bread-lovers paradise with variants in sesame, sunflower seeds, walnuts and anise: it’s worth a trip here just for the bread alone. The seventh floor, added in the early ‘90s, features a winter garden with a seating capacity for 1,000 and a restaurant with a view of the Wittenbergplatz.<h2>Donuts</h2>The entire sixth floor of this West Berlin luxury department store is dedicated to a market of world foods, including everything from boutique chocolates and artisanal French cheeses to exotic fruits and Asian pantry ingredients. Tucked in a small bäkerei stall towards the back, you'll find two beautiful examples of the classic pfannkuchen, both extremely light and airy. The glazed doughnut is dripping in thick sugar icing; a decadent ball of fluffy dough filled with tangy and not-too-sweet raspberry jelly."
         }
     },
     {
@@ -585,56 +399,57 @@
             "latitude":             52.506450,
             "longitude":            13.316510
         },
-        "rating":                   4.5,
-        "reviews":                  127,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "Fast Food" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Chinese, Taiwanese" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Mon",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Tue",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Wed",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Thu",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Fri",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Sat",
                 "formatted":        "12:00 pm - 12:00 am",
-                "open":             1200,
-                "close":            2400
+                "open":             {"hour": 12},
+                "close":            {"hour": 24}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long lon-mens-noodle-house"
         }
@@ -649,12 +464,12 @@
             "latitude":             52.496518,
             "longitude":            13.354376
         },
-        "rating":                   4.5,
-        "reviews":                  73,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Farmers Market" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Farmers Market" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -677,8 +492,8 @@
             {
                 "day":              "Wed",
                 "formatted":        "8:00 am - 2:00 pm",
-                "open":             800,
-                "close":            1400
+                "open":             {"hour": 8},
+                "close":            {"hour": 14}
             },
             {
                 "day":              "Thu",
@@ -695,12 +510,13 @@
             {
                 "day":              "Sat",
                 "formatted":        "8:00 am - 4:00 pm",
-                "open":             800,
-                "close":            1600
+                "open":             {"hour": 8},
+                "close":            {"hour": 16}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>If you happen to be in Berlin on a Saturday, don’t miss the food market Wochenmarkt Winterfeldtplatz, with its myriad food stalls where you can taste bread, meat, vegetables and cheeses. There’s a wide variety of ethnic and organic products as well.</p>"
+            "long":                 "If you happen to be in Berlin on a Saturday, don’t miss the food market Wochenmarkt Winterfeldtplatz, with its myriad food stalls where you can taste bread, meat, vegetables and cheeses. There’s a wide variety of ethnic and organic products as well."
         }
     },
     {
@@ -713,12 +529,12 @@
             "latitude":             52.502020,
             "longitude":            13.431860
         },
-        "rating":                   4,
-        "reviews":                  98,
-        "interestLevel":            1,
+        "yelpRating":               4,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Farmers Market" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Farmers Market" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -729,40 +545,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long markthalle-neun"
         }
@@ -777,58 +594,59 @@
             "latitude":             52.493826,
             "longitude":            13.387871
         },
-        "rating":                   4.5,
-        "reviews":                  575,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               1,
-        "categories":               [ "Fast Food" ],
-        "tags":                     [ "Food Stands", "Kebab" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food", "Food Stand" ],
+        "tags":                     [ "Kebab" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>No Döner list is complete without Mustafa Gemüse Kebab and this one might just be the most famous Döner on our planet. I can’t really think of any other Kebab joint that has a website with flying Döners, their own commercial, over 20.000 Facebook fans and at any given time a line that stretches at least 50 m past the shop. It’s the Döner joint that is recommended by every single guide book ever written about Berlin and it’s on every tourist’s bucket list. So, is it really as good as every guide claims? Well, I’ve already answered the question, it’s really not the best Döner in Berlin. Ask the Turkish population about Mustafas and they usually laugh at all the people who are willing to stand in line for a Döner. In the end it’s a good Döner made with a lot of love, that’s for sure. The bread at Mustafas is unique and crispy, kind of like a mix between a pita and regular Döner bread. The Döner meat is chicken and the condiments are classic salad and onions/tomato with the very fresh and welcome addition of grilled vegetables. I’ve always respected Mustafas for their continuous dedication to details, despite the never-ending stream of tourists standing in line they never stop caring about their product. The cut meat is always seasoned extra with sauce and a spice mix and the whole döner is always topped off with some goat cheese crumbles and a squeeze of lemon. If just more of this effort would actually show in the actual product, they might even be able to get a better spot in this list, but it really doesn’t. In the end the massive line is a huge vibe killer, when you can get an Imren or Tadim Döner with zero waiting time it’s very hard to justify a 45 minute wait for an inferior product. Should Mustafas Gemüse Kebab be on your Berlin bucket list? If you live here, probably. If you’re visiting, only without standing in line.</p>"
+            "long":                 "No Döner list is complete without Mustafa Gemüse Kebab and this one might just be the most famous Döner on our planet. I can’t really think of any other Kebab joint that has a website with flying Döners, their own commercial, over 20.000 Facebook fans and at any given time a line that stretches at least 50 m past the shop. It’s the Döner joint that is recommended by every single guide book ever written about Berlin and it’s on every tourist’s bucket list. So, is it really as good as every guide claims? Well, I’ve already answered the question, it’s really not the best Döner in Berlin. Ask the Turkish population about Mustafas and they usually laugh at all the people who are willing to stand in line for a Döner. In the end it’s a good Döner made with a lot of love, that’s for sure. The bread at Mustafas is unique and crispy, kind of like a mix between a pita and regular Döner bread. The Döner meat is chicken and the condiments are classic salad and onions/tomato with the very fresh and welcome addition of grilled vegetables. I’ve always respected Mustafas for their continuous dedication to details, despite the never-ending stream of tourists standing in line they never stop caring about their product. The cut meat is always seasoned extra with sauce and a spice mix and the whole döner is always topped off with some goat cheese crumbles and a squeeze of lemon. If just more of this effort would actually show in the actual product, they might even be able to get a better spot in this list, but it really doesn’t. In the end the massive line is a huge vibe killer, when you can get an Imren or Tadim Döner with zero waiting time it’s very hard to justify a 45 minute wait for an inferior product. Should Mustafas Gemüse Kebab be on your Berlin bucket list? If you live here, probably. If you’re visiting, only without standing in line."
         }
     },
     {
@@ -841,12 +659,12 @@
             "latitude":             52.512914,
             "longitude":            13.305310
         },
-        "rating":                   4.5,
-        "reviews":                  128,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               3,
-        "categories":               [ "Delicatessen" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Deli", "Shop" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -857,106 +675,43 @@
             {
                 "day":              "Mon",
                 "formatted":        "9:00 am - 6:00 pm",
-                "open":             900,
-                "close":            1800
+                "open":             {"hour": 9},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Tue",
                 "formatted":        "9:00 am - 6:00 pm",
-                "open":             900,
-                "close":            1800
+                "open":             {"hour": 9},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "9:00 am - 6:00 pm",
-                "open":             900,
-                "close":            1800
+                "open":             {"hour": 9},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "8:00 am - 4:00 pm",
-                "open":             800,
-                "close":            1600
+                "open":             {"hour": 8},
+                "close":            {"hour": 16}
             }
         ],
+        "recommendations":          "",
         "description": {
-            "long":                 "<p>A bit off the touristic track is Rogacki, which serves and sells fresh and smoked fish—both local variants as well as eel. Established in 1932 in Wilmersdorferstraße, you’ll be greeted by the scent of smoky herbs as products are smoked on site. You can eat right there at the counter, and will surely be able to satisfy your hunger for around 10 euro. Also worth trying: their salads, deli goods, game meats and chicken.</p>"
-        }
-    },
-    {
-        "id":                       "zum-mond",
-        "name":                     "Zum Mond",
-        "address":                  "Köpenicker Str 159",
-        "directionsQuery":          "",
-        "neighborhood":             "Kreuzberg",
-        "coords": {
-            "latitude":             52.490450,
-            "longitude":            13.561370
-        },
-        "rating":                   4.5,
-        "reviews":                  3,
-        "interestLevel":            1,
-        "priceRange":               0,
-        "categories":               [ "Restaurant" ],
-        "tags":                     [ "German" ],
-        "hours": [
-            {
-                "day":              "Sun",
-                "formatted":        "Closed",
-                "open":             null,
-                "close":            null
-            },
-            {
-                "day":              "Mon",
-                "formatted":        "Closed",
-                "open":             null,
-                "close":            null
-            },
-            {
-                "day":              "Tue",
-                "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
-            },
-            {
-                "day":              "Wed",
-                "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
-            },
-            {
-                "day":              "Thu",
-                "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
-            },
-            {
-                "day":              "Fri",
-                "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
-            },
-            {
-                "day":              "Sat",
-                "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
-            }
-        ],
-        "description": {
-            "long":                 "description.long zum-mond"
+            "long":                 "A bit off the touristic track is Rogacki, which serves and sells fresh and smoked fish—both local variants as well as eel. Established in 1932 in Wilmersdorferstraße, you’ll be greeted by the scent of smoky herbs as products are smoked on site. You can eat right there at the counter, and will surely be able to satisfy your hunger for around 10 euro. Also worth trying: their salads, deli goods, game meats and chicken."
         }
     },
     {
@@ -969,56 +724,57 @@
             "latitude":             52.497310,
             "longitude":            13.354050
         },
-        "rating":                   4.5,
-        "reviews":                  21,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Restaurant" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
         "tags":                     [ "Thai" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1033,11 +789,11 @@
             "latitude":             52.484510,
             "longitude":            13.354000
         },
-        "rating":                   5,
-        "reviews":                  47,
-        "interestLevel":            1,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "Food Stands" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Vegetarian", "Kebab" ],
         "hours": [
             {
@@ -1049,40 +805,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Tue",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Wed",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Thu",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Fri",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Sat",
                 "formatted":        "11:00 am - 12:00 am",
-                "open":             1100,
-                "close":            2400
+                "open":             {"hour": 11},
+                "close":            {"hour": 24}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1097,11 +854,11 @@
             "latitude":             52.472715,
             "longitude":            13.335985
         },
-        "rating":                   5,
-        "reviews":                  15,
+        "yelpRating":               5,
         "interestLevel":            1,
         "priceRange":               1,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food", "Food Stands" ],
         "tags":                     [ "Kebab" ],
         "hours": [
             {
@@ -1113,40 +870,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Tue",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Wed",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Thu",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Sat",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1161,24 +919,24 @@
             "latitude":             52.471481,
             "longitude":            13.336096
         },
-        "rating":                   5,
-        "reviews":                  47,
-        "interestLevel":            1,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Restaurant" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
         "tags":                     [ "Korean" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "4:00 pm - 10:00 pm",
-                "open":             1600,
-                "close":            2200
+                "open":             {"hour": 16},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Mon",
                 "formatted":        "12:00 pm - 10:00 pm",
-                "open":             1200,
-                "close":            2200
+                "open":             {"hour": 12},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Tue",
@@ -1189,28 +947,29 @@
             {
                 "day":              "Wed",
                 "formatted":        "12:00 pm - 10:00 pm",
-                "open":             1200,
-                "close":            2200
+                "open":             {"hour": 12},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Thu",
                 "formatted":        "12:00 pm - 10:00 pm",
-                "open":             1200,
-                "close":            2200
+                "open":             {"hour": 12},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "12:00 pm - 10:00 pm",
-                "open":             1200,
-                "close":            2200
+                "open":             {"hour": 12},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Sat",
                 "formatted":        "12:00 pm - 10:00 pm",
-                "open":             1200,
-                "close":            2200
+                "open":             {"hour": 12},
+                "close":            {"hour": 22}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1225,56 +984,57 @@
             "latitude":             52.490435,
             "longitude":            13.422870
         },
-        "rating":                   4.5,
-        "reviews":                  69,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish", "Kebab" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Mon",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Tue",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Wed",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Thu",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Fri",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Sat",
                 "formatted":        "11:00 am - 11:00 pm",
-                "open":             1100,
-                "close":            2300
+                "open":             {"hour": 11},
+                "close":            {"hour": 23}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Imren is a Berlin döner institution that’s been around for over two decades. Located in Neukölln right off Hermannplatz, this place has a reputation for exceptional meat quality among the Turkish population in Berlin. A taxi driver once passionately described to me how the meat at Imren is so tender since they marinate it in milk. True or not, it is indeed the quality of the meat, along with great sauces, that make Imren’s döner stand out from the competition. The bread at Imren is good, the condiments classic iceberg salad, onions and tomatoes very classic. This Döner is really also not the prettiest, quite the opposite actually, but this is very much compensated by the exceptional quality and consistency of the meat and the fresh sauces. The hot sauce is spicy as hell and the herb sauce is fresh and vibrant and not as sweet as those of the competitors. Imren is really one of the very few places where I actually love the Döner sauces. The meat is by far the best Döner meat in Berlin, it’s actually so damn good that it’s not really comparable to other options. It’s full of flavour and every bite of a Imren Döner is one way ticket to the Middle East that will make you question most of your previous Döner choices. Imren is the best Döner Kebab in Berlin a shining star in the vast galaxy of Berlin Döners. A visit here might just redefine your whole Döner game."
         }
@@ -1289,56 +1049,57 @@
             "latitude":             52.510701,
             "longitude":            13.456276
         },
-        "rating":                   4.5,
-        "reviews":                  19,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               1,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish", "Kebab" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1353,56 +1114,57 @@
             "latitude":             52.498589,
             "longitude":            13.427932
         },
-        "rating":                   4.5,
-        "reviews":                  38,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Restaurant" ],
         "tags":                     [ "Turkish" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Mon",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Tue",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Wed",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Thu",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Sat",
                 "formatted":        "11:00 am - 10:00 pm",
-                "open":             1100,
-                "close":            2200
+                "open":             {"hour": 11},
+                "close":            {"hour": 22}
             }
         ],
+        "recommendations":          "tomato salad",
         "description": {
             "long":                 "description.long"
         }
@@ -1417,56 +1179,57 @@
             "latitude":             52.540094,
             "longitude":            13.416917
         },
-        "rating":                   4.5,
-        "reviews":                  60,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               1,
-        "categories":               [ "Food Stands" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Kebab", "Falafel" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "falafel, halloumi",
         "description": {
             "long":                 "description.long"
         }
@@ -1481,56 +1244,57 @@
             "latitude":             52.493010,
             "longitude":            13.395160
         },
-        "rating":                   5,
-        "reviews":                  2,
-        "interestLevel":            1,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish", "Kebab" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Mon",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Tue",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Wed",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Thu",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Fri",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Sat",
                 "formatted":        "1:00 pm - 11:00 pm",
-                "open":             1300,
-                "close":            2300
+                "open":             {"hour": 13},
+                "close":            {"hour": 23}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1545,56 +1309,57 @@
             "latitude":             52.499479,
             "longitude":            13.416584
         },
-        "rating":                   4.5,
-        "reviews":                  58,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               1,
-        "categories":               [ "Fast Food" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish", "Sandwiches" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "11:30 am - 2:30 am",
-                "open":             1130,
-                "close":            2630
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 26, "minute": 30}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:30 am - 2:30 am",
-                "open":             1030,
-                "close":            2630
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 26, "minute": 30}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:30 am - 2:30 am",
-                "open":             1030,
-                "close":            2630
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 26, "minute": 30}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:30 am - 2:30 am",
-                "open":             1030,
-                "close":            2630
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 26, "minute": 30}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:30 am - 3:00 am",
-                "open":             1030,
-                "close":            2700
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 27, "minute": 30}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:30 am - 4:00 am",
-                "open":             1030,
-                "close":            2800
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 28, "minute": 30}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:30 am - 4:00 am",
-                "open":             1030,
-                "close":            2800
+                "open":             {"hour": 10, "minute": 30},
+                "close":            {"hour": 28, "minute": 30}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1609,56 +1374,57 @@
             "latitude":             52.497840,
             "longitude":            13.417270
         },
-        "rating":                   4,
-        "reviews":                  17,
+        "yelpRating":               4,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Doyum is my favourite Ocakbasi Turkish grill in Berlin and their ridiculously delicious meat skewers, grilled over charcoal, are simply to die for and something you have to try. They also offer a very solid Döner though that can be ordered to go, in contrast to the other food that has to be ordered in house. The Doyum Döner comes with great veal meat in a classic, toasted flatbread with a proper amount of tasty meat, the condiments are also classic and nothing extraordinary. It’s the one place on the top list that offers the condiment red cabbage, I always order mine without but that’s of course a matter of taste. What brings the Doyum Döner down is the overpowering sweetness of the sauces, with better sauces it would definitely be fighting for a sport in the top three."
         }
@@ -1673,11 +1439,11 @@
             "latitude":             52.495017,
             "longitude":            13.421203
         },
-        "rating":                   5,
-        "reviews":                  32,
+        "yelpRating":               5,
         "interestLevel":            1,
         "priceRange":               1,
-        "categories":               [ "Fast Food" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Halal", "Turkish" ],
         "hours": [
             {
@@ -1689,40 +1455,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 11:00 pm",
-                "open":             1000,
-                "close":            2300
+                "open":             {"hour": 10},
+                "close":            {"hour": 23}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1737,56 +1504,57 @@
             "latitude":             52.489620,
             "longitude":            13.391630
         },
-        "rating":                   4.5,
-        "reviews":                  39,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "Food Stands" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food" ],
         "tags":                     [ "Turkish", "Kebab " ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1801,56 +1569,57 @@
             "latitude":             52.499820,
             "longitude":            13.417380
         },
-        "rating":                   4.5,
-        "reviews":                  19,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               1,
-        "categories":               [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Fast Food", "Food Stand" ],
         "tags":                     [ "Turkish" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Mon",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Tue",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Wed",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Thu",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Fri",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 am - 4:00 am",
-                "open":             900,
-                "close":            2800
+                "open":             {"hour": 9},
+                "close":            {"hour": 28}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "This establishment not only wins the price for the most awesome Döner joint name, but also slides in as the last entry on the list of the best Berlin Döner Kebabs. Kottiwood is also located right on Kottbusser Tor, just a Kevin Großkreutz kebab throw away from Tadim, and has emulated the success of Mustafas with a strikingly similar concept. They serve a very similar Döner with chicken, roasted vegetables and cheese but do not reach the exact same quality as its famous counterpart on Mehringdamm. The Kottiwood Döner looks delicious and could be the most appealing döner on the top 5 list, where it does stand in the shadows of higher ranked Döners is especially the bread. It’s just a bit too heavy and thick and the entire eating experience is way too much about the bread. The meat, sauces and vegetables are very similar to what you get at Mustafas though and if you are a Mustafa obsessed visitor to Berlin, you should seriously have a Döner here instead as it’s very solid. And then go to Imren for the real deal."
         }
@@ -1865,11 +1634,11 @@
             "latitude":             52.513306,
             "longitude":            13.386206
         },
-        "rating":                   4.5,
-        "reviews":                  89,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Restaurant" ],
         "tags":                     [ "Wine Bars", "German", "Mediterranean" ],
         "hours": [
             {
@@ -1881,40 +1650,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "12:00 pm - 1:00 am",
-                "open":             1200,
-                "close":            2500
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Tue",
                 "formatted":        "12:00 pm - 1:00 am",
-                "open":             1200,
-                "close":            2500
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Wed",
                 "formatted":        "12:00 pm - 1:00 am",
-                "open":             1200,
-                "close":            2500
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Thu",
                 "formatted":        "12:00 pm - 1:00 am",
-                "open":             1200,
-                "close":            2500
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:00 pm - 1:00 am",
-                "open":             700,
-                "close":            2500
+                "open":             {"hour": 19},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Sat",
                 "formatted":        "12:00 pm - 1:00 am",
-                "open":             1200,
-                "close":            2500
+                "open":             {"hour": 12},
+                "close":            {"hour": 25}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1929,24 +1699,24 @@
             "latitude":             52.511010,
             "longitude":            13.462479
         },
-        "rating":                   4.5,
-        "reviews":                  56,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Cafe" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
@@ -1963,22 +1733,23 @@
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -1993,56 +1764,57 @@
             "latitude":             52.484313,
             "longitude":            13.361808
         },
-        "rating":                   4.5,
-        "reviews":                  38,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "Cafe" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Mon",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "open":             {"hour": 9},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 am - 8:00 pm",
-                "open":             900,
-                "close":            2000
+                "open":             {"hour": 9},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2057,12 +1829,12 @@
             "latitude":             52.552933,
             "longitude":            13.4060348
         },
-        "rating":                   4.5,
-        "reviews":                  70,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "Bakery" ],
-        "tags":                     [ "Bakeries, Patisserie/Cake Shop" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [ "Patisserie/Cake Shop" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -2079,34 +1851,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "6:15 am - 6:30 pm",
-                "open":             615,
-                "close":            1830
+                "open":             {"hour": 6,  "minute": 15},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:15 am - 6:30 pm",
-                "open":             615,
-                "close":            1830
+                "open":             {"hour": 6,  "minute": 15},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:15 am - 6:30 pm",
-                "open":             615,
-                "close":            1830
+                "open":             {"hour": 6,  "minute": 15},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:15 am - 6:30 pm",
-                "open":             615,
-                "close":            1830
+                "open":             {"hour": 6,  "minute": 15},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:15 am - 12:30 pm",
-                "open":             615,
-                "close":            1230
+                "open":             {"hour": 6,  "minute": 15},
+                "close":            {"hour": 12, "minute": 30}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Tucked on a corner street behind the Schönhauser Allee Arcaden, you'll find one of Prenzlauer Berg's oldest bakeries, Bäckerei Siebert. Opened in 1906 and still run by the eponymous family today, this hole-in-the-wall bakery is brimming with baked goods; its windows literally steam up as they produce a vast selection of breads, crumbles, fruit tarts, and other treats. In addition to traditional plum and marmalade pfannkuchen, Seibert also puts out a wide variety of doughnuts, including cream puffs and chocolate-glazed options. Their version, which are fried until nicely crisp, look more like a traditional American filled doughnut, flatter and round. Try the sinful chocolate-frosted version featuring eierlikör, a luxurious cream sauce spiked with brandy."
         }
@@ -2121,56 +1894,57 @@
             "latitude":             52.499950, 
             "longitude":            13.440610
         },
-        "rating":                   4,
-        "reviews":                  14,
+        "yelpRating":               4,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "Bakery" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "5:00 am - 5:00 pm",
-                "open":             500,
-                "close":            1700
+                "open":             {"hour": 5},
+                "close":            {"hour": 17}
             },
             {
                 "day":              "Mon",
                 "formatted":        "5:00 am - 7:00 pm",
-                "open":             500,
-                "close":            1900
+                "open":             {"hour": 5},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "5:00 am - 7:00 pm",
-                "open":             500,
-                "close":            1900
+                "open":             {"hour": 5},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "5:00 am - 7:00 pm",
-                "open":             500,
-                "close":            1900
+                "open":             {"hour": 5},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "5:00 am - 7:00 pm",
-                "open":             500,
-                "close":            1900
+                "open":             {"hour": 5},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 7:00 pm",
-                "open":             600,
-                "close":            1900
+                "open":             {"hour": 6},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "For doughnuts in Berlin's hipster neighborhood of Kreuzberg, jump off the train at Schlesisches Tor and walk just across the street to Bäkerei Ladewig. This family-owned operation was started in the 1970s and the shop smells delightfully of their daily baked treats. Alongside French crullers, the bakery offers the traditional pfannkuchen options—cherry-filled and glazed or sugar-dusted with plum—and their version is a bit more doughy then others we've tried. For a special occasion, get one of their riesenpfannkuchen, a super-sized version filled with tart cherry marmalade."
         }
@@ -2185,12 +1959,12 @@
             "latitude":             52.526680,
             "longitude":            13.399560
         },
-        "rating":                   5,
-        "reviews":                  66,
+        "yelpRating":               5,
         "interestLevel":            3,
         "priceRange":               1,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries", "Patisserie/Cake Shop" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [ "Patisserie/Cake Shop" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -2201,40 +1975,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 am - 12:00 pm",
-                "open":             600,
-                "close":            1200
+                "open":             {"hour": 6},
+                "close":            {"hour": 12}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "A few blocks away from tourist heavy Hakeschermarkt is one of Berlin's best bakeries. Opened in the 1920s, the family-run bakery offers some of the kitch of old Germany: the small shop, outfitted with wooden bakery shelves and lace curtains, is seamlessly run by a team of expert German women. On top of their crumble-topped fruit tarts, Quark cheesecake, and other traditional pastry, they have the most delicious doughnuts, fried deep brown and covered in a wonderfully sweet glaze. The pretzel-shaped pfannkuchen is certainly fun—light, fluffy, and reminiscent of the classic American glazed—and the tangy cherry filled one is equally delightful. Grab one for the road or stand at the small counter and enjoy a coffee with your morning treat."
         }
@@ -2249,18 +2024,18 @@
             "latitude":             52.561420,
             "longitude":            13.412450
         },
-        "rating":                   5,
-        "reviews":                  21,
-        "interestLevel":            1,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "Cafe" ],
-        "tags":                     [ "Breakfast & Brunch", "Bakeries", "Cafes" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Cafe", "Restaurant" ],
+        "tags":                     [ "Breakfast", "Brunch" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Mon",
@@ -2271,34 +2046,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 6:00 pm",
-                "open":             1000,
-                "close":            1800
+                "open":             {"hour": 10},
+                "close":            {"hour": 18}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2313,12 +2089,12 @@
             "latitude":             52.512045,
             "longitude":            13.452807
         },
-        "rating":                   4.5,
-        "reviews":                  64,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -2329,40 +2105,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "6:00 am - 8:00 pm",
-                "open":             600,
-                "close":            2000
+                "open":             {"hour": 6},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 am - 8:00 pm",
-                "open":             600,
-                "close":            2000
+                "open":             {"hour": 6},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 am - 8:00 pm",
-                "open":             600,
-                "close":            2000
+                "open":             {"hour": 6},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 am - 8:00 pm",
-                "open":             600,
-                "close":            2000
+                "open":             {"hour": 6},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 8:00 pm",
-                "open":             600,
-                "close":            2000
+                "open":             {"hour": 6},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2377,56 +2154,57 @@
             "latitude":             52.493440,
             "longitude":            13.382000
         },
-        "rating":                   4.5,
-        "reviews":                  87,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries", "Cafes" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 8:00 pm",
-                "open":             1000,
-                "close":            2000
+                "open":             {"hour": 10},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2434,63 +2212,64 @@
     {
         "id":                       "albrechts-patisserie",
         "name":                     "Albrechts Pâtisserie",
-        "address":                  "Rykestrasse 39",
+        "address":                  "Pappelallee 36",
         "directionsQuery":          "",
         "neighborhood":             "Prenzlauer Berg",
         "coords": {
-            "latitude":             52.537580,
-            "longitude":            13.421030
+            "latitude":             52.546642,
+            "longitude":            13.418640
         },
-        "rating":                   4.5,
-        "reviews":                  58,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               3,
-        "categories":               [ "" ],
-        "tags":                     [ "Desserts", "Bakeries" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [ "Desserts" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Mon",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2505,12 +2284,12 @@
             "latitude":             52.518940,
             "longitude":            13.438790
         },
-        "rating":                   5,
-        "reviews":                  29,
+        "yelpRating":               5,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "Bakery" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -2521,40 +2300,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:30 am - 11:30 am",
-                "open":             630,
-                "close":            1130
+                "open":             {"hour": 6,  "minute": 30},
+                "close":            {"hour": 11, "minute": 30}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2569,56 +2349,57 @@
             "latitude":             52.528010,
             "longitude":            13.408480
         },
-        "rating":                   4.5,
-        "reviews":                  61,
+        "yelpRating":               4.5,
         "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "8:00 am - 6:00 pm",
-                "open":             800,
-                "close":            1800
+                "open":             {"hour": 8},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Mon",
                 "formatted":        "7:30 am - 8:00 pm",
-                "open":             730,
-                "close":            2000
+                "open":             {"hour": 7, "minute": 30},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Tue",
                 "formatted":        "7:30 am - 8:00 pm",
-                "open":             730,
-                "close":            2000
+                "open":             {"hour": 7, "minute": 30},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Wed",
                 "formatted":        "7:30 am - 8:00 pm",
-                "open":             730,
-                "close":            2000
+                "open":             {"hour": 7, "minute": 30},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Thu",
                 "formatted":        "7:30 am - 8:00 pm",
-                "open":             730,
-                "close":            2000
+                "open":             {"hour": 7, "minute": 30},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:30 am - 8:00 pm",
-                "open":             730,
-                "close":            2000
+                "open":             {"hour": 7, "minute": 30},
+                "close":            {"hour": 20}
             },
             {
                 "day":              "Sat",
                 "formatted":        "8:00 am - 8:00 pm",
-                "open":             800,
-                "close":            2000
+                "open":             {"hour": 8},
+                "close":            {"hour": 20}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2633,56 +2414,50 @@
             "latitude":             52.500682,
             "longitude":            13.442105
         },
-        "rating":                   4.5,
-        "reviews":                  43,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               1,
-        "categories":               [ "Bakery" ],
-        "tags":                     [ "Bakeries", "Chocolatiers & Shops" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [ "Chocolatiers & Shops", "Cookies" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Mon",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Tue",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Wed",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Thu",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Fri",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             },
             {
                 "day":              "Sat",
                 "formatted":        "Open 24 hours",
-                "open":             "temp",
-                "close":            "temp"
+                "allDay":           true
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2697,12 +2472,12 @@
             "latitude":             52.535420,
             "longitude":            13.435740
         },
-        "rating":                   4.5,
-        "reviews":                  30,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -2713,40 +2488,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "6:00 am - 6:30 pm",
-                "open":             600,
-                "close":            1830
+                "open":             {"hour": 6},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 am - 6:30 pm",
-                "open":             600,
-                "close":            1830
+                "open":             {"hour": 6},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 am - 6:30 pm",
-                "open":             600,
-                "close":            1830
+                "open":             {"hour": 6},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 am - 6:30 pm",
-                "open":             600,
-                "close":            1830
+                "open":             {"hour": 6},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 6:30 pm",
-                "open":             600,
-                "close":            1830
+                "open":             {"hour": 6},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Sat",
                 "formatted":        "7:00 am - 12:00 pm",
-                "open":             700,
-                "close":            2400
+                "open":             {"hour": 7},
+                "close":            {"hour": 12}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2761,120 +2537,57 @@
             "latitude":             52.542360,
             "longitude":            13.425460
         },
-        "rating":                   4.5,
-        "reviews":                  18,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries", "Ice Cream & Frozen Yogurt", "Cafes" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [ "Ice Cream & Frozen Yogurt" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Mon",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "11:30 am - 7:00 pm",
-                "open":             1130,
-                "close":            1900
+                "open":             {"hour": 11, "minute": 30},
+                "close":            {"hour": 19}
             }
         ],
-        "description": {
-            "long":                 "description.long"
-        }
-    },
-    {
-        "id":                       "backer-kroll",
-        "name":                     "Bäcker Kroll",
-        "address":                  "Kuglerstrasse 65",
-        "directionsQuery":          "",
-        "neighborhood":             "Prenzlauer Berg",
-        "coords": {
-            "latitude":             52.551035,
-            "longitude":            13.424076
-        },
-        "rating":                   5,
-        "reviews":                  23,
-        "interestLevel":            1,
-        "priceRange":               1,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries" ],
-        "hours": [
-            {
-                "day":              "Sun",
-                "formatted":        "Closed",
-                "open":             null,
-                "close":            null
-            },
-            {
-                "day":              "Mon",
-                "formatted":        "Closed",
-                "open":             null,
-                "close":            null
-            },
-            {
-                "day":              "Tue",
-                "formatted":        "6:30 am - 6:30 pm",
-                "open":             630,
-                "close":            1830
-            },
-            {
-                "day":              "Wed",
-                "formatted":        "6:30 am - 6:30 pm",
-                "open":             630,
-                "close":            1830
-            },
-            {
-                "day":              "Thu",
-                "formatted":        "6:30 am - 6:30 pm",
-                "open":             630,
-                "close":            1830
-            },
-            {
-                "day":              "Fri",
-                "formatted":        "6:30 am - 6:30 pm",
-                "open":             630,
-                "close":            1830
-            },
-            {
-                "day":              "Sat",
-                "formatted":        "7:00 am - 1:00 pm",
-                "open":             700,
-                "close":            1300
-            }
-        ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2889,12 +2602,12 @@
             "latitude":             52.490200,
             "longitude":            13.404480
         },
-        "rating":                   4.5,
-        "reviews":                  32,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -2905,40 +2618,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "8:00 am - 4:00 pm",
-                "open":             800,
-                "close":            1600
+                "open":             {"hour": 8},
+                "close":            {"hour": 16}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -2953,56 +2667,57 @@
             "latitude":             52.540137,
             "longitude":            13.413042
         },
-        "rating":                   4.5,
-        "reviews":                  28,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "" ],
-        "tags":                     [ "Cafes", "Bakeries", "Juice Bars & Smoothies" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 7:00 pm",
-                "open":             1000,
-                "close":            1900
+                "open":             {"hour": 10},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Mon",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Tue",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Wed",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3017,12 +2732,12 @@
             "latitude":             52.487270,
             "longitude":            13.430490
         },
-        "rating":                   4.5,
-        "reviews":                  39,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
@@ -3033,32 +2748,32 @@
             {
                 "day":              "Mon",
                 "formatted":        "7:00 am - 3:00 pm",
-                "open":             700,
-                "close":            1500
+                "open":             {"hour": 7},
+                "close":            {"hour": 15}
             },
             {
                 "day":              "Tue",
                 "formatted":        "7:00 am - 3:00 pm",
-                "open":             700,
-                "close":            1500
+                "open":             {"hour": 7},
+                "close":            {"hour": 15}
             },
             {
                 "day":              "Wed",
                 "formatted":        "7:00 am - 3:00 pm",
-                "open":             700,
-                "close":            1500
+                "open":             {"hour": 7},
+                "close":            {"hour": 15}
             },
             {
                 "day":              "Thu",
                 "formatted":        "7:00 am - 3:00 pm",
-                "open":             700,
-                "close":            1500
+                "open":             {"hour": 7},
+                "close":            {"hour": 15}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:00 am - 3:00 pm",
-                "open":             700,
-                "close":            1500
+                "open":             {"hour": 7},
+                "close":            {"hour": 15}
             },
             {
                 "day":              "Sat",
@@ -3067,6 +2782,7 @@
                 "close":            null
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3081,18 +2797,18 @@
             "latitude":             52.536243,
             "longitude":            13.397868
         },
-        "rating":                   4.5,
-        "reviews":                  26,
-        "interestLevel":            3,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Cafes", "Bakeries", "Delicatessen" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Mon",
@@ -3109,28 +2825,29 @@
             {
                 "day":              "Wed",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Thu",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Fri",
                 "formatted":        "8:00 am - 7:00 pm",
-                "open":             800,
-                "close":            1900
+                "open":             {"hour": 8},
+                "close":            {"hour": 19}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 am - 7:00 pm",
-                "open":             900,
-                "close":            1900
+                "open":             {"hour": 9},
+                "close":            {"hour": 19}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3145,12 +2862,12 @@
             "latitude":             52.498770,
             "longitude":            13.442280
         },
-        "rating":                   5,
-        "reviews":                  26,
-        "interestLevel":            3,
+        "yelpRating":               5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Wine Bars", "Wineries" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [ "Wine" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -3167,34 +2884,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "3:00 pm - 10:00 pm",
-                "open":             1500,
-                "close":            2200
+                "open":             {"hour": 15},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Wed",
                 "formatted":        "3:00 pm - 10:00 pm",
-                "open":             1500,
-                "close":            2200
+                "open":             {"hour": 15},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Thu",
                 "formatted":        "3:00 pm - 10:00 pm",
-                "open":             1500,
-                "close":            2200
+                "open":             {"hour": 15},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "3:00 pm - 10:00 pm",
-                "open":             1500,
-                "close":            2200
+                "open":             {"hour": 15},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Sat",
                 "formatted":        "3:00 pm - 10:00 pm",
-                "open":             1500,
-                "close":            2200
+                "open":             {"hour": 15},
+                "close":            {"hour": 22}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3209,56 +2927,57 @@
             "latitude":             52.497420,
             "longitude":            13.351660
         },
-        "rating":                   4.5,
-        "reviews":                  89,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            3,
         "priceRange":               3,
-        "categories":               [ "" ],
-        "tags":                     [ "Cocktail Bars", "Champagne Bars" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [],
+        "tags":                     [ "Cocktails", "Champagne" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Mon",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3273,12 +2992,12 @@
             "latitude":             52.519875,
             "longitude":            13.414052
         },
-        "rating":                   4.5,
-        "reviews":                  109,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               3,
-        "categories":               [ "" ],
-        "tags":                     [ "Cocktail Bars", "Champagne Bars" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [ "Cocktails", "Champagne" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -3295,34 +3014,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "6:00 pm - 1:30 am",
-                "open":             600,
-                "close":            2530
+                "open":             {"hour": 18},
+                "close":            {"hour": 25, "minute": 30}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 pm - 3:00 am",
-                "open":             600,
-                "close":            2700
+                "open":             {"hour": 18},
+                "close":            {"hour": 27}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 pm - 3:00 am",
-                "open":             600,
-                "close":            2700
+                "open":             {"hour": 18},
+                "close":            {"hour": 27}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3337,56 +3057,57 @@
             "latitude":             52.502056,
             "longitude":            13.354689
         },
-        "rating":                   4.5,
-        "reviews":                  53,
-        "interestLevel":            1,
+        "yelpRating":               4.5,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Cocktail Bars" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [ "Cocktails" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Mon",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "7:00 pm - 2:00 am",
-                "open":             700,
-                "close":            2600
+                "open":             {"hour": 19},
+                "close":            {"hour": 26}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3401,12 +3122,12 @@
             "latitude":             52.518435,
             "longitude":            13.386480
         },
-        "rating":                   4.5,
-        "reviews":                  42,
+        "yelpRating":               4.5,
         "interestLevel":            3,
         "priceRange":               3,
-        "categories":               [ "" ],
-        "tags":                     [ "Cocktail Bars" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar" ],
+        "tags":                     [ "Cocktails" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -3417,40 +3138,41 @@
             {
                 "day":              "Mon",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "9:00 pm - 3:00 am",
-                "open":             900,
-                "close":            2700
+                "open":             {"hour": 21},
+                "close":            {"hour": 27}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3465,56 +3187,57 @@
             "latitude":             52.490200,
             "longitude":            13.404480
         },
-        "rating":                   4.5,
-        "reviews":                  59,
+        "yelpRating":               4.5,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Wine Bars", "Cocktail Bars", "Tapas/Small Plates" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Restaurant", "Bar" ],
+        "tags":                     [ "Wine", "Cocktails", "Tapas/Small Plates" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Mon",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 pm - 2:00 am",
-                "open":             600,
-                "close":            2600
+                "open":             {"hour": 18},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 pm - 3:00 am",
-                "open":             600,
-                "close":            2700
+                "open":             {"hour": 18},
+                "close":            {"hour": 27}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 pm - 3:00 am",
-                "open":             600,
-                "close":            2700
+                "open":             {"hour": 18},
+                "close":            {"hour": 27}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3529,56 +3252,57 @@
             "latitude":             52.528311,
             "longitude":            13.409880
         },
-        "rating":                   4.5,
-        "reviews":                  16,
+        "yelpRating":               4.5,
         "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Cafes", "Beer Hall", "Pubs" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bar", "Cafe" ],
+        "tags":                     [ "Beer Hall" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 12:00 am",
-                "open":             1000,
-                "close":            2400
+                "open":             {"hour": 10},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Mon",
                 "formatted":        "8:00 am - 12:00 am",
-                "open":             800,
-                "close":            2400
+                "open":             {"hour": 8},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Tue",
                 "formatted":        "8:00 am - 12:00 am",
-                "open":             800,
-                "close":            2400
+                "open":             {"hour": 8},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Wed",
                 "formatted":        "8:00 am - 12:00 am",
-                "open":             800,
-                "close":            2400
+                "open":             {"hour": 8},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Thu",
                 "formatted":        "8:00 am - 12:00 am",
-                "open":             800,
-                "close":            2400
+                "open":             {"hour": 8},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Fri",
                 "formatted":        "8:00 am - 2:00 am",
-                "open":             800,
-                "close":            2600
+                "open":             {"hour": 8},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 2:00 am",
-                "open":             1000,
-                "close":            2600
+                "open":             {"hour": 10},
+                "close":            {"hour": 26}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3593,56 +3317,57 @@
             "latitude":             52.547780,
             "longitude":            13.348900
         },
-        "rating":                   4.5,
-        "reviews":                  14,
+        "yelpRating":               4.5,
         "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Breweries" ],
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Brewery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "1:00 pm - 1:00 am",
-                "open":             1300,
-                "close":            2500
+                "open":             {"hour": 13},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Mon",
                 "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
+                "open":             {"hour": 17},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Tue",
                 "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
+                "open":             {"hour": 17},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Wed",
                 "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
+                "open":             {"hour": 17},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Thu",
                 "formatted":        "5:00 pm - 1:00 am",
-                "open":             1700,
-                "close":            2500
+                "open":             {"hour": 17},
+                "close":            {"hour": 25}
             },
             {
                 "day":              "Fri",
                 "formatted":        "5:00 pm - 2:00 am",
-                "open":             1700,
-                "close":            2600
+                "open":             {"hour": 17},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Sat",
                 "formatted":        "1:00 pm - 2:00 am",
-                "open":             1300,
-                "close":            2600
+                "open":             {"hour": 13},
+                "close":            {"hour": 26}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Holy non-pils, Batman! This cute, cozy, tiny, starkly decorated brewpub in a random neighborhood in Berlin that no tourist would ever intentionally visit actually serves up some of the best brews I had all week. Forget your pils and your hefeweizens and your dunkel lagers, this is serious craft beer we're talking about. The dubbel was a solid riff on the Belgian abbey standby, the cocoa chili stout subtly blended flavors of chocolate and chili without letting either overwhelm your tastebuds, and the black IPA was deemed by my drinking buddy as another excellent effort. If Berlin is going to shed the tyranny of the Reinheitsgebot, Vagabund may very well be the standard bearer leading that charge."
         }
@@ -3657,18 +3382,18 @@
             "latitude":             52.544156,
             "longitude":            13.419845
         },
-        "rating":                   4.5,
-        "reviews":                  11,
+        "yelpRating":               4.5,
         "interestLevel":            3,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bar", "Brewpub", "Restaurant" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Mon",
@@ -3679,34 +3404,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Wed",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Thu",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Fri",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             },
             {
                 "day":              "Sat",
                 "formatted":        "5:00 pm - 12:00 am",
-                "open":             1700,
-                "close":            2400
+                "open":             {"hour": 17},
+                "close":            {"hour": 24}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Highly recommended for craft beer enthusiasts and those just looking for a good meal. I really enjoyed my red oat ale from Spent Brewer's collective. The scotch egg and dirty dog dishes were very well prepared and quite tasty. Service was super friendly and I sure did have a great time here."
         }
@@ -3721,56 +3447,57 @@
             "latitude":             52.499462,
             "longitude":            13.439247
         },
-        "rating":                   4.5,
-        "reviews":                  14,
-        "interestLevel":            1,
-        "priceRange":               3,
-        "categories":               [ "" ],
-        "tags":                     [ "Breweries" ],
+        "yelpRating":               4.5,
+        "interestLevel":            2,
+        "priceRange":               2,
+        "categories":               [ "Drinks" ],
+        "subcategories":            [ "Bar", "Brewery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "4:00 pm - 3:00 am",
-                "open":             1600,
-                "close":            2700
+                "open":             {"hour": 16},
+                "close":            {"hour": 27}
             },
             {
                 "day":              "Mon",
                 "formatted":        "4:00 pm - 2:00 am",
-                "open":             1600,
-                "close":            2600
+                "open":             {"hour": 16},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Tue",
                 "formatted":        "4:00 pm - 2:00 am",
-                "open":             1600,
-                "close":            2600
+                "open":             {"hour": 16},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Wed",
                 "formatted":        "4:00 pm - 2:00 am",
-                "open":             1600,
-                "close":            2600
+                "open":             {"hour": 16},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Thu",
                 "formatted":        "4:00 pm - 2:00 am",
-                "open":             1600,
-                "close":            2600
+                "open":             {"hour": 16},
+                "close":            {"hour": 26}
             },
             {
                 "day":              "Fri",
                 "formatted":        "4:00 pm - 3:00 am",
-                "open":             1600,
-                "close":            2700
+                "open":             {"hour": 16},
+                "close":            {"hour": 27}
             },
             {
                 "day":              "Sat",
                 "formatted":        "4:00 pm - 3:00 am",
-                "open":             1600,
-                "close":            2700
+                "open":             {"hour": 16},
+                "close":            {"hour": 27}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "description.long"
         }
@@ -3785,56 +3512,57 @@
             "latitude":             52.502300,
             "longitude":            13.319910
         },
-        "rating":                   4,
-        "reviews":                  5,
-        "interestLevel":            1,
+        "yelpRating":               4,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Mon",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Tue",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Wed",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Thu",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Fri",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             },
             {
                 "day":              "Sat",
                 "formatted":        "",
-                "open":             "temp",
-                "close":            "temp"
+                "open":             {},
+                "close":            {}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "You either love or you hate Mohnkuchen, the poppy seed cake found all throughout Eastern Europe and favored in Berlin. One way to guarantee you'll like it is to try Backer Walf's version, a light, moist puree of nutty poppy seeds set on a buttery crust. The crunchy almond crumble adds nice texture and the syrup is just the right amount of sweet. Around the corner from the ritzy shopping street Kurfurstendamm, Walf has been a family owned bakery since 1898 and deserves a visit even if poppy seed pastries aren't your thing."
         }
@@ -3849,12 +3577,12 @@
             "latitude":             52.546540,
             "longitude":            13.418780
         },
-        "rating":                   4,
-        "reviews":                  48,
-        "interestLevel":            1,
+        "yelpRating":               4,
+        "interestLevel":            2,
         "priceRange":               1,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries", "Patisserie/Cake Shop" ],
+        "categories":               [ "Food" ],
+        "subcategories":            [ "Bakery" ],
+        "tags":                     [ "Patisserie/Cake Shop" ],
         "hours": [
             {
                 "day":              "Sun",
@@ -3871,34 +3599,35 @@
             {
                 "day":              "Tue",
                 "formatted":        "7:00 am - 6:30 pm",
-                "open":             700,
-                "close":            1830
+                "open":             {"hour": 7},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Wed",
                 "formatted":        "7:00 am - 6:30 pm",
-                "open":             700,
-                "close":            1830
+                "open":             {"hour": 7},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Thu",
                 "formatted":        "7:00 am - 6:30 pm",
-                "open":             700,
-                "close":            1830
+                "open":             {"hour": 7},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Fri",
                 "formatted":        "7:00 am - 6:30 pm",
-                "open":             700,
-                "close":            1830
+                "open":             {"hour": 7},
+                "close":            {"hour": 18, "minute": 30}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 am - 2:00 pm",
-                "open":             600,
-                "close":            1400
+                "open":             {"hour": 6},
+                "close":            {"hour": 14}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "This traditional Berlin snack originated in the Eastern part of the city as a sort of rustic puff pastry. Chilled butter is folded into a shaggy yeasted dough, creating a ragged, \"splintery\" crust and soft crumb. The fluffy dough is like a sweet cross between a pretzel and a bagel; the top is lightly brushed with honey and sprinkled with sugar, and the best splitterbrotchen, like Hacker's, are baked until the crust is slightly fried, giving a nice crunch to contrast the chewy center. Everything at this 100-year-old East German bakery is delicious, and its home on a quiet, tree-lined street in north Prenzlauer Berg makes it a nice place to relax on a sunny afternoon."
         }
@@ -3913,56 +3642,57 @@
             "latitude":             52.505650,
             "longitude":            13.318200
         },
-        "rating":                   4,
-        "reviews":                  142,
-        "interestLevel":            1,
+        "yelpRating":               4,
+        "interestLevel":            2,
         "priceRange":               2,
-        "categories":               [ "" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
         "tags":                     [ "Patisserie/Cake Shop" ],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Mon",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Tue",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Wed",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Thu",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Fri",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             },
             {
                 "day":              "Sat",
                 "formatted":        "10:00 am - 10:00 pm",
-                "open":             1000,
-                "close":            2200
+                "open":             {"hour": 10},
+                "close":            {"hour": 22}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "Although German grocery stores, catering to American expats, now carry cream cheese, quark is the go-to when it comes to cheesecake here. The farmer's cheese, similar to cottage cheese, creates a thick, slightly sour custard base, and the German cake traditionally has a short dough crust. But it's just as satisfying as anything stateside. A stop at West Berlin's Kuchladen, a quiet cafe tucked a few blocks away from the busy shopping streets of Charlottenburg, will make any sweets lover happy. From the dense Quarkkuchen to lemon tart and chocolate torte, this shop specializes in all things cake."
         }
@@ -3977,56 +3707,57 @@
             "latitude":             52.475490,
             "longitude":            13.323590
         },
-        "rating":                   4,
-        "reviews":                  25,
+        "yelpRating":               4,
         "interestLevel":            1,
         "priceRange":               2,
-        "categories":               [ "" ],
-        "tags":                     [ "Bakeries" ],
+        "categories":               [ "Food", "Drinks" ],
+        "subcategories":            [ "Bakery", "Cafe" ],
+        "tags":                     [],
         "hours": [
             {
                 "day":              "Sun",
                 "formatted":        "8:00 am - 5:00 pm",
-                "open":             800,
-                "close":            1700
+                "open":             {"hour": 8},
+                "close":            {"hour": 17}
             },
             {
                 "day":              "Mon",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Tue",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Wed",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Thu",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Fri",
                 "formatted":        "6:00 am - 6:00 pm",
-                "open":             600,
-                "close":            1800
+                "open":             {"hour": 6},
+                "close":            {"hour": 18}
             },
             {
                 "day":              "Sat",
                 "formatted":        "6:00 am - 4:00 pm",
-                "open":             600,
-                "close":            1600
+                "open":             {"hour": 6},
+                "close":            {"hour": 16}
             }
         ],
+        "recommendations":          "",
         "description": {
             "long":                 "The ultimate coffee cake, streuselschnecken is a light and airy cake topped with a crunchy crumble and slivered almonds. You can find it in a variety of flavors throughout Germany, including seasonal variations such as rhubarb, sour cherry, and plum. Vanilla, with a good helping of frosting, is traditional and delicious. Backermann's fluffy, fragrant version is worth the hike to its slightly off-the-beaten-path location; on a charming street in Schoneberg, the bakery is home to a large patio space offering room to lounge with the weekend paper."
         }
