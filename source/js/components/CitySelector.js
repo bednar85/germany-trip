@@ -26,9 +26,9 @@ var CitySelector = React.createClass({
             pageDots: false
         });
 
-        selector.on('cellSelect', function() {
-        // selector.on('settle', function() {
-            console.log('Flickity settled at ' + selector.selectedIndex);
+        // selector.on('cellSelect', function() {
+        selector.on('settle', function() {
+            // console.log('Flickity settled at ' + selector.selectedIndex);
 
             var selection = '';
 
@@ -46,7 +46,7 @@ var CitySelector = React.createClass({
                     break;
             }
 
-            console.log('selection: ' + selection);
+            // console.log('selection: ' + selection);
 
             component.navigateAfterSomethingHappened(selection);
         });
@@ -54,7 +54,7 @@ var CitySelector = React.createClass({
         // $('body').addClass('berlin');
     },
     componentDidUpdate: function() {
-        console.log('CitySelector componentDidUpdate');
+        // console.log('CitySelector componentDidUpdate');
         // console.log('this.state: ', this.state);
 
         // console.log('this.state.sort: ', this.state.sort);
@@ -77,7 +77,7 @@ var CitySelector = React.createClass({
     },
     navigateAfterSomethingHappened: function(selection) {
         // probably would be better to handle this change of data without a route change, seems to stutter as the slider is transitioning
-        // this.transitionTo('destination', { destination: selection });
+        this.transitionTo('destination', { destination: selection });
 
         // $('body').removeClass('berlin munich vienna');
         // $('body').addClass(selection);
