@@ -24,61 +24,79 @@ var PlacesList = React.createClass({
         // console.log('PlacesList componentDidUpdate: ', this.state.filterBarSelections.sort);
     },
     filterData: function(collection) {
-        var outputData = [];
         var inputData = collection;
+        var outputData = inputData;
         var filterBar = this.state.filterBarSelections;
+        var priceMax = 0;
         var distanceMax = 0;
-        var sortByKey = '';
+        var sortBy = '';
 
-        // Determin sortByKey value
+        console.log('filterData: ', filterBar);
+
+        // Determine sortBy value
         switch(filterBar.sort) {
-            case 'a_to_z':
-                sortByKey = 'name';
-                break;
             case 'closest_to_hotel':
-                sortByKey = 'distanceFromHotel';
+                sortBy = 'distanceFromHotel';
                 break;
             case 'closest_to_us':
-                sortByKey = 'distanceFromUs';
+                sortBy = 'distanceFromUs';
+                break;
+        }
+
+        // Filter by Category
+        // ...
+
+        // Filter by Subcategory
+        // ...
+
+        // Filter by Price
+        switch(filterBar.price) {
+            case 'price_1':
+                priceMax = 1;
+                break;
+            case 'price_2':
+                priceMax = 2;
+                break;
+            case 'price_3':
+                priceMax = 3;
                 break;
             default:
-                sortByKey = 'distanceFromHotel';
+                priceMax = 3;
         }
 
-        // Filter
-        if(filterBar.sort === 'closest_to_hotel' || filterBar.sort === 'closest_to_us') {
-            switch(filterBar.distance) {
-                case 'distance_1':
-                    distanceMax = 0.5;
-                    break;
-                case 'distance_2':
-                    distanceMax = 1.5;
-                    break;
-                case 'distance_3':
-                    distanceMax = 5;
-                    break;
-                case 'distance_4':
-                    distanceMax = 100;
-                    break;
-                default:
-                    distanceMax = 1.5;
-            }
+        // filter inputData when priceRange is less than or equal to priceMax
+        outputData = _.filter(outputData, function(n) {
+            return n['priceRange'] <= priceMax;
+        });
 
-            console.log('distanceMax: ', distanceMax);
-
-            // temp distanceMax to show all
-            // distanceMax = 100;
-
-            outputData = _.filter(inputData, function(n) {
-                return n[sortByKey] <= distanceMax;
-            });
+        // Filter by Distance
+        switch(filterBar.distance) {
+            case 'distance_1':
+                distanceMax = 0.5;
+                break;
+            case 'distance_2':
+                distanceMax = 1.5;
+                break;
+            case 'distance_3':
+                distanceMax = 5;
+                break;
+            case 'distance_4':
+                distanceMax = 4000;
+                break;
+            default:
+                distanceMax = 1.5;
         }
 
-        // Sort
-        outputData = _.map(_.sortBy(inputData, sortByKey));
+        // temp distanceMax to show all
+        // distanceMax = 4000;
 
-        // sort places data based on distanceFromHotel value
-        return outputData;
+        // filter inputData when sortBy (in this case the distance either from the hotel or from us) is less than or equal to distanceMax
+        outputData = _.filter(outputData, function(n) {
+            return n[sortBy] <= distanceMax;
+        });
+
+        // Sort and Return
+        return _.map(_.sortBy(outputData, sortBy));
     },
     onChildChanged: function(newState) {
         // console.log('onChildChanged: ', newState);

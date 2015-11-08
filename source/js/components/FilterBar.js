@@ -16,7 +16,7 @@ var FilterBar = React.createClass({
         this.updateSelections();
     },
     componentDidUpdate: function() {
-        console.log('FilterBar componentDidUpdate');
+        // console.log('FilterBar componentDidUpdate');
         // console.log('this.state: ', this.state);
 
         // console.log('this.state.category: ', this.state.category);
@@ -31,11 +31,11 @@ var FilterBar = React.createClass({
             category: this.refs.categoryGroup.getCheckedValues()[0],
             subcategory: this.refs.subcategoryGroup.getCheckedValues()[0],
             sort: this.refs.sortGroup.getCheckedValues()[0],
-            price: this.refs.priceGroup.getCheckedValues(),
+            price: this.refs.priceGroup.getCheckedValues()[0],
             distance: this.refs.distanceGroup.getCheckedValues()[0]
         };
 
-        console.log('newState: ', newState);
+        // console.log('newState: ', newState);
 
         this.setState({
             selections: newState
@@ -47,18 +47,36 @@ var FilterBar = React.createClass({
         return (
             <div className="filter-bar">
                 <CheckboxGroup
+                    name="sort"
+                    ref="sortGroup"
+                    onChange={this.updateSelections}
+                >
+                    Sort:<br />
+                    <div className="filter-bar__group">
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="closest_to_hotel" defaultChecked />
+                            Closest to Our Hotel
+                        </label>
+                        <label className="filter-bar__label">
+                            <input className="filter-bar__input" type="radio" value="closest_to_us" />
+                            Closest to Us
+                        </label>
+                    </div>
+                </CheckboxGroup>
+                <CheckboxGroup
                     name="category"
                     ref="categoryGroup"
                     onChange={this.updateSelections}
                 >
-                    <div className="filter-bar__group -inline -main-group">
+                    Category:<br />
+                    <div className="filter-bar__group -main-group">
                         <label className="filter-bar__label">
                             <input className="filter-bar__input" type="radio" value="all" defaultChecked />
                             All
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="sights" />
-                            Sights
+                            <input className="filter-bar__input" type="radio" value="sites" />
+                            Sites
                         </label>
                         <label className="filter-bar__label">
                             <input className="filter-bar__input" type="radio" value="food" />
@@ -124,23 +142,6 @@ var FilterBar = React.createClass({
                     </div>
                 </CheckboxGroup>
                 <CheckboxGroup
-                    name="sort"
-                    ref="sortGroup"
-                    onChange={this.updateSelections}
-                >
-                    Sort:<br />
-                    <div className="filter-bar__group">
-                        <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="closest_to_hotel" defaultChecked />
-                            Closest to Our Hotel
-                        </label>
-                        <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="closest_to_us" />
-                            Closest to Us
-                        </label>
-                    </div>
-                </CheckboxGroup>
-                <CheckboxGroup
                     name="price"
                     ref="priceGroup"
                     onChange={this.updateSelections}
@@ -148,20 +149,16 @@ var FilterBar = React.createClass({
                     Price:<br />
                     <div className="filter-bar__group">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="checkbox" value="price_1" />
+                            <input className="filter-bar__input" type="radio" value="price_1" />
                             $
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="checkbox" value="price_2" />
+                            <input className="filter-bar__input" type="radio" value="price_2" />
                             $$
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="checkbox" value="price_3" />
+                            <input className="filter-bar__input" type="radio" value="price_3" defaultChecked />
                             $$$
-                        </label>
-                        <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="checkbox" value="price_4" />
-                            $$$$
                         </label>
                     </div>
                 </CheckboxGroup>
