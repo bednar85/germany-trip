@@ -27,8 +27,6 @@ var PlacesList = React.createClass({
         var inputData = collection;
         var outputData = inputData;
         var filterBar = this.state.filterBarSelections;
-        var priceMax = 0;
-        var distanceMax = 0;
         var sortBy = '';
 
         console.log('filterData: ', filterBar);
@@ -44,55 +42,29 @@ var PlacesList = React.createClass({
         }
 
         // Filter by Category
-        // ...
+        if(filterBar.category != 'All') {
+            // filter data when categories contains selected category
+            outputData = _.filter(outputData, function(place) {
+                // console.log('n.categories: ', n.categories);
+                // console.log('filterBar.category: ', filterBar.category);
+                // console.log('contains: ', _.contains(n.categories, filterBar.category));
+                return _.contains(place.categories, filterBar.category);
+            });
+        }
 
         // Filter by Subcategory
         // ...
 
         // Filter by Price
-        switch(filterBar.price) {
-            case 'price_1':
-                priceMax = 1;
-                break;
-            case 'price_2':
-                priceMax = 2;
-                break;
-            case 'price_3':
-                priceMax = 3;
-                break;
-            default:
-                priceMax = 3;
-        }
-
-        // filter inputData when priceRange is less than or equal to priceMax
-        outputData = _.filter(outputData, function(n) {
-            return n['priceRange'] <= priceMax;
+        // filter data when priceRange is less than or equal to selected price
+        outputData = _.filter(outputData, function(place) {
+            return place.priceRange <= filterBar.price;
         });
 
         // Filter by Distance
-        switch(filterBar.distance) {
-            case 'distance_1':
-                distanceMax = 0.5;
-                break;
-            case 'distance_2':
-                distanceMax = 1.5;
-                break;
-            case 'distance_3':
-                distanceMax = 5;
-                break;
-            case 'distance_4':
-                distanceMax = 4000;
-                break;
-            default:
-                distanceMax = 1.5;
-        }
-
-        // temp distanceMax to show all
-        // distanceMax = 4000;
-
-        // filter inputData when sortBy (in this case the distance either from the hotel or from us) is less than or equal to distanceMax
-        outputData = _.filter(outputData, function(n) {
-            return n[sortBy] <= distanceMax;
+        // filter data when distanceFromHotel OR distanceFromUs is less than or equal to selected distance
+        outputData = _.filter(outputData, function(place) {
+            return place[sortBy] <= filterBar.distance;
         });
 
         // Sort and Return

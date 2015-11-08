@@ -71,19 +71,19 @@ var FilterBar = React.createClass({
                     Category:<br />
                     <div className="filter-bar__group -main-group">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="all" defaultChecked />
+                            <input className="filter-bar__input" type="radio" value="All" defaultChecked />
                             All
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="sites" />
+                            <input className="filter-bar__input" type="radio" value="Sites" />
                             Sites
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="food" />
+                            <input className="filter-bar__input" type="radio" value="Food" />
                             Food
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="drinks" />
+                            <input className="filter-bar__input" type="radio" value="Drinks" />
                             Drinks
                         </label>
                     </div>
@@ -96,47 +96,47 @@ var FilterBar = React.createClass({
                     Subcategory:<br />
                     <div className="filter-bar__group -sights">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="architecture" />
+                            <input className="filter-bar__input" type="radio" value="Architecture" />
                             Architecture
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="art" />
+                            <input className="filter-bar__input" type="radio" value="Art" />
                             Art
                         </label>
                     </div>
                     <div className="filter-bar__group -food">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="bakery" />
+                            <input className="filter-bar__input" type="radio" value="Bakery" />
                             Bakery
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="bar" />
+                            <input className="filter-bar__input" type="radio" value="Bar" />
                             Bar
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="farmers-market" />
+                            <input className="filter-bar__input" type="radio" value="Farmer's Market" />
                             Farmer&#8217;s Market
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="fast-food" />
+                            <input className="filter-bar__input" type="radio" value="Fast Food" />
                             Fast Food
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="restaurant" />
+                            <input className="filter-bar__input" type="radio" value="Restaurant" />
                             Restaurant
                         </label>
                     </div>
                     <div className="filter-bar__group -drinks">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="bar" />
+                            <input className="filter-bar__input" type="radio" value="Bar" />
                             Bar
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="brewery" />
+                            <input className="filter-bar__input" type="radio" value="Brewery" />
                             Brewery/Brewpub
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="cafe" />
+                            <input className="filter-bar__input" type="radio" value="Cafe" />
                             Cafe
                         </label>
                     </div>
@@ -149,15 +149,15 @@ var FilterBar = React.createClass({
                     Price:<br />
                     <div className="filter-bar__group">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="price_1" />
+                            <input className="filter-bar__input" type="radio" value="1" />
                             $
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="price_2" />
+                            <input className="filter-bar__input" type="radio" value="2" />
                             $$
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="price_3" defaultChecked />
+                            <input className="filter-bar__input" type="radio" value="3" defaultChecked />
                             $$$
                         </label>
                     </div>
@@ -170,19 +170,19 @@ var FilterBar = React.createClass({
                     Distance:<br />
                     <div className="filter-bar__group">
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="distance_1" />
+                            <input className="filter-bar__input" type="radio" value="0.5" />
                             Within 4 Blocks
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="distance_2" defaultChecked />
+                            <input className="filter-bar__input" type="radio" value="1.5" defaultChecked />
                             Walking (1.5 mi)
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="distance_3" />
+                            <input className="filter-bar__input" type="radio" value="5" />
                             Bus/Subway (5 mi)
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="distance_4" />
+                            <input className="filter-bar__input" type="radio" value="4000" />
                             If We Had More Time
                         </label>
                     </div>
