@@ -132,6 +132,9 @@ gulp.task('copyFiles', function() {
 
     gulp.src('source/fonts/**')
         .pipe(gulp.dest('build/fonts/'));
+
+    gulp.src('source/_experiments/**')
+        .pipe(gulp.dest('build/_experiments/'));
 });
 
 

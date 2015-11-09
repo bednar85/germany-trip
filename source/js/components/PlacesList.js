@@ -79,7 +79,7 @@ var PlacesList = React.createClass({
     },
     renderDynamicIcon: function(property, uniqueClass, src, repeat) {
         var output = [];
-        var classes = 'icon ' + 'icon--' + uniqueClass;
+        var classes = 'icon icon--' + uniqueClass;
 
         if(repeat) {
             var i = 0;

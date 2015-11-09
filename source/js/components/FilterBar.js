@@ -182,7 +182,7 @@ var FilterBar = React.createClass({
                             Bus/Subway (5 mi)
                         </label>
                         <label className="filter-bar__label">
-                            <input className="filter-bar__input" type="radio" value="4000" />
+                            <input className="filter-bar__input" type="radio" value="5000" />
                             If We Had More Time
                         </label>
                     </div>
