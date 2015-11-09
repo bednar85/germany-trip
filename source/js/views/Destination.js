@@ -43,7 +43,7 @@ var Destination = React.createClass({
         // store value of this in a var for later use deeper in scope of this function
         var component = this;
         var currentCity = this.getParams().destination;
-        var dataPath = '/data/' + currentCity + '.json';
+        var dataPath = './data/' + currentCity + '.json';
 
         // get current location
         this.getCurrentLocation();
