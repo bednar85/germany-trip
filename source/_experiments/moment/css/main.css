@@ -278,3 +278,13 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+
+
+.places {
+    list-style: none;
+}
+.place {
+    margin-bottom: 50px;
+}
