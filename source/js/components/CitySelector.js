@@ -88,18 +88,21 @@ var CitySelector = React.createClass({
                 <div className="city-selector__option -berlin" data-city="berlin">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Berlin</h1>
+                        <p className="city-selector__option__caption">Catedral de Berlin</p>
                         <img className="city-selector__option__background" src="img/cities/berlin.jpg" />
                     </div>
                 </div>
                 <div className="city-selector__option -munich" data-city="munich">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Munich</h1>
+                        <p className="city-selector__option__caption">Neuschwanstein Castle</p>
                         <img className="city-selector__option__background" src="img/cities/munich.jpg" />
                     </div>
                 </div>
                 <div className="city-selector__option -vienna" data-city="vienna">
                     <div className="city-selector__option__content">
                         <h1 className="city-selector__option__heading">Vienna</h1>
+                        <p className="city-selector__option__caption">Schönbrunn Palace</p>
                         <img className="city-selector__option__background" src="img/cities/vienna.jpg" />
                     </div>
                 </div>

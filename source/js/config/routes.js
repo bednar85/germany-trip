@@ -14,6 +14,6 @@ module.exports = (
     <Route name="app" path="/" handler={Main}>
         <Route name="details" path="details/:place" handler={Details} />
         <Route name="destination" path="destination/:destination" handler={Destination} />
-        <DefaultRoute handler={Home} />
+        <DefaultRoute handler={Destination} path="destination/berlin" />
     </Route>
 );
