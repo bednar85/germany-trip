@@ -1,3 +1,5 @@
+// .places-list
+
 .place
     overflow: hidden
     padding: 25px
@@ -12,10 +14,9 @@
     
 .place__name
     display: inline-block
-    font-size: 18px
+    font-size: 1.8rem
     padding-right: 35px
     position: relative
-    // text-transform: uppercase
         
     .icon-wrapper
         bottom: 0
@@ -29,26 +30,23 @@
     display: inline-block
     
 .place__address
-    font-size: 14px
+    font-size: 1.4rem
     
 .place__directions-link
-    // font-family: 
-    font-size: 14px
+    font-size: 1.4rem
     text-transform: uppercase
 
 .place__yelp-rating
-    font-size: 14px
+    font-size: 1.4rem
     
 .icon--price-range
     height: 25px
-    
-// .place__icon-wrapper icon-wrapper
-// .place__icon-wrapper icon-wrapper
 
 .places__distance-info
     width: 30%
     
     .icon
+        margin-left: 10px
         width: 40px
     
 .place__distance-info__text
@@ -62,9 +60,16 @@
     
     &:last-child
         margin-right: 0
-    
-    &.interest-level
-        fill: #EFE414
 
-    &.price-range
-        fill: #5CB85C
+.filter-bar-toggle
+    background: transparent
+    border: none
+    display: block
+    font-family: 'Montserrat'
+    font-size: 1.8rem
+    font-weight: $bold
+    padding: 0
+    
+.filter-bar-toggle__text
+    display: inline-block
+    margin-right: 15px

@@ -4,6 +4,7 @@ var Link = Router.Link;
 // Components
 var FilterBar = require('./FilterBar');
 // Libs
+var $ = require('jquery');
 var _ = require('lodash');
 
 
@@ -97,6 +98,19 @@ var PlacesList = React.createClass({
 
         return output;
     },
+    toggleFilterBar: function() {
+        var $filterBar = $('.filter-bar');
+        var $filterBarToggleText = $('.filter-bar-toggle__text');
+        
+        $filterBar.toggleClass('-active');
+
+        if($filterBar.hasClass('-active')) {
+            $filterBarToggleText.text('Hide Filters');
+        }
+        else {
+            $filterBarToggleText.text('Show Filters');
+        }
+    },
     render: function() {
         console.log('PlacesList render');
         var component = this;
@@ -137,9 +151,14 @@ var PlacesList = React.createClass({
 
         return (
             <div>
+                <button className="filter-bar-toggle" onClick={this.toggleFilterBar} >
+                    <span className="filter-bar-toggle__text">Show Filters</span>
+                    <div className="icon-wrapper icon-wrapper--inline icon-wrapper--filters">
+                        <img className="icon icon--filters" src="img/fitlers.svg" />
+                    </div>
+                </button>
                 <FilterBar callbackParent={this.onChildChanged} />
-                <h3>Info for {destination}</h3>
-                <ul className="list-group">
+                <ul className="places-list list-group">
                     {places}
                 </ul>
             </div>

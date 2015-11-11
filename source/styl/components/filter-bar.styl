@@ -1,10 +1,11 @@
 .filter-bar
-    // max-height: 0
+    max-height: 0
+    margin-bottom: 30px
     overflow: hidden
     transition: all 0.5s
     
-    // &.-active
-    //     max-height: 800px
+    &.-active
+        max-height: 20000px
     
     &.-all-active
         .filter-bar__group.-subcategory.-sites,
@@ -30,26 +31,23 @@
     margin: 0 auto
     padding: 30px 0
     width: 100%
-
+    
     & > div
         float: left
         padding-left: 40px
-        width: 20%
+        padding-right: 20px
+        width: 50%
 
 .filter-bar__group
     cf()
-    margin: 0 auto
+    margin: 0 auto 30px
 
     &.-subcategory
         display: none
-        
-    &:last-child
-        .filter-bar__label:last-child
-            margin-bottom: 0
 
 .fitler-bar__group-title
     font-family: 'Montserrat'
-    font-size: 14px
+    font-size: 1.4rem
     font-weight: $bold
     letter-spacing: 1px
     line-height: 1
@@ -65,7 +63,7 @@
     cursor: pointer
     display: block
     font-family: 'Montserrat'
-    font-size: 14px
+    font-size: 1.4rem
     font-weight: $bold
     letter-spacing: 1px
     line-height: 1
@@ -84,14 +82,23 @@
         background: url("../img/checkmark-alt.svg") no-repeat center center
         background-size: contain
         content: ""
-        // border-radius: 100%
         display: block
-        // height: 10px
         height: 25px
         left: -35px
         position: absolute
         top: 50%
         transform: translateY(-50%)
-        // width: 10px
         width: 25px
-        
+
++desktop()
+    .filter-bar__content > div
+        padding-left: 40px
+        padding-right: 0
+        width: 20%
+    
+    .filter-bar__group
+        margin: 0 auto
+
+    .filter-bar__group:last-child
+        .filter-bar__label:last-child
+            margin-bottom: 0
