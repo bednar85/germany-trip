@@ -18,16 +18,24 @@ var Destination = React.createClass({
             places: [],
             cityCoords: {
                 'berlin': {
-                    'latitude': 52.520007,
-                    'longitude': 13.404954
+                    'latitude':  52.499328,
+                    'longitude': 13.324613
+                },
+                'dresden': {
+                    'latitude':  51.042120,
+                    'longitude': 13.731000
+                },
+                'bamberg': {
+                    'latitude':  49.897257,
+                    'longitude': 10.891407
                 },
                 'munich': {
-                    'latitude': 48.135125,
-                    'longitude': 11.581981
+                    'latitude':  48.172570,
+                    'longitude': 11.594130
                 },
                 'vienna': {
-                    'latitude': 48.208174,
-                    'longitude': 16.373819
+                    'latitude':  48.186904,
+                    'longitude': 16.343922
                 }
             },
             ourCoords: {

@@ -6,6 +6,7 @@ var FilterBar = require('./FilterBar');
 // Libs
 var $ = require('jquery');
 var _ = require('lodash');
+var moment = require('moment');
 
 
 
@@ -111,18 +112,63 @@ var PlacesList = React.createClass({
             $filterBarToggleText.text('Show Filters');
         }
     },
+    checkIfOpen: function(now, today, place) {
+        // Store targetRange to reference below
+        var targetRange = place.hours[today];
+        
+        console.log('place.name: ', place.name);
+
+        console.log('targetRange.open === null: ', targetRange.open === null);
+        console.log('targetRange.close === null: ', targetRange.close === null);
+
+
+        if(targetRange.open === null && targetRange.close === null) {
+            console.log('false bc null');
+
+            return false;
+        }
+        // if(targetRange.open === {} && targetRange.close === {}) {
+        //     // no hours data found yet
+        //     return true;
+        // }
+        else {
+            // Set hours and minutes to shorter more readable vars
+            var openHour = targetRange.open.hour;
+            var closeHour = targetRange.close.hour;
+            // if no minutes specified set to 0
+            var openMinute = targetRange.open.minute ? targetRange.open.minute : 0;
+            var closeMinute = targetRange.close.minute ? targetRange.close.minute : 0;
+
+            // Create range vars
+            var todayOpen = moment().set({'day': today, 'hour': openHour, 'minute': openMinute, 'second': 0});
+            var todayClose = moment().set({'day': today, 'hour': closeHour, 'minute': closeMinute, 'second': 0});
+
+            console.log('now.isBetween(todayOpen, todayClose): ', now.isBetween(todayOpen, todayClose));
+            
+            return now.isBetween(todayOpen, todayClose);
+        }        
+    },
     render: function() {
         console.log('PlacesList render');
+
         var component = this;
         var destination = this.props.destination;
 
-        console.log('this.props.places: ', this.props.places);
-
+        // Filter and Sort the data
         var filteredData = this.filterData(this.props.places);
 
-        // output storedPlacesData to a var, render var to screen
+        // Set isOpen property
+        var now = moment();
+        var today = now.day();
+
+        _.forEach(filteredData, function(place) {
+            place.isOpen = component.checkIfOpen(now, today, place);
+
+            console.log('place.isOpen: ', place.isOpen);
+        });
+
+        // Output filteredData to a var, render var to screen
         var places = filteredData.map(function(place, index) {
-            
             // render the icons to a var here
             var interestLevelImages = ['', 'img/interested.svg', 'img/really-interested.svg'];
             var interestLevel = component.renderDynamicIcon(place.interestLevel, 'interest-level', interestLevelImages);
@@ -145,8 +191,10 @@ var PlacesList = React.createClass({
                         <p className="place__distance-info__text">{place.distanceFromHotel} mi <img className="icon icon--hotel" src="img/hotel.svg" /></p>
                         <p className="place__distance-info__text">{place.distanceFromUs} mi <img className="icon icon--us" src="img/us.svg" /></p>
                     </div>
+                    <div>{place.hours[today].formatted}</div>
+                    <div>isOpen: {place.isOpen ? 'OPEN' : 'CLOSED'}</div>
                 </li>
-            )
+            );
         });
 
         return (
@@ -162,7 +210,7 @@ var PlacesList = React.createClass({
                     {places}
                 </ul>
             </div>
-        )
+        );
     }
 });
 
