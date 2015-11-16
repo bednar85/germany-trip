@@ -152,6 +152,7 @@ gulp.task('watch', function() {
     livereload.listen();
     gulp.watch([path.HTML, 'source/data/*.json', 'source/img/**'], ['copyFiles']);
     gulp.watch(['source/styl/*.styl', 'source/styl/**/*.styl'], ['styles']);
+    gulp.watch('source/_experiments/**', ['copyFiles']);
 });
 
 // Default Task
