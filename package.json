@@ -35,6 +35,7 @@
     "jquery": "^2.1.4",
     "kouto-swiss": "^0.11.13",
     "lodash": "^3.10.1",
+    "moment": "^2.10.6",
     "reactify": "^1.1.1",
     "run-sequence": "^1.1.4",
     "rupture": "^0.6.1",
