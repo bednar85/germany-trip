@@ -11,8 +11,8 @@
         .filter-bar__group.-subcategory.-sites,
         .filter-bar__group.-subcategory.-food,
         .filter-bar__group.-subcategory.-drinks
-            display: block
-            opacity: 0.3
+            display: none
+            // opacity: 0.3
 
     &.-sites-active
         .filter-bar__group.-subcategory.-sites
@@ -27,16 +27,12 @@
             display: block
 
 .filter-bar__content
-    cf()
     margin: 0 auto
     padding: 30px 0
     width: 100%
     
     & > div
-        float: left
         padding-left: 40px
-        padding-right: 20px
-        width: 50%
 
 .filter-bar__group
     cf()
@@ -90,8 +86,26 @@
         transform: translateY(-50%)
         width: 25px
 
-+desktop()
++tablet()
+    .filter-bar__content
+        cf()
+        
     .filter-bar__content > div
+        float: left
+        padding-left: 40px
+        padding-right: 20px
+        width: 50%
+
++desktop()
+    .filter-bar.-all-active
+        .filter-bar__content > div
+            width: 25%
+        
+    .filter-bar__content
+        cf()
+
+    .filter-bar__content > div
+        float: left
         padding-left: 40px
         padding-right: 0
         width: 20%

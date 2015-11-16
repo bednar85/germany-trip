@@ -56,8 +56,8 @@ var FilterBar = React.createClass({
                         ref="sortGroup"
                         onChange={this.updateSelections}
                     >
-                        <h2 className="fitler-bar__group-title">Sort:</h2>
                         <div className="filter-bar__group -sort">
+                            <h2 className="fitler-bar__group-title">Sort:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="closest_to_hotel" defaultChecked />
                                 Closest to Our Hotel
@@ -73,8 +73,8 @@ var FilterBar = React.createClass({
                         ref="categoryGroup"
                         onChange={this.updateSelections}
                     >
-                        <h2 className="fitler-bar__group-title">Category:</h2>
                         <div className="filter-bar__group -category">
+                            <h2 className="fitler-bar__group-title">Category:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="All" defaultChecked />
                                 All
@@ -98,8 +98,8 @@ var FilterBar = React.createClass({
                         ref="subcategoryGroup"
                         onChange={this.updateSelections}
                     >
-                        <h2 className="fitler-bar__group-title">Subcategory:</h2>
                         <div className="filter-bar__group -subcategory -sites">
+                            <h2 className="fitler-bar__group-title">Subcategory:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="Architecture" />
                                 Architecture
@@ -110,6 +110,7 @@ var FilterBar = React.createClass({
                             </label>
                         </div>
                         <div className="filter-bar__group -subcategory -food">
+                            <h2 className="fitler-bar__group-title">Subcategory:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="Bakery" />
                                 Bakery
@@ -132,6 +133,7 @@ var FilterBar = React.createClass({
                             </label>
                         </div>
                         <div className="filter-bar__group -subcategory -drinks">
+                            <h2 className="fitler-bar__group-title">Subcategory:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="Bar" />
                                 Bar
@@ -151,8 +153,8 @@ var FilterBar = React.createClass({
                         ref="priceGroup"
                         onChange={this.updateSelections}
                     >
-                        <h2 className="fitler-bar__group-title">Price:</h2>
                         <div className="filter-bar__group -price">
+                            <h2 className="fitler-bar__group-title">Price:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="1" />
                                 $
@@ -172,8 +174,8 @@ var FilterBar = React.createClass({
                         ref="distanceGroup"
                         onChange={this.updateSelections}
                     >
-                        <h2 className="fitler-bar__group-title">Distance:</h2>
                         <div className="filter-bar__group -distance">
+                            <h2 className="fitler-bar__group-title">Distance:</h2>
                             <label className="filter-bar__label">
                                 <input className="filter-bar__input" type="radio" value="0.5" />
                                 Within 4 Blocks
