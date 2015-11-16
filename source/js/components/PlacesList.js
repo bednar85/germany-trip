@@ -31,7 +31,7 @@ var PlacesList = React.createClass({
         var filterBar = this.state.filterBarSelections;
         var sortBy = '';
 
-        console.log('filterData: ', filterBar);
+        // console.log('filterData: ', filterBar);
 
         // Determine sortBy value
         switch(filterBar.sort) {
@@ -116,40 +116,33 @@ var PlacesList = React.createClass({
         // Store targetRange to reference below
         var targetRange = place.hours[today];
         
-        console.log('place.name: ', place.name);
-
-        console.log('targetRange.open === null: ', targetRange.open === null);
-        console.log('targetRange.close === null: ', targetRange.close === null);
-
+        // console.log('place.name: ', place.name)
 
         if(targetRange.open === null && targetRange.close === null) {
-            console.log('false bc null');
-
             return false;
         }
-        // if(targetRange.open === {} && targetRange.close === {}) {
-        //     // no hours data found yet
-        //     return true;
-        // }
         else {
-            // Set hours and minutes to shorter more readable vars
-            var openHour = targetRange.open.hour;
-            var closeHour = targetRange.close.hour;
-            // if no minutes specified set to 0
-            var openMinute = targetRange.open.minute ? targetRange.open.minute : 0;
-            var closeMinute = targetRange.close.minute ? targetRange.close.minute : 0;
+            if(typeof targetRange.open.hour === 'undefined') {
+                return 'Possibly Open'; // i.e. no hours info
+            }
+            else {
+                // Set hours and minutes to shorter more readable vars
+                var openHour = targetRange.open.hour;
+                var closeHour = targetRange.close.hour;
+                // if no minutes specified set to 0
+                var openMinute = targetRange.open.minute ? targetRange.open.minute : 0;
+                var closeMinute = targetRange.close.minute ? targetRange.close.minute : 0;
 
-            // Create range vars
-            var todayOpen = moment().set({'day': today, 'hour': openHour, 'minute': openMinute, 'second': 0});
-            var todayClose = moment().set({'day': today, 'hour': closeHour, 'minute': closeMinute, 'second': 0});
-
-            console.log('now.isBetween(todayOpen, todayClose): ', now.isBetween(todayOpen, todayClose));
-            
-            return now.isBetween(todayOpen, todayClose);
+                // Create range vars
+                var todayOpen = moment().set({'day': today, 'hour': openHour, 'minute': openMinute, 'second': 0});
+                var todayClose = moment().set({'day': today, 'hour': closeHour, 'minute': closeMinute, 'second': 0});
+                
+                return now.isBetween(todayOpen, todayClose);
+            }
         }        
     },
     render: function() {
-        console.log('PlacesList render');
+        // console.log('PlacesList render');
 
         var component = this;
         var destination = this.props.destination;
@@ -164,7 +157,7 @@ var PlacesList = React.createClass({
         _.forEach(filteredData, function(place) {
             place.isOpen = component.checkIfOpen(now, today, place);
 
-            console.log('place.isOpen: ', place.isOpen);
+            // console.log('place.isOpen: ', place.isOpen);
         });
 
         // Output filteredData to a var, render var to screen
@@ -174,7 +167,13 @@ var PlacesList = React.createClass({
             var interestLevel = component.renderDynamicIcon(place.interestLevel, 'interest-level', interestLevelImages);
             var priceRange = component.renderDynamicIcon(place.priceRange, 'price-range', 'img/price.svg', true);
             var directionsUrl = 'comgooglemaps://?saddr=My+Location&daddr=' + place.coords.latitude + ',' + place.coords.longitude;
-            // var directionsUrl = 'comgooglemaps://?saddr=52.520007,13.404954&daddr=' + place.coords.latitude + ',' + place.coords.longitude;
+
+            if(typeof place.isOpen === 'string') {
+                var status = place.isOpen;
+            }
+            else if(typeof place.isOpen === 'boolean') {
+                var status = place.isOpen ? 'Open' : 'Closed';
+            }
 
             return (
                 <li className="list-group-item place" key={index}>
@@ -191,8 +190,8 @@ var PlacesList = React.createClass({
                         <p className="place__distance-info__text">{place.distanceFromHotel} mi <img className="icon icon--hotel" src="img/hotel.svg" /></p>
                         <p className="place__distance-info__text">{place.distanceFromUs} mi <img className="icon icon--us" src="img/us.svg" /></p>
                     </div>
-                    <div>{place.hours[today].formatted}</div>
-                    <div>isOpen: {place.isOpen ? 'OPEN' : 'CLOSED'}</div>
+                    <div>{place.hours[today].day} {place.hours[today].formatted}</div>
+                    <div>{status}</div>
                 </li>
             );
         });
