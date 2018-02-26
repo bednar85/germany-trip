@@ -1,6 +1,8 @@
-# Germany Trip
+# Germany Trip Companion App
 
 This project is a ReactJS app I created to filter and sort through a select list of local cafes, bars, restuarants, and historical sites based on geolocation for my upcoming trip to Germany.
+
+###[Live Project](http://ryanabednar.com/germany-trip/#/destination/berlin)
 
 ## Technology
 
@@ -19,14 +21,6 @@ This project is a ReactJS app I created to filter and sort through a select list
   - in PlacesList.js I used lodash for filtering and sorting my list of locations based on Category, Price, and Distance selections made in FilterBar.js
   - in sources/_experiments/ I created a few simple tests for some functionality that I've included or that I plan to include, for example: In the moment folder, I grabbed data from a few locations and setup a function that loops through that list and sets the property of isOpen for each location. By using Moment's [.isBetween()] method I check whether the current time falls within the moment objects of when each location is open/closed.
 
-[Live Project]
-
-License
-----
-
-MIT
-
 [Flickity]:http://flickity.metafizzy.co/
 [React Checkbox Group]:https://www.npmjs.com/package/react-checkbox-group
 [.isBetween()]:http://momentjs.com/docs/#/query/is-between/
-[Live Project]:http://ryanabednar.com/germany-trip/#/destination/berlin
