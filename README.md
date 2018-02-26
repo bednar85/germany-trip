@@ -2,15 +2,15 @@
 
 This project is a ReactJS app I created to filter and sort through a select list of local cafes, bars, restuarants, and historical sites based on geolocation for my upcoming trip to Germany.
 
-###[Live Project](http://ryanabednar.com/germany-trip/#/destination/berlin)
+**[Live Project](http://ryanabednar.com/germany-trip/#/destination/berlin)**
 
 ## Technology
 
-  - ReactJS for components and functionality
-  - Flux for handling routing
-  - Stylus for styling
-  - Browserify for watching and bundling my JS
-  - Gulp for running dev tasks
+  - ReactJS - components and functionality
+  - Flux - routing
+  - Stylus - CSS preprocessing
+  - Browserify - watching and bundling my JS
+  - Gulp - running dev tasks
 
 ## In Depth
   
